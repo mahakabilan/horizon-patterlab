@@ -2983,19 +2983,6 @@ span[class*='external'] {
       flex-wrap: wrap;
       margin: 0; } }
 
-.contentBlock {
-  text-align: center;
-  padding: 20px; }
-  .contentBlock .link-heading {
-    text-transform: uppercase; }
-
-.button-gradient {
-  color: #fff;
-  background: #ce197c;
-  background: linear-gradient(90deg, #ce197c 0%, #86236a 100%);
-  border-radius: 27px;
-  padding: 10px 20px; }
-
 .modal-body-video-wrap {
   overflow: hidden;
   padding-bottom: 56.25%;
