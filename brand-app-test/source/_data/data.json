@@ -10814,8 +10814,8 @@
   }
 },
 "contentHeadingCTADual": {
-  "col1":{
-    "contentHeadingCTA":{
+  "contentHeadingCTA":[
+    {
       "headingTag": "h3",
       "headingTxt": "Is your gout out of control?",
       "headingClass": "link-heading",
@@ -10828,9 +10828,7 @@
         "buttonClass": "cta-btn button-gradient"
       }
     },
-  },
-  "col2":{
-    "contentHeadingCTA" : {
+  {
       "headingTag": "h3",
       "headingTxt": "Chronic gout is serious!",
       "headingClass": "link-heading",
@@ -10843,7 +10841,7 @@
         "buttonClass": "cta-btn button-gradient"
       }
    }
-  }
+ ]
   }
   
 }
