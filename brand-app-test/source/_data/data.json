@@ -10832,7 +10832,7 @@
     },
   {
       "headingTag": "h3",
-      "contentBlockClass" :"col",
+      "contentBlockClass" :"col-md-6",
       "headingTxt": "Chronic gout is serious!",
       "headingClass": "link-heading",
       "paragraph": {

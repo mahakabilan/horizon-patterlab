@@ -1,9 +1,12 @@
 .contentBlock {
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   padding: 20px; }
   .contentBlock .link-heading {
     text-transform: uppercase;
-    color: #ce197c; }
+    font-size: 25px;
+    line-height: 1.4;
+    color: #7c2468; }
   .contentBlock p {
     color: grey; }
 
@@ -13,3 +16,5 @@
   background: linear-gradient(90deg, #ce197c 0%, #86236a 100%);
   border-radius: 27px;
   padding: 10px 20px; }
+  .button-gradient:hover {
+    background: #86236a; }
