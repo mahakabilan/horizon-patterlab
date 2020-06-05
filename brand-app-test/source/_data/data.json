@@ -10820,7 +10820,7 @@
       "headingTag": "h3",
       "headingTxt": "Is your gout out of control?",
       "headingClass": "link-heading",
-      "contentBlockClass" :"col",
+      "contentBlockClass" :"col-md-6",
       "paragraph": {
         "paraTxt": "Answer a few question to find out more",
         "paraClass": ""

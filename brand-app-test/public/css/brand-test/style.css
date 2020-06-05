@@ -6,15 +6,21 @@
     text-transform: uppercase;
     font-size: 25px;
     line-height: 1.4;
-    color: #7c2468; }
+    color: #7c2468;
+    margin: 0 10%; }
   .contentBlock p {
-    color: grey; }
+    color: grey;
+    font-size: 18px; }
 
 .button-gradient {
   color: #fff;
   background: #ce197c;
   background: linear-gradient(90deg, #ce197c 0%, #86236a 100%);
   border-radius: 27px;
-  padding: 10px 20px; }
+  padding: 10px 20px;
+  width: 80%; }
   .button-gradient:hover {
     background: #86236a; }
+
+.wrapper-lg {
+  max-width: 960px; }
