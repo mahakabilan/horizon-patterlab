@@ -1,0 +1,68 @@
+.eventlist-section {
+	margin: 0 auto;
+	span.bold-text {
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	ul {
+		list-style: none;
+		padding-left: 0;
+
+		li {
+			border-bottom: 1px solid #000;
+			margin: 0;
+
+			&:hover {
+				background-color: #eee;
+			}
+
+			a {
+				width: 100%;
+				display: inline-block;
+
+				p {
+					display: inline-block;
+					padding: 10px 10px 10px 30px;
+
+					&:first-child {
+						width: 20%;
+
+						@media (max-width: $mob-breakpoint) {
+							width: 100%;
+							display: inline-flex;
+
+							.bold-text {
+								padding-right: 5px;
+								margin-bottom: 0;
+							}
+						}
+					}
+				}
+			}
+
+			&:last-of-type {
+				border: none;
+			}
+		}
+	}
+
+	@media (max-width: $mob-breakpoint) {
+		margin: 0 -10px;
+
+		ul {
+			li {
+				padding: 15px 0;
+
+				p {
+					margin-bottom: 5px;
+
+					span.bold-text {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+
+	}
+}

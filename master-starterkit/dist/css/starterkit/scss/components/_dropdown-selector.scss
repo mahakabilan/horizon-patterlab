@@ -1,0 +1,217 @@
+.drop-selector {
+  min-height: 50px;
+  height: 100%;
+
+  @media  (min-width: 1024px) {
+    min-height: 30px;
+    height: 100%;
+  }
+  
+  // general styling
+  ul {
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin: 0;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  // specific styling
+  > ul {
+    height: 100%;
+
+    > li {
+      text-align: center;
+      position: relative;
+      height: 100%;
+
+      > span {
+        font-size: 9.6px;
+        line-height: 13.2px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: #6D6E71;
+        cursor: pointer;
+        position: relative;
+        white-space: nowrap;
+        padding-right: 25px;
+        padding-left: 25px;
+
+        @media  (min-width: 1024px) {
+          font-size: 14.4px;
+          line-height: 21.6px;
+          padding: 0 40px 0 20px;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          z-index: 1;
+          font-size: 1em;
+          right: 10px;
+          top: calc(50% - 2px);
+          border-top: 8px solid white;
+          border-right: 8px solid transparent;
+          border-bottom: 0;
+          border-left: 8px solid transparent;
+          display: inline-block;
+          width: 0;
+          height: 0;
+
+          @media  (min-width: 1024px) {
+            right: 20px;
+          }
+        }
+      }
+
+      ul {
+        position: fixed;
+        top: 138px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(black, 0.7);
+        min-height: 100%;
+        padding: 70px 10px 10px;
+        display: none;
+        z-index: 5;
+
+        @media  (min-width: 1024px) {
+          position: absolute;
+          top: 100%;
+          background-color: transparent;
+          min-height: 0;
+          padding: 0;
+        }
+
+        .drop-selector-close {
+          display: block;
+          height: 36px;
+          width: 36px;
+          position: absolute;
+          cursor: pointer;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-image: url('../../images/starterkit/collapse-white.svg');
+          right: 10px;
+          top: 20px;
+
+          @media  (min-width: 1024px) {
+            display: none;
+          }
+        }
+
+        li {
+          text-align: left;
+          display: block;
+          margin-bottom: 10px;
+
+          @media  (min-width: 1024px) {
+            margin-bottom: 0;
+            padding: 0 20px;
+            background-color: #E6E7E8;
+          }
+
+          &:last-of-type {
+            margin-bottom: 0;
+
+            a {
+              @media  (min-width: 1024px) {
+                border-bottom: 0;
+              }
+            }
+          }
+
+          a {
+            font-size: 14.4px;
+            line-height: 21.6px;
+            padding: 10px 30px 10px 10px;
+            background-color: #E8E7E7;
+            display: block;
+            color: black;
+            position: relative;
+
+            @media  (min-width: 1024px) {
+              background-color: #E6E7E8;
+              border-bottom: 1px solid #6D6E71;
+              color: #6D6E71;
+              padding-left: 0;
+            }
+
+            &::after {
+              content: "";
+              display: inline-block;
+              height: 14px;
+              width: 14px;
+              margin-left: 5px;
+              background-color: #6D6E71;
+              position: relative;
+              top: 2px;
+            }
+
+            &:hover {
+              color: #685BC7;
+
+              @media  (min-width: 1024px) {
+                color: black;
+              }
+            }
+          }
+
+          &.hcp, &.form {
+            a {
+              &::after {
+                display: block;
+                position: absolute;
+                height: 20px;
+                width: 20px;
+                right: 10px;
+                top: calc(50% - 10px);
+                background-color: white;
+
+                @media  (min-width: 1024px) {
+                  right: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.show-menu {
+    > ul {
+      > li {
+        ul {
+          display: block;
+
+          @media  (min-width: 1024px) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  &:hover {
+    > ul {
+      > li {
+        ul {
+          @media  (min-width: 1024px) {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

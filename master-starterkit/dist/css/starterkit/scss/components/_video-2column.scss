@@ -1,0 +1,129 @@
+
+.single-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  .video-cover {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+
+    .play-btn {
+      display: block;
+      background-image: url('../../images/starterkit/arrow.png');
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      background-size: 100%;
+
+      &:hover {
+        opacity: 0.3;
+      }
+    }
+  }
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+
+  }
+}
+
+.video-content-box {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  text-align: left;
+  position: relative;
+
+  @media  (min-width: 1024px) {
+    padding-top: 20px;
+    padding-left: 0;
+  }
+
+
+
+  .download-ts-wrapper {
+    max-width: 100%;
+    padding: 15px 15px 0px 0px;
+
+    .video-show-content {
+      margin-bottom: 15px;
+      display: block;
+
+      .carrot-bottom {
+        position: relative;
+        top: -2px;
+        display: inline-block;
+        margin-left: 10px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 5px 0 5px;
+        border-color: #00bfb3 transparent transparent transparent;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        transition: -webkit-transform 0.5s ease;
+        transition: transform 0.5s ease;
+        transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+      }
+
+      &.active {
+        .carrot-bottom {
+          -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+          transition: -webkit-transform 0.5s ease;
+          transition: transform 0.5s ease;
+          transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+        }
+      }
+
+    }
+
+  }
+
+  .videobox-hidden-content {
+    display: none;
+    max-height: 200px;
+    border: 1px solid #dedede;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 150px;
+
+  }
+}
+
+  .download-icon {
+    a {
+      display: inline;
+
+      &:before {
+        background-image: url(../../images/ravicti/download.png);
+        background-size: 16px 16px;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        content: "";
+        margin-right: 8px;
+      }
+    }
+
+    p {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+  }
+

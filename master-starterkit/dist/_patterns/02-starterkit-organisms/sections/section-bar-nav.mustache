@@ -1,0 +1,20 @@
+<div class="section-bar-nav">
+	{{#sectionBarNav}}
+		<div class="section-bar-heading">
+			{{>starterkit-atoms-headings}}
+		</div>
+		<div class="section-bar-content">
+			{{#sectionBarContent}}
+			<a href="#">
+				<div class="basics-nav-item">
+					<div class="{{basicsItemClassname}}">
+						<img class="basics-img" src="{{basicsImgURL}}" alt="">
+						<img class="basics-img-hover" src="{{basicsImgHoverURL}}" alt="">
+					</div>
+					<span>{{{basicsItemText}}}</span>
+				</div>
+			</a>
+			{{/sectionBarContent}}
+		</div>
+	{{/sectionBarNav}} 
+</div>

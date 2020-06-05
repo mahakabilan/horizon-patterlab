@@ -1,0 +1,34 @@
+{{#externalModal}}
+  <!-- The Modal -->
+  <div class="modal fade {{modal-class}}" id="external-link-dialog" tabindex="-1" role="dialog" aria-labelledby="external-link-dialog-label" style="display: none;">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        {{#externalLinkContent}}
+          <!-- External link content goes here -->
+          <span class="externalLinkHeading">{{{dialogTitle}}}</span>
+          <span class="externalLinkBody">{{{dialogBody}}}</span>
+        {{/externalLinkContent}}
+
+        {{#externalHorzLinkContent}}
+          <!-- External Horizon link content goes here -->
+          <span class="externalHorizonLinkHeading">{{{dialogTitle}}}</span>
+          <span class="externalHorizonLinkBody">{{{dialogBody}}}</span>
+        {{/externalHorzLinkContent}}
+        {{#externalProductLinkContent}}
+          <!-- External Horizon Product link content goes here -->
+          <span class="externalProductLinkHeading">{{{dialogTitle}}}</span>
+          <span class="externalProductLinkBody">{{{dialogBody}}}</span>
+        {{/externalProductLinkContent}}
+        <div class="modal-header">
+          <h3 class="modal-title" id="external-link-dialog-label"></h3>
+          <a class="btn btn-close" data-dismiss="modal" style="display: none;"></a>
+        </div>
+        <div class="modal-body"></div>
+        <div class="modal-footer">
+          <a class="btn btn-continue" target="_blank" href="#">{{continueTxt}}</a>
+          <a class="btn btn-cancel" data-dismiss="modal">{{cancelTxt}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+{{/externalModal}}

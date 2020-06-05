@@ -1,0 +1,13 @@
+﻿{{#npiInput}}
+
+
+  <div class="form-group">
+    <label for="{{id}}">{{{labelTxt}}}</label>
+    <div>
+      <input class="{{class}}" id="{{id}}" name="{{name}}" autocomplete="{{autoComplete}}" data-val="{{data-val}}" type="text" maxlength="{{maxlength}}" data-val-regex-pattern="^(\d{10})?$" data-val-regex="Please enter a valid NPI number." data-val-required="This field is required.">
+    </div>
+    <span class="field-validation-valid" data-valmsg-for="NPI" data-valmsg-replace="true"></span>
+  </div>
+  {{>starterkit-atoms-paragraph}}
+
+{{/npiInput}}

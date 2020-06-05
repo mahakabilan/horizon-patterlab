@@ -1,0 +1,75 @@
+/* Background images */
+.back-to-top a{
+	background-image:url("../../images/starterkit/back-to-top.png");
+}
+.cta-btn{
+	&:hover:after {
+		background-image: url(../../images/starterkit/arrow-white.png);
+	}
+	&:after {
+		background-image: url(../../images/starterkit/arrow.png);
+	}
+}
+.header .hamburger{
+	.menuIcon{
+    background-image: url(../../images/starterkit/hamburger.jpg);
+    &.open{
+    	background-image: url(../../images/starterkit/collapse.jpg);
+    }
+	}
+}
+.checlist-heading h4{
+	&:before{
+    background-image: url(../../images/starterkit/checklist.png);
+	}
+}
+.social-media a{
+	&.facebook-icon{
+    background:url("../../images/starterkit/fb.svg");
+  }
+  &.twitter-icon{
+    background:url("../../images/starterkit/twitter.svg");
+  }
+  &.email-icon{
+    background:url("../../images/starterkit/email.svg");
+  }
+}
+.tooltip-icon:before{
+	content:url("../../images/starterkit/tool-tip.svg");
+}
+.signup-form{
+	 background-image: url("../../images/starterkit/cta-bg.png");
+}
+
+/*Image component for small, medium and large*/
+.small-screen-img, .medium-screen-img, .large-screen-img{
+	display: none !important;
+}
+
+@media screen and (max-width: 767px){
+	.small-screen-img{
+		display: block !important;
+	}
+	.small-screen-img[src=""]{ /*hide if there is no image authored for small screen*/
+		display: none !important;
+	}
+	.small-screen-img[src=""] ~ .large-screen-img{
+		display: block !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 1023px){
+	.medium-screen-img{
+		display: block !important;
+	}
+	.medium-screen-img[src=""]{ /*hide if there is no image authored for medium screen*/
+		display: none !important;
+	}
+	.medium-screen-img[src=""] ~ .large-screen-img{
+		display: block !important;
+	}
+}
+@media screen and (min-width: 1024px){
+	.large-screen-img{
+		display: block !important;
+	}
+}

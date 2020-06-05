@@ -1,0 +1,24 @@
+.back-to-top {
+	position: relative;
+
+	a {
+		float: right;
+		margin: 70px 10px 20px 0;
+		width: 20px;
+		height: 20px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top: 100px;
+	}
+
+	@media (max-width: $tablet-breakpoint-max) {
+		position: relative;
+
+		a {
+			margin: 0;
+			position: fixed;
+			bottom: 82px;
+			right: 10px;
+		}
+	}
+}

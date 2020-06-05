@@ -1,0 +1,23 @@
+.backto-menulist {
+	position: relative;
+	text-align: right;
+	display: block;
+
+	ul {
+		list-style-type: none;
+
+		li {
+			display: inline-block;
+			margin-bottom: 0;
+
+			span {
+				position: relative;
+
+				&:before {
+					display: inline-block;
+					position: relative;
+				}
+			}
+		}
+	}
+}

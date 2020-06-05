@@ -1,0 +1,67 @@
+.video-wrapper{
+	position: relative;
+	display: inline-block;
+	.video-play-button{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		img{
+			width: auto;
+		}
+	}
+}
+/*Organism Styles*/
+.video-box-wrap{
+	position: relative;
+	margin-bottom: 30px;
+	.video-box{
+		border-bottom: 1px solid #58585B;
+		box-shadow: 1px 1px 5px #BBBBBB;
+		background-color: $white-color;
+		.vimeo-video{
+			position: relative;
+			padding-bottom: 56.25%;
+			overflow: hidden;
+			max-width: 100%;
+		}
+		.video-description{
+			padding: 20px 15px;
+			a{
+				color: $base-blue-color;
+				display: block;
+				margin: 5px 0 15px;
+				font-weight: bold;
+				i{
+					margin-left: 10px;
+					font-weight: 400;
+					font-size: 14px;
+					@media (max-width: $tablet-breakpoint-max){
+						float: right;
+						margin-top: 5px;
+					}
+				}
+				&.content-shown{
+					i.fa-plus:before{
+						content:"\f00d";
+					}
+				}
+			}	
+
+			.videobox-hidden-content{
+				display: none;
+			}
+		}
+		iframe{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+		}
+	}
+}
+
+@media (max-width: $tablet-breakpoint-max) {
+  .video-box-wrap .video-box .video-description {
+    padding: 20px 10px;
+  }
+}

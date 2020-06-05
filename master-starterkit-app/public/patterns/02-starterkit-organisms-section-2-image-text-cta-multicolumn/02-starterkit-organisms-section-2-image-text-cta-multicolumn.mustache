@@ -1,0 +1,14 @@
+{{#imgTxtCtaMulticolumn}}
+  <div class="col-md-{{column}} {{variant}} {{colorClass}}">
+    {{#img}}
+    <img src="{{imgSrc}}" class="{{imgCLass}}" alt="Alt text">
+    {{/img}}
+    {{#imgVar}}
+      {{>starterkit-atoms-images}}
+    {{/imgVar}}
+    <div class="txt-cta-wrap">
+      {{>starterkit-atoms-paragraph}}
+      {{>starterkit-atoms-button}}
+    </div>
+  </div>
+{{/imgTxtCtaMulticolumn}}

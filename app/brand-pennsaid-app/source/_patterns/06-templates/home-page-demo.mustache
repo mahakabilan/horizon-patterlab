@@ -1,0 +1,127 @@
+<!-- Header -->
+{{#commonHeaderFooterData}}
+<section class="hz-header-wrap" data-toggle="affix">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{>pennsaid-organisms-header}}
+			</div>
+		</div>
+	</div>
+</section>
+{{/commonHeaderFooterData}}
+
+<!-- Two Content Split Section-->
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="twoColumnContentSplit ">
+					{{>starterkit-organisms-video-scroll-play}}
+				</div>
+			</div>
+			<div class="col-md-4">
+				{{>pennsaid-molecules-image-button-list}}
+			</div>
+		</div>
+	</div>
+</section>
+
+<br/>
+<br/>
+<br/>
+<!-- Two Content Split Section-->
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				
+				<div class="twoColumnContentSplit ">
+					<div class="pageTitle">
+						<h1>
+							PENNSAID 2%: WORKS WHERE IT HURTS
+						</h1>
+					</div>
+					{{>starterkit-molecules-banner-image}}
+				</div>
+			</div>
+			<div class="col-md-4">
+				{{>pennsaid-molecules-image-button-list}}
+			</div>
+		</div>
+	</div>
+</section>
+
+<br/>
+<br/>
+<br/>
+<!-- Two Content Split Section-->
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				
+				<div class="twoColumnContentSplit ">
+					<div class="pageTitle">
+						<h1>
+							FREQUENTLY ASKED QUESTIONS (FAQ)
+						</h1>
+					</div>
+					<div id="faqs-expand" class="faqs-expand">Expand All [+]</div>
+					{{>starterkit-organisms-accordion-list}}
+				</div>
+			</div>
+			<div class="col-md-4">
+				{{>pennsaid-molecules-image-button-list}}
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<!-- Style Guide Section-->
+<section class="style-guide">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				{{>starterkit-atoms-headings}}
+				{{>starterkit-atoms-paragraph}}
+
+				{{#styleGuide}}
+					{{#listWrapperUl}}
+						{{>starterkit-atoms-headings}}
+						{{>starterkit-atoms-list}}
+					{{/listWrapperUl}}
+
+					{{#listWrapperOl}}
+						{{>starterkit-atoms-headings}}
+						{{>starterkit-atoms-list}}
+					{{/listWrapperOl}}
+
+					{{>starterkit-atoms-paragraph}}
+					
+					{{#legalText}}
+						{{>starterkit-atoms-paragraph}}
+					{{/legalText}}
+				{{/styleGuide}}
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Footer -->
+{{#commonHeaderFooterData}}
+<section class="hz-footer-wrapper mb0">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{>pennsaid-organisms-footer}}
+			</div>
+		</div>
+		<div class="row hidden-desktop visible-mobile">
+			{{>starterkit-organisms-back-to-top}}
+		</div>
+	</div>
+</section>
+{{/commonHeaderFooterData}}

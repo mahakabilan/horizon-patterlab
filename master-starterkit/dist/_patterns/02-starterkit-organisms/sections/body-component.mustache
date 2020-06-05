@@ -1,0 +1,114 @@
+{{#bodyComponent}}
+<div class="body-wrapper">
+	<div class="body-headings">
+		{{>starterkit-atoms-headings}}
+		{{>starterkit-atoms-paragraph}}
+	</div>
+	<div class="body-parts">
+		<div class="diagram-left">
+			<ul>
+				<li>
+					{{#eyesDiagram}}
+					<div class="img-text-list">
+						{{>starterkit-atoms-images}}
+						{{>starterkit-atoms-paragraph}}
+					</div>
+					{{/eyesDiagram}}
+				</li>
+				<li>
+					{{#thyroidDiagram}}
+					<div class="img-text-list">
+						{{>starterkit-atoms-images}}
+						{{>starterkit-atoms-paragraph}}
+					</div>
+					{{/thyroidDiagram}}
+				</li>
+				<li>
+					{{#pancreasDiagram}}
+					<div class="img-text-list">
+						{{>starterkit-atoms-images}}
+						{{>starterkit-atoms-paragraph}}
+					</div>
+					{{/pancreasDiagram}}
+				</li>
+				<li>
+					{{#kidneysDiagram}}
+					<div class="img-text-list">
+						{{>starterkit-atoms-images}}
+						{{>starterkit-atoms-paragraph}}
+					</div>
+					{{/kidneysDiagram}}
+				</li>
+				<li>
+					{{#musclesDiagram}}
+					<div class="img-text-list">
+						{{>starterkit-atoms-images}}
+						{{>starterkit-atoms-paragraph}}
+					</div>
+					{{/musclesDiagram}}
+				</li>
+			</ul>
+		</div>
+		<div class="body-diagram mobile-hidden">
+			{{#bodyDiagram}}
+				{{>starterkit-atoms-images}}
+			{{/bodyDiagram}}
+		</div>
+		<div class="diagram-right">
+			<ul>
+				<li>
+					{{#brainDiagram}}
+					<div class="img-text-list">
+						{{>starterkit-atoms-images}}
+						{{>starterkit-atoms-paragraph}}
+					</div>
+					{{/brainDiagram}}
+				</li>
+				<li>
+					{{#throatDiagram}}
+					<div class="img-text-list">
+						{{>starterkit-atoms-images}}
+						{{>starterkit-atoms-paragraph}}
+					</div>
+					{{/throatDiagram}}
+				</li>
+				<li>
+					{{#lungsDiagram}}
+					<div class="img-text-list">
+						{{>starterkit-atoms-images}}
+						{{>starterkit-atoms-paragraph}}
+					</div>
+					{{/lungsDiagram}}
+				</li>
+				<li>
+					{{#reproductiveDiagram}}
+					<div class="img-text-list">
+						{{>starterkit-atoms-images}}
+						{{>starterkit-atoms-paragraph}}
+					</div>
+					{{/reproductiveDiagram}}
+				</li>
+				<li>
+					{{#bonesDiagram}}
+					<div class="img-text-list">
+						{{>starterkit-atoms-images}}
+						{{>starterkit-atoms-paragraph}}
+					</div>
+					{{/bonesDiagram}}
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="star">
+		{{#bodyStar}}
+			{{#callOut}}
+			{{>starterkit-atoms-list}}
+			{{/callOut}}
+			{{#list}}
+			{{>starterkit-atoms-list}}
+			{{/list}}
+			{{>starterkit-atoms-paragraph}}
+		{{/bodyStar}}
+	</div>
+</div>
+{{/bodyComponent}}

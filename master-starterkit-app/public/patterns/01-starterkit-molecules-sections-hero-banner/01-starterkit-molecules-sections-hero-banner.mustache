@@ -1,0 +1,17 @@
+{{#heroBanner}}
+  <div class="{{bannerClass}}">
+    <picture>
+      {{>starterkit-atoms-images}}
+    </picture>
+    <div class="banner-content">
+      {{>starterkit-atoms-headings}}
+      <p>{{{bannerContent}}}</p>
+      {{>starterkit-atoms-links}}
+    </div>
+    {{#bannerRightContent}}
+      <div class="{{rightContentWrapper}}">
+        {{{rightContent}}}
+      </div>
+    {{/bannerRightContent}}
+  </div>
+{{/heroBanner}}

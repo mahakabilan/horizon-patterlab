@@ -1,0 +1,275 @@
+.video-scrubber {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -ms-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 42px;
+
+  @media (max-width: 370px) {
+    position: relative;
+    left: -19px;
+
+  }
+
+  .scrubber-reverse {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -moz-box-direction: reverse;
+    -ms-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+
+    .btn-wrap {
+      margin-top: 60px;
+    }
+  }
+
+
+
+  @media (max-width: $mob-breakpoint) {
+    padding: 0 45px;
+  }
+
+  .btn-wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -ms-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    &.scrubber-reverse {
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      -ms-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -moz-box-direction: reverse;
+      -ms-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+
+      ul {
+        top: 36px;
+
+        li {
+          &:after {
+            top: -13px;
+          }
+        }
+      }
+    }
+
+  }
+
+  video {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+  }
+
+  ul {
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin: 0 auto;
+    width: 40%;
+
+    @media (max-width: $tablet-breakpoint-max) {
+      width: 60%;
+    }
+
+    @media (max-width: $mob-breakpoint) {
+      width: 100%;
+    }
+
+    li {
+      display: inline-block;
+      position: relative;
+      width: 33.3%;
+      cursor: pointer;
+      text-align: center;
+      white-space: nowrap;
+      top: -23px;
+
+      @media (max-width: $mob-breakpoint) {
+        top: -32px;
+      }
+
+      &:first-child {
+        text-align: left;
+        left: -25px;
+
+        &:after {
+          right: 89px;
+
+          @media (max-width: $tablet-breakpoint-max) {
+            right: 98px;
+          }
+
+          @media (max-width: $mob-breakpoint) {
+            left: 19px;
+          }
+        }
+      }
+
+      &:last-child {
+        text-align: right;
+        right: -43px;
+
+        &:after {
+          right: 43px;
+
+          @media (max-width: $tablet-breakpoint-max) {
+            right: 36px;
+          }
+
+          @media (max-width: $mob-breakpoint) {
+            right: 36px;
+          }
+        }
+
+      }
+
+      &:after {
+        content: "";
+        display: block;
+        width: 15px;
+        background-color: #ddd;
+        height: 2px;
+        text-align: center;
+        margin: 0;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 51px;
+        right: 51px;
+
+        @media (max-width: $mob-breakpoint) {
+          right: 35%;
+          top: 55px;
+        }
+      }
+    }
+  }
+
+  #scrubber-btn {
+    display: none;
+  }
+
+  .slider-horizontal {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 38.668%;
+    pointer-events: none;
+
+    @media (max-width: $tablet-breakpoint-max) {
+      width: 60%;
+    }
+
+    @media (max-width: $mob-breakpoint) {
+      width: 100%;
+    }
+
+  }
+
+  .slider-track {
+    height: 2px;
+    background-color: #ddd;
+    border-radius: 15px;
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-image: none;
+    box-shadow: none;
+    z-index: 2;
+
+  }
+
+  .slider-selection {
+    height: 2px;
+    background-color: #606463;
+    border-radius: 15px;
+    background-image: none;
+    box-shadow: none;
+  }
+
+  .slider-handle {
+    height: 39px;
+    width: 39px;
+    position: absolute;
+    pointer-events: auto;
+    top: -14px;
+    -webkit-tap-highlight-color: transparent;
+    background-color: linear-gradient(139deg, #898e8c, #606463);
+    border-radius: 50%;
+    box-shadow: none;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 14px;
+      border-left: 2px solid #ffffff;
+      border-top: 2px solid #ffffff;
+      width: 11px;
+      height: 11px;
+      transform: rotate(-45deg);
+      left: 10px;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      border-right: 2px solid #ffffff;
+      border-bottom: 2px solid #ffffff;
+      width: 11px;
+      height: 11px;
+      transform: rotate(-45deg);
+      top: 14px;
+      right: 10px;
+    }
+
+  }
+
+  @-moz-document url-prefix() {
+    .video-wrapper {
+      margin-top: 25px;
+    }
+  }
+
+  .tooltip {
+    z-index: 0;
+    display: none !important;
+    position: static;
+  }
+}
+
+
+/*to remove play-icon in i-phone */
+video::-webkit-media-controls {
+  display: none !important;
+}

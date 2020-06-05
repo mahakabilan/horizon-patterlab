@@ -1,0 +1,11 @@
+{
+  "starterkitUpdatePaths" : {
+    "base" : "../master-starterkit",
+    "source" : {
+      "root": "/dist/",
+      "patterns" : "/dist/_patterns/",
+      "patternFolders" : ["00-starterkit-atoms", "01-starterkit-molecules", "02-starterkit-organisms"],
+      "assets": ["js", "images", "fonts", "css"]
+    }
+  }
+}

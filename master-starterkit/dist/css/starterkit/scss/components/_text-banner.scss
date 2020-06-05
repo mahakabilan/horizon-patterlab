@@ -1,0 +1,49 @@
+/* Text banner*/
+@media (min-width: 1024px) {
+  .text-banner {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      margin: 0 auto;
+    }
+
+  }
+
+  .text-banner-wrapper {
+    background-color: #2E3191;
+    color: #FFFFFF;
+    padding: 40px 0 100px;
+    background-image: url(/images/starterkit/misc/icon/logo-bg.svg);
+    background-repeat: no-repeat;
+    background-position: 770px -115px;
+    background-size: 340px;
+    margin-bottom: 60px;
+
+    &.d-img-none {
+      padding-bottom: 50px;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      margin-bottom: 0;
+    }
+
+  }
+}
+
+.text-banner-wrapper {
+  .text-img {
+    position: relative;
+
+    img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: 18px;
+      width: 135px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.icon-list-wrapper {
+	display: flex;
+	margin: 0 auto;
+	@media  (max-width: $mob-breakpoint){
+		display: block;
+	}
+	.left-content {
+		width: 100%;
+	}
+	.right-content {
+		width:100%;
+	}
+	.icon-list-content { 
+		margin-bottom: 30px;
+		span{
+			margin-bottom: 20px;
+			display: block;
+		}
+	}
+}

@@ -1,0 +1,36 @@
+.language-selector ul {
+				list-style-type: none;
+
+				li {
+								display: inline-block;
+								position: relative;
+								padding-right: 5px;
+
+								&:first-child {
+												&:before {
+																content: '';
+																position: absolute;
+																width: 2px;
+																right: 0px;
+																top: 5px;
+																bottom: 5px;
+																background: #7f7f7f;
+												}
+								}
+
+								a {
+									&:hover{
+										text-decoration: none;	
+									}
+											
+								}
+								&.active{
+									a{
+										color:#7f7f7f;	
+									}
+								
+								}
+
+				}
+
+}

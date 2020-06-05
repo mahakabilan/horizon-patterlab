@@ -1,0 +1,18 @@
+  {{#dropMenu}}
+  {{>starterkit-atoms-form-label}}
+  <div class="select-wrapper">
+    {{#menuSelect}}
+  <select name="{{selectName}}" id="{{selectId}}" data-hide-disabled="true" value="{{selectValue}}" {{#DDtitle}} title="{{ddTitle}}" {{/DDtitle}} data-val="{{validate}}"
+      {{# textInput.required }} data-val-required="{{ errorMessage }}"{{/ textInput.required }} class="{{dropdownClass}}">
+      {{#options}}
+        <option value="{{optVal}}" {{selected}} >{{optTxt}}</option>
+      {{/options}}
+    </select>
+    </div>
+    <span class="field-validation-valid" data-valmsg-for="{{labelFor}}" data-valmsg-replace="true"></span>
+    {{/menuSelect}}
+  {{/dropMenu}}
+
+
+
+

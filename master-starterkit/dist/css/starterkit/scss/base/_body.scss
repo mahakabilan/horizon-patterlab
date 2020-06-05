@@ -1,0 +1,126 @@
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+/**
+ * Body base styles
+ */
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+  outline: none;
+}
+html{
+  overflow-x: hidden;
+}
+body {
+  color: $base-grey-color;
+  position: relative;
+  overflow-x: hidden;
+}
+b, strong{
+	font-weight: bold;
+}
+
+img{
+  max-width: 100%;
+}
+
+.bold-txt{
+	font-weight: bold;
+}
+.cp-component-div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.component-placeholder {
+  width: 100%;
+  min-height: 70px;
+  padding: 30px 10px 10px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  background-color: #ebebeb;
+  text-align: center;
+}
+
+.row{
+  flex:1;
+}
+.container{
+  margin-bottom: 30px;
+}
+@media  (min-width: 1400px){
+  .container{
+    max-width: 1400px;
+  }
+}
+.container-small {
+  max-width: 1000px;
+  margin: 0 auto 15px;
+}
+.container-large {
+  max-width: 1600px; 
+  margin: 0 auto 15px;
+} 
+.container-xl {
+  max-width: 1800px; 
+  margin: 0 auto 15px;
+} 
+.container-full {
+  max-width: 100%; 
+  margin: 0 auto 15px;
+} 
+@media  (max-width: $tablet-breakpoint-max) {
+	.hz-header-wrap{
+		.container{
+			padding-left: 10px;
+			padding-right: 10px;
+
+			.wrapper{
+				padding-left: 0;
+				padding-right: 0;
+
+				.menuIcon{
+					margin-right: -10px;
+				}
+			}
+		}
+	}
+
+	.featured-content-wrapper{
+		.col-md-6, .col-md-3{
+			padding: 0;
+		}
+	}
+	.hz-cta-wrapper{
+		.col-md-12{
+			padding: 0;
+		}
+	}
+}
+
+.visible-mobile {
+  display: block !important;
+  @media (min-width: $desktop-breakpoint) {
+    display: none !important;
+  }
+}
+.visible-desktop {
+  display: none !important;
+  @media (min-width: $desktop-breakpoint) {
+    display: block !important;
+  }
+}
+.hidden-mobile {
+  display: none !important;
+  @media (min-width: $desktop-breakpoint) {
+    display: block !important;
+  }
+}
+.hidden-desktop {
+  display: block !important;
+  @media (min-width: $desktop-breakpoint) {
+    display: none !important;
+  }
+}
+

@@ -1,0 +1,25 @@
+{{#doubleNestedLinkListWrap}}
+<ul class="{{nestedLinkListClass}}">
+  {{#nestedLinkList}}
+  <li class="{{parentListClass}}">
+    <a href="{{parentLink}}">
+      {{{parentLinkListItem}}}
+    </a>
+    {{#subNestedLinkListWrap}}
+      <ul class="{{subnestedLinkListClass}}">
+        {{#subLinkList}}
+        <li class="{{childListClass}}">
+          <a href="{{subparentLink}}">
+            {{{subparentLinkListItem}}}
+          </a>
+          {{#lastLevel}}
+            {{>starterkit-atoms-link-list}}
+          {{/lastLevel}}
+        </li>
+        {{/subLinkList}}
+      </ul>
+    {{/subNestedLinkListWrap}}
+  </li>           
+  {{/nestedLinkList}}
+</ul>
+{{/doubleNestedLinkListWrap}}

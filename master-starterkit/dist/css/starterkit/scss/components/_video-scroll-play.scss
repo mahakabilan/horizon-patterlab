@@ -1,0 +1,51 @@
+/*Video Scroll Play styles*/
+.video-scroll-play{
+	position: relative;
+  margin-bottom: 20px;
+  img{
+    margin: 0 auto;
+  }
+  &.in-view{
+    img{
+      display: none !important;
+    }
+    video{
+      &.hidden-mobile{
+        @media (min-width: 1024px){
+          display: block !important;
+        }
+      }
+      &.hidden-desktop{
+        @media (max-width: $tablet-breakpoint-max){
+          display: block !important;
+        }
+      }
+    }
+  }
+	.video-wrap{
+		bottom: 0;
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    padding:0;
+    img + video{
+      display: none !important;
+    }
+    video {
+		  height: auto;
+		  left: 0;
+		  position: relative;
+		  top: 0;
+		  width: auto;
+      margin: 0 auto;
+      max-width: 100%;
+      @media (max-width: $tablet-breakpoint-max){
+        width: 100%;
+      }
+		}
+	}
+	.text-container {
+    display: none;
+	}
+}

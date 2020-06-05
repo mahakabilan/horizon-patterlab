@@ -1,0 +1,20 @@
+{{#documentDownloadWrapper}}
+	<div class="{{pdfDownloadWrpClass}}">
+		<a href="{{pdfDownloadPath}}">
+			<div class="{{iconContainerClass}}">
+				{{>starterkit-atoms-images}}
+			</div>
+			<div class="{{contentContainerClass}}">
+				{{>starterkit-atoms-headings}}
+				{{>starterkit-atoms-paragraph}}
+				<span class="{{btnClass}}">{{btnTxt}}</span>
+			</div>
+			<div class="{{ImageWrpClass}}">
+				{{#pdfImageWrapper}}
+					{{>starterkit-atoms-images}}
+				{{/pdfImageWrapper}}
+			</div>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+{{/documentDownloadWrapper}}

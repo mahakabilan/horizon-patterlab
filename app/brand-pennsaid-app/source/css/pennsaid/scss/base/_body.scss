@@ -1,0 +1,78 @@
+// Reset Styles
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch;
+  color: $black;
+  font-size: 16px;
+  line-height: 1.4;
+  overflow-x: hidden;
+}
+
+
+body {
+  background-color: $white;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio {
+  &:not([controls]) {
+    display: none;
+    height: 0;
+  }
+}
+
+.container {
+  @include until($desktop-breakpoint) {
+    width: $tablet-breakpoint;
+  }
+
+  @include until($tablet-breakpoint) {
+    width: $mobile-breakpoint;
+  }
+
+  @include until($mobile-breakpoint) {
+    width: 100%;
+  }
+
+  max-width: $desktop-breakpoint;
+  width: $desktop-breakpoint;
+  margin: 0 auto;
+  padding: 0 15px;
+}

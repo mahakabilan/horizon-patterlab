@@ -1,0 +1,139 @@
+.video-section-wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	@media (max-width: 1023px) {
+		display: block;
+	}
+
+	.video-section-banner {
+		position: relative;
+		width: 50%;
+
+		@media (max-width: 1023px) {
+			width: 100%;
+		}
+
+		video {
+			position: relative;
+			width: 100%;
+			z-index: 2;
+			object-fit: cover;
+			height: 100%;
+
+			@media (min-width: 1024px) {
+				height: 475px !important;
+				position: absolute !important;
+				bottom: 0px !important;
+				right: 0 !important;
+				width: 100% !important;
+				vertical-align: bottom;
+			}
+		}
+
+		img {
+			position: relative;
+			width: 100%;
+			top: 0;
+			left: 0;
+			display: none;
+			height: 100%;
+
+			@media (min-width: 1024px) {
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				width: auto;
+				left: inherit;
+				top: inherit;
+				height: 475px !important;
+				max-width: none;
+
+
+			}
+		}
+	}
+
+	.play-btn {
+		background-image: url(../../images/starterkit/play_btn.png);
+		background-repeat: no-repeat;
+		display: none;
+		background-size: 100%;
+		width: 52px;
+		height: 52px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		z-index: 30;
+		cursor: pointer;
+
+
+	}
+
+	.right-video-section {
+		width: 515px;
+		margin-left: 20px;
+		padding-right: 15px;
+
+		@media(min-width: 1024px) {
+			margin-top: 30px !important;
+		}
+
+		@media (max-width: 1023px) {
+			width: 100%;
+		}
+
+
+		p {
+			@media (min-width: 1024px) {
+				margin: 0 auto 0 0;
+				display: block !important;
+			}
+		}
+
+		h1 {
+			@media (min-width: 1024px) {
+				margin: 20px 0 0 0;
+				text-transform: none;
+			}
+		}
+
+		.banner-button a {
+			@media (min-width: 1024px) {
+				margin: 20px auto !important;
+			}
+
+		}
+	}
+
+	video {
+		&::-webkit-media-controls {
+			display: flex !important;
+		}
+
+	}
+
+	video.play-partial {
+
+		&::-webkit-media-controls-fullscreen-button {
+			display: none !important;
+		}
+
+		&::-internal-media-controls-overflow-button,
+		&::-internal-media-controls-button-panel,
+		&::-internal-media-controls-button-panel {
+			display: none !important;
+		}
+
+		@supports (-webkit-touch-callout: none) {
+			&::-webkit-media-controls {
+				display: none !important;
+			}
+		}
+	}
+}

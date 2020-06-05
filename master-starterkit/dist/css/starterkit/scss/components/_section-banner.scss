@@ -1,0 +1,143 @@
+.secondary-banner-mobile {
+  background-image: url('https://via.placeholder.com/220x220.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #642c3e;
+  height: 133px;
+
+  @media  (min-width: 768px) {
+    display: none;
+  }
+
+}
+.secondary-banner-wrap {
+  padding: 0;
+}
+.secondary-banner {
+  background-image: url('https://via.placeholder.com/1349x364.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #642c3e;
+  height: 240px;
+  padding-top: 110px;
+
+  @media  (max-width: $mob-breakpoint) {
+   background-image: none;
+    background-color: white;
+    height: auto;
+    padding-top: 20px;
+
+  }
+
+
+
+  @media  (min-width: 768px) {
+    height: 300px;
+    padding-top: 115px;
+  }
+
+  @media  (min-width: 901px) {
+    height: 360px;
+    padding-top: 160px;
+  }
+
+  .container {
+    &::after {
+      
+      @media  (max-width: $mob-breakpoint) {
+        content: "";
+        border-bottom: 1px solid #ccc;
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+      }
+    }
+
+    h1 {
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.035em;
+      text-align: right;
+
+      @media  (max-width: $mob-breakpoint) {
+        text-align: left;
+      }
+
+
+      .smaller {
+        font-size: 0.58em;
+        display: block;
+        letter-spacing: 0.02em;
+
+        @media  (max-width: $mob-breakpoint) {
+          font-size: 0.8125em;
+        }
+
+        &.smallest {
+          font-size: 26px;
+        }
+
+        + .large {
+          border-top: 2px solid #d4b59e;
+          padding-top: 8px;
+          margin-top: 5px;
+          
+          @media  (max-width: $mob-breakpoint) {
+            width: 100%;
+          }
+
+          @media  (min-width: 768px) {
+            border-top-width: 3px;
+            padding-top: 12px;
+            margin-top: 8px;
+          }
+
+          @media  (min-width: 901px) {
+            border-top-width: 4px;
+          }
+        }
+      }
+
+      .large {
+        display: inline-block;
+
+
+      
+        @media  (min-width: 768px) {
+          margin-top: 35px;
+        }
+
+
+
+        &.two-lines {
+          @media  (min-width: 768px) {
+            margin-top: 20px;
+          }
+
+          @media  (min-width: 901px) {
+            margin-top: 10px;
+          }
+        }
+
+        &.large-small {
+          @media  (min-width: 901px) {
+            font-size: 35px;
+          }
+          @media  (min-width: 1024px) {
+            font-size: 38px;
+          }
+        }
+
+        &.small-mobile {
+          @media  (max-width: $mob-breakpoint) {
+            font-size: 28px;
+          }
+        }
+      }
+    }
+  }
+
+
+}

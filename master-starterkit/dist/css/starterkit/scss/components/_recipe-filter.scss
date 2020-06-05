@@ -1,0 +1,64 @@
+.filter-recipes-wrapper{
+	.filter-recipes-sort{
+		select{
+			-webkit-appearance:listbox;
+			-ms-appearance:listbox;
+			-moz-appearance:listbox;
+			appearance:listbox;
+		}
+	}
+	.filter-recipes-list{
+		.recipe-item{
+			margin-right: 10px;
+			img{
+				margin-bottom: 10px;
+			}
+			p{
+				margin-bottom: 5px;
+			}
+		}
+	}
+}
+
+/*Reipe Detail page*/
+.recipe-details-wrapper{
+	.container-medium{
+		max-width: 1030px;
+		margin: 0 auto;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.recipe-details-top{
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 1px solid;
+		.recipe-image{
+			h1{
+				display: none;
+			}
+		}
+		.recipe-info{
+			ul{
+				column-count: 2;
+		    column-gap: 0px;
+		    list-style: none;
+		    margin-top: 10px;
+		    padding-left: 0;
+		    p{
+		    	margin-bottom: 0;
+		    }
+			}
+		}
+	}
+}
+
+/*More cards*/
+.more-cards-list{
+	display: flex;
+	@media (max-width: 767px){
+		display: block;
+	}
+	.card-item{
+		margin-right: 15px;
+	}
+}

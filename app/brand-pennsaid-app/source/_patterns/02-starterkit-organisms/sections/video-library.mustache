@@ -1,0 +1,20 @@
+{{#videoLibrary}}
+<ul class="{{videoParent}}">
+	{{#videoList}}
+	<li>
+	<a href="{{videoLinkUrl}}">
+		<div>
+			{{>starterkit-atoms-images}}
+			{{#hoverImage}}
+				{{>starterkit-atoms-images}}
+			{{/hoverImage}}
+			<div class="play">
+				<span></span>
+			</div>
+		</div>
+{{>starterkit-atoms-paragraph}}
+	</a>
+	</li>
+	{{/videoList}}
+</ul>
+{{/videoLibrary}}

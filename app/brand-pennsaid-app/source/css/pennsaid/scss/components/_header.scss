@@ -1,0 +1,258 @@
+.hz-header-wrap {
+  border-bottom-width: 0;
+}
+
+.site-header {
+  margin-bottom: 30px;
+
+  // Top Navigation
+  .connect {
+    @include until($desktop-breakpoint) {
+      width: $tablet-breakpoint - 30px;
+    }
+
+    @include until($mobile-breakpoint) {
+      text-align: center;
+    }
+    
+    border-bottom: 1px solid $light-grey;
+    float: none;
+    margin: 0;
+    max-width: inherit;
+    padding: 15px 0;
+    text-align: right;
+    width: 1170px;
+    max-width: 100%;
+
+    li {
+      display: inline-block;
+      float: none;
+      list-style: none;
+      margin: 0 0 0 15px;
+
+      &:before {
+        display: none;
+      }
+
+      a {
+        @include until($mobile-breakpoint) {
+          color: $grey;
+        }
+
+        border-right-width: 0;
+        color: $medium-grey;
+        text-decoration: none;
+        padding: 5px;
+        font-size: .75rem;
+        line-height: 1;
+        font-weight: 600;
+
+        &:hover {
+          color: $secondary;
+        }
+      }
+    }
+  }
+
+  .head-wrapper {
+    @include until($mobile-breakpoint) {
+      flex-direction: column;
+      position: relative;
+    }
+
+    @include until(400px) {
+      align-items: flex-start;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0 0 0;
+
+    // Mobile Toggle Button
+    .mobile {
+      @include until($mobile-breakpoint) {
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 20px;
+        width: 60px;
+        height: 45px;
+        margin: 50px auto;
+        transform: rotate(0deg);
+        transition: ease-in-out 0.5s;
+        cursor: pointer;
+      }
+
+      @include until(600px) { 
+        width: 45px;
+        margin: 36px auto;
+      }
+
+      display: none;
+
+      &.is-open {
+        span {
+          &:nth-child(1),
+          &:nth-child(4) {
+            top: 18px;
+            width: 0%;
+            left: 50%;
+          }
+  
+          &:nth-child(2) {
+            transform: rotate(45deg);
+          }
+
+          &:nth-child(3) {
+            transform: rotate(-45deg);
+          }
+        }
+      }
+
+      span {
+        display: block;
+        position: absolute;
+        height: 7px;
+        width: 100%;
+        background: $medium-grey;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: ease-in-out 0.25s;
+
+        &:nth-child(1) {
+          top: 0px;
+        }
+
+        &:nth-child(2),
+        &:nth-child(3) {
+          top: 18px;
+        }
+
+        &:nth-child(4) {
+          top: 36px;
+        }
+      }
+    }
+    
+    // Navigation Logo
+    .site-branding {
+      @include until($mobile-breakpoint) {
+        padding: 0 0 5px 0;
+        margin: 0 0 10px 0;
+        max-width: 320px;
+      }
+
+      @include until(600px) {
+        max-width: 250px;
+      }
+
+      @include until(400px) {
+        position: relative;
+        left: 10px;
+        max-width: 230px;
+      }
+
+      display: inline-block;
+      max-width: 250px;
+    }
+
+    // Main Navigation
+    #site-navigation {
+      @include until($mobile-breakpoint) {
+        background-color: $lighter-grey;
+        max-height: 0px;
+        transition: max-height 0.25s ease-in-out;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      flex-shrink: 0;
+      max-width: 849px;
+      opacity: 1;
+      width: 489px;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &.is-open {
+        @include until($mobile-breakpoint) { 
+          max-height: 375px;
+        }
+
+        & > ul { 
+          @include until($mobile-breakpoint) { 
+            max-height: 800px;
+            transition: max-height 0.1s ease-in-out;
+          }
+        }
+      }
+  
+      ul {
+        @include until($mobile-breakpoint) {
+          max-height: 0px;
+          transition: max-height 0.15s ease-in-out;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        display: flex;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+
+        .slide {
+          display: none;
+        }
+
+        li {
+          @include until($mobile-breakpoint) {
+            margin: 0;
+            display: block;
+            width: 100%;
+            text-align: center;
+          }
+
+          flex-shrink: 0;
+          list-style: none;
+          text-align: right;
+          margin: 0 0 0 20px;
+
+          &:not(:last-of-type) {
+            @include until($mobile-breakpoint) {
+              border-bottom: 1px solid $light-grey;
+            }
+          }
+
+          &:before {
+            display: none;
+          }
+  
+          & > a {
+            @include until($mobile-breakpoint) {
+              font-size: 20px;
+              line-height: 1;
+              padding: 13px 5px;
+              display: block;
+              color: $medium-grey;
+            }
+
+            text-transform: uppercase;
+            text-decoration: none;
+            color: $grey;
+            font-weight: 600;
+            font-size: 1rem;
+            
+            &:hover {
+              color: $secondary;
+            }
+          }
+        }
+      }
+    }
+  }
+}  

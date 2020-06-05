@@ -1,0 +1,26 @@
+{{#contentBoxWithBottomLinkWrapper}}
+	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 {{boxWrapperClass}}">
+		<div class="{{contentWrapperClass}}">
+			{{#titleWrapper}}
+				<div class="{{titleClass}}">
+					{{>starterkit-atoms-headings}}
+				</div>
+			{{/titleWrapper}}
+			{{#bodyWrapper}}
+				<div class="{{bodyClass}}">
+					{{#paraContent}}
+						{{>starterkit-atoms-paragraph}}
+					{{/paraContent}}
+					{{#linkContent}}
+						{{>starterkit-atoms-links}}
+					{{/linkContent}}
+				</div>
+			{{/bodyWrapper}}
+			{{#footerLink}}
+				<div class="{{footerLinkClass}}">
+					{{>starterkit-atoms-links}}
+				</div>
+			{{/footerLink}}
+		</div>
+	</div>
+{{/contentBoxWithBottomLinkWrapper}}

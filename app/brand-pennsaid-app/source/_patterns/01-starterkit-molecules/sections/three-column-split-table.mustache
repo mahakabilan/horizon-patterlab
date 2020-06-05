@@ -1,0 +1,26 @@
+<div class="split-table">
+	{{#splitTable}}
+		<table class="classroom-table {{tableClass}}">
+		  
+		  <tbody>
+		    <tr>
+		      {{#tableHeader}}
+		      	<th rowspan="{{rowspan}}">{{{tableHeading}}}</th>
+		      {{/tableHeader}}
+		    </tr>
+		    {{#tableBody}}
+		    <tr class="{{rowClass}}">
+		      {{#bodyColumns}}
+		      <td class="{{firstColClass}}" colspan="{{colspan}}" data-label="{{labelHeading}}">
+		        {{#bodyContent}}
+		          {{{bodyTxt}}}
+		          {{>starterkit-atoms-list}}
+		        {{/bodyContent}}
+		      </td>
+		      {{/bodyColumns}}
+		    </tr>
+		    {{/tableBody}}
+		  </tbody>
+		</table>
+	{{/splitTable}}
+</div>

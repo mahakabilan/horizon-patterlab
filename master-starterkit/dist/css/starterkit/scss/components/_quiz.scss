@@ -1,0 +1,48 @@
+.quiz-wrapper{
+	.question-wrapper{
+		h3{
+			margin-bottom: 20px;
+			text-align: center;
+		}
+		label{
+			position: relative;
+			display: block;
+			margin-bottom: 25px;
+			
+			p .checkmark{
+				position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    padding: 10px;
+		    cursor: pointer;
+		    background-color: #F7F8F9;
+		    margin-bottom: 10px;
+		    text-align: center;
+			}
+			input[type="radio"]:checked + p .checkmark{
+				background-color: #58585B;
+				color: #fff;
+			}
+		}
+	}
+	.next-btn{
+		background-color: #E4E4EE;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    max-width: 250px;
+    width: 100%;
+    margin: 40px auto 0;
+    text-align: center;
+    &:hover{
+    	background-color:#2e3191;
+    	color: #fff;
+    }
+		&.disabled{
+			pointer-events: none;
+	    cursor: default;
+	    background: #F7F8F9;
+		}
+	}
+}

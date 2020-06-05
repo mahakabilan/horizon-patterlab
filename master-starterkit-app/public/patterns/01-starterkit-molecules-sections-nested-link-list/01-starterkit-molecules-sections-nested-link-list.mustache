@@ -1,0 +1,12 @@
+{{#nestedLinkListWrap}}
+  <ul class="{{nestedLinkListClass}}">
+    {{#nestedLinkList}}
+      <li>
+        <a href="{{parentLink}}">
+          {{{parentLinkListItem}}}
+        </a>
+        {{>starterkit-atoms-link-list}}
+      </li>
+    {{/nestedLinkList}}
+  </ul>
+{{/nestedLinkListWrap}}

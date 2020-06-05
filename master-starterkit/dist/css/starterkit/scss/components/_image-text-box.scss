@@ -1,0 +1,32 @@
+.image-text-box{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	&.large-text{
+		.text-content-right{
+			padding: 20px;
+		}
+	}
+	&.medium-text{
+		.text-content-right{
+			padding: 40px;
+		}
+	}
+	&.small-text{
+		.text-content-right{
+			padding: 60px;
+		}
+	}
+	.text-content-right{
+		padding: 0 30px;
+	}	
+	@media (max-width: $mob-breakpoint){
+		display: block;
+		img{
+			margin: 0 auto 15px;
+		}
+		.text-content-right{
+			padding: 0 15px;
+		}	
+	}
+}

@@ -1,0 +1,111 @@
+.header-container-wrap{
+	margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: relative;
+    /*margin-top: 145px;*/
+    .bg-stretch{
+	    position: absolute;
+	    margin: 0;
+	    top: 0px;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    height: auto;
+	    .fluid-width-video-wrapper{
+	    	width: 100%;
+		    position: relative;
+		    padding: 0;
+		    iframe{
+		    	width: 100%;
+		    	height: 100%;
+		    	border: none;
+		    }
+	    }
+    }
+    .header-content-container{
+    	position: relative;
+    	top: 0px;
+    	.header-content-wrap{
+    		.bg-video{
+    			@media  (max-width: $tablet-breakpoint-max){
+    				display: none;
+    			}
+    		}
+    		.header-content{
+    			padding-bottom: 50px;
+    			.fade-in-heading{
+    				font-size: 45px;
+				    color: #fff;
+				    font-weight: normal;
+				    text-transform: uppercase;
+				    text-align: center;
+				    margin-bottom: 30px;
+				    letter-spacing: 5px;
+    			}
+    			.header-text-image{
+    				position: relative;
+				    margin: 0 auto;
+				    width: 100%;
+				    height: 100%;
+				    text-align: center;
+				    img {
+				    	margin: 0 auto;
+				    }
+    			}
+    			.learn-more{
+    				text-align: center;
+				    display: block;
+				    margin: 0 auto;
+				    border: 1px solid #fff;
+				    max-width: 250px;
+				    color: #fff;
+				    text-decoration: none;
+				    width: 100%;
+				    margin-top: 65px;
+				    padding: 10px 0;
+				    border-radius: 25px;
+				    text-transform: uppercase;
+				    &:hover{
+				    	border: 1px solid #017DC3;
+				    	color: #017DC3;
+				    }
+    			}
+    		}
+    		.header-content-scroll{
+    			text-align: center;
+			    position: relative;
+			    display: block;
+			    z-index: 9;
+			    padding-bottom: 20px;
+			    .see-more{
+			    	text-decoration: none;
+			    	.fa{
+			    		display: block;
+					    font-size: 0;
+					    width: 35px;
+					    height: 20px;
+					    margin: auto;
+					    background-image: url(../../images/starterkit/chevron.png);
+					    background-size: 100% 100%;
+					    
+			    	}
+			    	span{
+			    		text-transform: uppercase;
+					    font-weight: 700;
+					    font-size: 10px;
+					    display: block;
+					    color: #fff;
+					    position: relative;
+					    bottom: 10px;
+			    	}
+			    	@media  (max-width: 991px){
+			    		span{
+			    			display: none;
+			    		}
+			    	}
+			    }
+    		}
+    	}
+    }
+}

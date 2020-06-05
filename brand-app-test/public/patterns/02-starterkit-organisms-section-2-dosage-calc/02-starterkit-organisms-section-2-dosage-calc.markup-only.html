@@ -1,0 +1,61 @@
+<div class="dosageCalc " data-default-value="90" data-min-weight="45" data-min-weight="45" data-max-weight="170" data-invalid-timer="3">
+  <p class="error-text">This tool is intended to provide dose calculations for patients ranging from 45kg - 170 kg. For additional information about dosing and administration, please refer to the <a href="#" ga-tag="pdf">full prescribing information</a>.</p>
+  <div class="d-flex flex-column flex-desktop-row">
+    <div class="patientWeight align-self-stretch">
+      <div class="patientHeading">Find Your Patient's Dose</div>
+      <div class="dosageInput">
+        <div class="dosageCalc-wrap">
+          <div class="dosageCalc-ip dosageCalc-lb">
+            <input class="lb" type="text" name="dosageCalcLb" maxlength="3" ga-tag="input">
+            <label for="">lb</label>
+          </div>
+          <h5>OR</h5>
+          <div class="dosageCalc-ip dosageCalc-kg">
+            <input class="kg" type="text" name="dosageCalckg" maxlength="3" ga-tag="input">
+            <label for="">kg</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dosageCalculation flex-grow-1 d-flex flex-row align-items-stretch">
+      <div class="d-flex flex-column flex-grow-1" dosage-col="">
+        <div class="infusionHeading flex-grow-1">Infusion 1 (10 mg&#x2F;kg)</div>
+        <div class="dosageInput">
+          <div class="cellWoBg">
+            <span ">--</span>
+            <p>mg</p>
+          </div>
+          <div class=" cellBg">
+              <span ">--</span>
+            <p>vials</p>
+          </div>
+          <div class=" cellWoBg">
+                <span ">--</span>
+            <p>mL of reconstituted TEPEZZA to be withdrawn<sup>†</sup></p>
+          </div>
+        </div>
+      </div>
+      <div class=" d-flex flex-column flex-grow-1" dosage-col="">
+                  <div class="infusionHeading flex-grow-1">Infusions 2 to 8 (20 mg&#x2F;kg) </div>
+                  <div class="dosageInput">
+                    <div class="cellWoBg">
+                      <span ">--</span>
+            <p>mg</p>
+          </div>
+          <div class=" cellBg">
+                        <span ">--</span>
+            <p>vials</p>
+          </div>
+          <div class=" cellWoBg">
+                          <span ">--</span>
+            <p>mL of reconstituted TEPEZZA to be withdrawn<sup>†</sup></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class=" footnote">
+                            <p class="note"><sup>*</sup>Rounded to the nearest whole number</p>
+                            <p class="note"><sup>†</sup>Rounded to the nearest tenth.</p>
+                    </div>
+                  </div>

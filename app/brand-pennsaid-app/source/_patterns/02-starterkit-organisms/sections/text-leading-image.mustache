@@ -1,0 +1,46 @@
+{{#textWithLeadingImage}}
+<div class="text-with-leading-image-wrap {{VariationsClassWrap}}">
+	<div class="text-with-leading-image {{VariationsClass}}">
+		<div class="left-image {{leftImageSizeClass}}">
+		{{#leftImage1}}
+			{{>starterkit-atoms-images}}
+		{{/leftImage1}}		
+		</div>
+		<div class="right-content {{contentVariationClass}}">
+			{{#headingText}}
+				{{>starterkit-atoms-headings}}
+			{{/headingText}}
+			{{#subHeadingText}}
+				{{>starterkit-atoms-headings}}
+			{{/subHeadingText}}
+			{{#listContent}}
+				{{>starterkit-atoms-list}}
+			{{/listContent}}
+			{{#paragraphText}}
+				{{>starterkit-atoms-paragraph}}
+			{{/paragraphText}}
+			{{#rightImg}}
+					{{>starterkit-atoms-images}}
+			{{/rightImg}}
+			<div class="list-leading-img">
+				{{#listContentFinconi}}
+					{{>starterkit-atoms-list}}
+				{{/listContentFinconi}}	
+			</div>	
+			<div class="right-content-split">
+				<div class="content-split-left">
+					{{#paragraphText5}}
+						{{>starterkit-atoms-paragraph}}
+					{{/paragraphText5}}
+				</div>
+				<div class="content-split-right">
+					{{#paragraphText6}}
+						{{>starterkit-atoms-paragraph}}
+					{{/paragraphText6}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{{/textWithLeadingImage}}
+

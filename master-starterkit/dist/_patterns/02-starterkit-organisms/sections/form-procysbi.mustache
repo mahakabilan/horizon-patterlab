@@ -1,0 +1,90 @@
+{{#formProcysbi}}
+{{#formWrapper}}
+<div class="{{formProcysbiFormClass}}">
+	<form action="{{formAction}}" novalidate="novalidate" id="regForm">
+		<div class="survey">
+			{{#radioButton}}
+				{{>starterkit-atoms-paragraph}}
+				<fieldset class="radio-button-wrap">
+					{{#radioButtonList}}
+						{{>starterkit-atoms-radio-button}}
+					{{/radioButtonList}}
+				</fieldset>
+			{{/radioButton}}
+
+			{{#radioButtonPatient}}
+				{{>starterkit-atoms-paragraph}}
+				<fieldset class="radio-button-wrap">
+					{{#radioButtonList}}
+						{{>starterkit-atoms-radio-button}}
+					{{/radioButtonList}}
+				</fieldset>
+			{{/radioButtonPatient}}
+
+			{{#radioButtonLovedone}}
+				{{>starterkit-atoms-paragraph}}
+				<fieldset class="radio-button-wrap">
+					{{#radioButtonList}}
+						{{>starterkit-atoms-radio-button}}
+					{{/radioButtonList}}
+				</fieldset>
+				<div class="conditional-content">
+					<p>
+						{{{ConditionalContent}}}
+					</p>
+				</div>
+			{{/radioButtonLovedone}}
+
+			{{#radioButtonPrograms}}
+				{{>starterkit-atoms-paragraph}}
+				<fieldset class="radio-button-wrap">
+					{{#radioButtonList}}
+						{{>starterkit-atoms-radio-button}}
+					{{/radioButtonList}}
+				</fieldset>
+			{{/radioButtonPrograms}}
+		</div>
+		<div class="row contact-info">
+			{{#inputFirstName}}
+			<div class="col-lg-6">
+				{{>starterkit-molecules-input-with-label}}
+			</div>
+			{{/inputFirstName}}
+			{{#inputLastName}}
+			<div class="col-lg-6">
+				{{>starterkit-molecules-input-with-label}}
+			</div>
+			{{/inputLastName}}
+		</div>
+		<div class="row contact-info">
+			{{#inputEmailAddress}}
+			<div class="col-lg-6">
+				{{>starterkit-molecules-input-with-label}}
+			</div>
+			{{/inputEmailAddress}}
+			{{#inputEmailAddressConfirm}}
+			<div class="col-lg-6">
+				{{>starterkit-molecules-input-with-label}}
+			</div>
+			{{/inputEmailAddressConfirm}}
+		</div>
+		<div class="row contact-info conditional-phone-number">
+			{{#phoneNumber}}
+			<div class="col-lg-6">
+				{{>starterkit-molecules-input-with-label}}
+			</div>
+			{{/phoneNumber}}
+		</div>
+		<div class="privacy-notice">
+			{{#privacyNotice}}
+				{{>starterkit-atoms-paragraph}}
+				<div class="radio-flex">
+					{{>starterkit-atoms-radio-button}}
+				</div>
+				<button type="submit" class="cta-btn primary-gray">Sign up now</button>
+			{{/privacyNotice}}
+		</div>							
+	</form>
+</div>
+{{/formWrapper}}
+{{/formProcysbi}}

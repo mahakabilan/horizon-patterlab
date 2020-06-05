@@ -1,0 +1,15 @@
+{{#dropSelector}}
+  <div class="drop-selector">
+    <ul>
+      <li>
+        <span>{{{dropSelectorName}}}</span>
+        <ul>
+          <span class="drop-selector-close"></span>
+          {{#dropSelectorMenu}}
+            <li class="{{dropSelectorMenuItemClass}}"><a target="{{dropSelectorMenuItemTarget}}" href="{{dropSelectorMenuItemLink}}">{{dropSelectorMenuItemText}}</a></li>
+          {{/dropSelectorMenu}}
+        </ul>
+      </li>
+    </ul>
+  </div><!-- .drop-selector -->
+{{/dropSelector}}

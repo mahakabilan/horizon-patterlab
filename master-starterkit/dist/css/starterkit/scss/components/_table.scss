@@ -1,0 +1,236 @@
+table.classroom-table {
+  border-top: 1px solid $color-gray-85;
+  border-bottom: 1px solid $color-gray-85;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 40px 0 30px 0;
+  padding: 0;
+  width: 100%;
+  thead {
+    tr {
+      background-color: transparent;
+      border-bottom: 1px solid $color-gray-85;
+    }
+  }
+  tr {
+    background-color: $color-white;
+    &:nth-child(even) {
+      background-color: transparent;
+    }
+    td {
+      padding: 15px;
+      text-align: left;
+      vertical-align: top;
+      width: 35%;
+      &:first-child {
+        /*font-weight: bold;*/
+        width: 28%;
+      }
+    }
+  }
+  th {
+    padding: 10px 15px;
+    text-align: left;
+  }
+}
+
+table.classroom-table.track-table {
+  th {
+    &:first-child {
+      border-right:1px solid $color-gray-85;
+    }
+  }
+  tr {
+    td {
+      &:first-child {
+        border-right:1px solid $color-gray-85;
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+table.classroom-table.symptoms-table {
+  border-top: 1px solid $color-gray-40;
+  border-bottom: 0px;
+  th {
+    vertical-align: top;
+    small {
+      display: block;
+    }
+    p{
+      margin: 0;
+    }
+    &:first-child{
+      width: 33%;
+    }
+  }
+  tr {
+    background-color: transparent;
+    border-bottom: 1px solid $color-gray-40;
+    td {
+      padding: 10px 5px;
+      width: 63%;
+      &:first-child {
+        width: 33%;
+      }
+      p{
+        margin: 0;
+      }
+    }
+    &.table-heading {
+      background-color: $base-blue-color;
+      td {
+        padding: 15px 20px;
+        color: $color-white;
+      }
+    }
+    &:last-child {
+      border-bottom: 0px;
+    }
+  }
+}
+
+@media  (max-width: $tablet-breakpoint-max) {
+  table.classroom-table {
+    border-top: none;
+    border-bottom:none;
+    thead {
+      display: none;
+    }
+    tr,
+    td {
+      display: block;
+      position: relative;
+    }
+    tr {
+      margin-bottom: 0.5em;
+      padding: 0 15px;
+      td {
+        text-align: left;
+        display: inline-block;
+        padding-left: 100px;
+        padding: 15px 5px 15px 100px;
+        width: 100%;
+        &:first-child {
+          float: left;
+          padding-left: 0;
+          width: 100%;
+        }
+        &:before {
+          content: attr(data-label);
+          font-weight: bold;
+          text-transform: uppercase;
+          display: inline-block;
+          position: absolute;
+          left: 5px;
+          width: 80px;
+        }
+      }
+    }
+  }
+  table.classroom-table.track-table {
+    thead {
+      display: block;
+    }
+    tr {
+      padding: 0;
+      td {
+        padding: 10px;
+        width: 32%;
+        &[colspan="2"] {
+          width: 64%;
+        }
+        &:first-child {
+          float: none;
+          padding-left: 10px;
+        }
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+  table.classroom-table.symptoms-table {
+    thead {
+      display: block;
+    }
+    tr {
+      padding: 0;
+      margin-bottom: 0;
+      &.table-heading {
+        td {
+          width: 100%;
+        }
+      }
+      td {
+        padding: 10px;
+        width: 63%;
+        &:first-child {
+          float: none;
+          padding-left: 10px;
+        }
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+
+/*Layout table as per the production*/
+
+.layout--table {
+  .row {
+    display: table-row;
+   
+    &:nth-child(even) {
+      background-color: #FFFFFF;
+    }
+    &:first-child .column {
+      border-top: 1px solid #767676;
+      border-bottom: 1px solid #767676;
+      color: #767676;
+    }
+    &:last-child .column {
+      border-bottom: 1px solid #767676;
+    }
+    &:before,
+    &:after {
+      content: none;
+    }
+    &.row-header .column:first-child {
+      width: 100%;
+    }
+    .column {
+      display: table-cell;
+      width: 35%;
+      padding: 15px;
+      &:first-child {
+        width: 15%;
+      }
+    }
+    .heading {
+      display: none;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      padding-left: 10px;
+      margin-top: 10px;
+    }
+  }
+  .column:first-child {
+    width: 33%;
+    border-right: 1px solid #767676;
+  }
+}
+
+/* Table 2-column Small example */
+@media screen and (min-width: 1024px) {
+    table.classroom-table.small-table {
+        width: 50%;
+    }
+}

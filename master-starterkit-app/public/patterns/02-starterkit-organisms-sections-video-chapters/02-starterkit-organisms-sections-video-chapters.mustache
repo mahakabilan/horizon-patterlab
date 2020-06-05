@@ -1,0 +1,21 @@
+{{#videoChapters}}
+  <div class="video-chapters">
+    <div class="video-cta">
+      {{#VideoCTA}}
+        <a href="{{buttonURL}}" class="{{buttonClass}}" data-seek="{{dataSeekTime}}">{{{buttonText}}}</a>
+      {{/VideoCTA}}
+    </div>
+    {{#vimeoImage}}
+      <div class="video-vimeo-wrap">
+        <div class="vimeo-video">
+          <img src="{{vimeoImageURL}}">
+          <div class="play"><i class="fas fa-play"></i></div>
+        </div>
+        {{>starterkit-atoms-video-vimeo}}
+      </div>
+    {{/vimeoImage}}
+    <div class="cta-download">
+      {{>starterkit-atoms-button}}
+    </div>
+  </div>
+{{/videoChapters}}

@@ -1,0 +1,45 @@
+.image-aside{
+	display: flex;
+	flex: 1 1 0;
+	margin-bottom: 20px;
+	strong {
+	  font-size: 0.9rem;
+	}
+	img{
+		align-self: center;
+	}
+	&.img-left{
+		img{
+			margin-right: 20px;
+		}
+	}
+	&.img-right{
+		flex-direction: row-reverse;
+		img{
+			margin-left: 20px;
+		}
+	}
+	.aside-content{
+		align-self: center;
+		h4, strong{
+			font-size: 14px;
+			font-weight: bold;
+			color: $base-grey-color;
+		}
+		p{
+			font-size: 16px;
+		}
+	}
+	@media  (max-width: $tablet-breakpoint-max){
+		display:block;
+		margin-bottom:30px;
+	}
+	@media (min-width: 1024px){
+		&.img-right img {
+        max-width:310px;
+    }
+    &.img-left img {
+        max-width:300px;
+    }
+	}
+}

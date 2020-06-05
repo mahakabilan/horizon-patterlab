@@ -1,0 +1,50 @@
+{{#phaseTable}}
+		{{>starterkit-atoms-headings}}
+
+<div class="phase-table">
+{{#headerRow}}
+<div class="phase-table-row header">
+<div class="description">{{>starterkit-atoms-paragraph}}</div>
+{{#headerLeft}}
+<div class="phase"><span class="headerPhase">{{>starterkit-atoms-paragraph}}</span></div>
+{{/headerLeft}}
+</div>
+{{/headerRow}}
+{{#drawerOuter}}
+{{#phase-tableRow}}
+<div class="phase-table-row">
+<div class="drawer-outer">
+<div class="toggle">
+<div class="open">+</div>
+<div class="close"></div>
+</div>
+<div class="description">
+<div>{{>starterkit-atoms-paragraph}}</div>
+<div>
+{{>starterkit-atoms-list}}
+</div>
+</div>
+<div class="phase {{phaseColor}}">
+<div class="the-phase">
+<div class="bar small {{barColor}}"></div>
+{{#phaseHead}}
+<div class="text {{textColor}}">{{>starterkit-atoms-paragraph}}</div>
+{{/phaseHead}}
+<div class="bar small {{barColor}}"></div>
+</div>
+</div>
+</div>
+<div class="drawer-inner">
+<div class="drawer-contents">
+{{#drawerWrap}}
+{{#drawerContents}}
+	{{>starterkit-atoms-paragraph}}
+{{/drawerContents}}
+{{/drawerWrap}}
+</div>
+</div>
+</div>
+{{/phase-tableRow}}
+{{/drawerOuter}}
+</div>
+{{/phaseTable}}

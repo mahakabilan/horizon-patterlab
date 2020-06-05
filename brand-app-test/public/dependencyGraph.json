@@ -1,0 +1,2942 @@
+{
+  "version": 1,
+  "timestamp": 1591331557746,
+  "graph": {
+    "options": {
+      "directed": true,
+      "multigraph": false,
+      "compound": false
+    },
+    "nodes": [
+      {
+        "v": "00-starterkit-atoms\\_00-global\\00-brand-colors.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\_00-global\\01-neutral-colors.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\_00-global\\02-utility-colors.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\_00-global\\03-fonts.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\button\\button-video.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\button\\button~primay.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\button\\image-button.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\forms\\00-text-field.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-cta\\02-starterkit-organisms-sections-cta.rendered.html",
+          "lineagePattern": "starterkit-organisms-cta"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\forms\\02-select-dropdown.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-form-page-demo\\06-templates-form-page-demo.rendered.html",
+          "lineagePattern": "templates-form-page-demo"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\forms\\02-select-dropdown~blue.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\forms\\customcheckbox.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\forms\\form-label.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-form-page-demo\\06-templates-form-page-demo.rendered.html",
+          "lineagePattern": "templates-form-page-demo"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\forms\\radio-button.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-form-page-demo\\06-templates-form-page-demo.rendered.html",
+          "lineagePattern": "templates-form-page-demo"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\forms\\textarea.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\images\\font-awesome-icon.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-content-divider\\02-starterkit-organisms-sections-content-divider.rendered.html",
+          "lineagePattern": "starterkit-organisms-content-divider"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-table-layout-demo\\06-templates-table-layout-demo.rendered.html",
+          "lineagePattern": "templates-table-layout-demo"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\images\\images~link.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "Complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-ucd-header\\02-starterkit-organisms-sections-ucd-header.rendered.html",
+          "lineagePattern": "starterkit-organisms-ucd-header"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\images\\logo.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-header\\02-starterkit-organisms-sections-header.rendered.html",
+          "lineagePattern": "starterkit-organisms-header"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\links\\links-image.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-right-rail-section-nav\\02-starterkit-organisms-sections-right-rail-section-nav.rendered.html",
+          "lineagePattern": "starterkit-organisms-right-rail-section-nav"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\links\\links-span.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "Complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-two-column-list\\02-starterkit-organisms-sections-two-column-list.rendered.html",
+          "lineagePattern": "starterkit-organisms-two-column-list"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-two-column-layout-demo\\06-templates-two-column-layout-demo.rendered.html",
+          "lineagePattern": "templates-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\links\\links~icon.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-video-box\\02-starterkit-organisms-sections-video-box.rendered.html",
+          "lineagePattern": "starterkit-organisms-video-box"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\list\\link-list.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-tab-with-accordion\\02-starterkit-organisms-sections-tab-with-accordion.rendered.html",
+          "lineagePattern": "starterkit-organisms-tab-with-accordion"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\media\\video.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\media\\video~vimeo.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "Complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-video-content-split\\02-starterkit-organisms-sections-video-content-split.rendered.html",
+          "lineagePattern": "starterkit-organisms-video-content-split"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\text\\_hr.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\text\\heading-with-link.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-table-layout-demo\\06-templates-table-layout-demo.rendered.html",
+          "lineagePattern": "templates-table-layout-demo"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\text\\inline-elements.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-two-column-layout-demo\\06-templates-two-column-layout-demo.rendered.html",
+          "lineagePattern": "templates-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\text\\preformatted-text.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-starterkit-atoms\\text\\section-header.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\Video-Box2Column.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\back-to-menu.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\banner-imagecomponent.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\bracket.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\centered-image.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\content-box-with-image-v2.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\cta-ribbon.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\custom-layout-role-of-genetics.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\custom-layout-understanding-ucds.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\dosage-calc.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\event-list.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\footer-generic.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\icon-list.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-3-column.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-cta-box-2-column.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-cta-with-link.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "Complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-content-cards-with-sort\\02-starterkit-organisms-sections-content-cards-with-sort.rendered.html",
+          "lineagePattern": "starterkit-organisms-content-cards-with-sort"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-lightbox.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-text-blocks.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-text-box.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-text-cta-multicolumn.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-text-split.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-with-cta.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\isi-selector.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\mnemonic-content.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\multi-column-content.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\news-banner.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\notification.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\ravicti-header.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-2-column.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-carousel.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-image-split.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-with-image.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\two-column-content-split.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\video-scroll-play.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\zipcode-two-column.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\Tepro-LinkList.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\accordion-list.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo",
+          "lineageState": "complete"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\acti-registration-form.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\anchor-list-with-span.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "Complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-Tepro-LinkList\\02-starterkit-organisms-sections-Tepro-LinkList.rendered.html",
+          "lineagePattern": "starterkit-organisms-Tepro-LinkList"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\back-to-top.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-two-column-layout-demo\\06-templates-two-column-layout-demo.rendered.html",
+          "lineagePattern": "templates-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\banner-carousel.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\blocks-2-column.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\body-blocks-2-column.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\body-component.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-body-blocks-2-column\\02-starterkit-organisms-sections-body-blocks-2-column.rendered.html",
+          "lineagePattern": "starterkit-organisms-body-blocks-2-column"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\card-2-column-with-ink.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cards-2-column.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cards-3-column.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-table-layout-demo\\06-templates-table-layout-demo.rendered.html",
+          "lineagePattern": "templates-table-layout-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cgd-header.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cgd-signup-form.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box-table.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box-with-bottom-link.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box-with-image.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "Complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-accordion-list\\02-starterkit-organisms-sections-accordion-list.rendered.html",
+          "lineagePattern": "starterkit-organisms-accordion-list"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box-with-paragraph.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-tab-with-accordion\\02-starterkit-organisms-sections-tab-with-accordion.rendered.html",
+          "lineagePattern": "starterkit-organisms-tab-with-accordion"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~only-image.json",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-two-column-layout-demo\\06-templates-two-column-layout-demo.rendered.html",
+          "lineagePattern": "templates-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~with-btn.json",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-two-column-layout-demo\\06-templates-two-column-layout-demo.rendered.html",
+          "lineagePattern": "templates-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~with-link.json",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-two-column-layout-demo\\06-templates-two-column-layout-demo.rendered.html",
+          "lineagePattern": "templates-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-cards-with-sort.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-divider.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cta.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\demo-text-leading-image.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\document-download.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\dual-isipanel.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\external-dialog-demo.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\featured-content-carousel.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\featured-content-collage.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\floating-image-comp.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\footer-actimmune.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\footer-nav.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-footer-actimmune\\02-starterkit-organisms-sections-footer-actimmune.rendered.html",
+          "lineagePattern": "starterkit-organisms-footer-actimmune"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\footer-procysbi.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\footer.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-two-column-layout-demo\\06-templates-two-column-layout-demo.rendered.html",
+          "lineagePattern": "templates-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\form-actimmune-get-started.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\form-actimmune.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\form-procysbi.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\full-width-image-overlay.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\header-actimmune.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\header-without-search.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\header.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-two-column-layout-demo\\06-templates-two-column-layout-demo.rendered.html",
+          "lineagePattern": "templates-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\heading-with-list.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-two-column-layout-demo\\06-templates-two-column-layout-demo.rendered.html",
+          "lineagePattern": "templates-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\homepage-header.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\hp-footer.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\hp-footertwo.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\hp-header.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\image-aside.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-two-column-layout-demo\\06-templates-two-column-layout-demo.rendered.html",
+          "lineagePattern": "templates-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\image-carousel-only-image.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/02-starterkit-organisms-sections-featured-content-carousel\\02-starterkit-organisms-sections-featured-content-carousel.rendered.html",
+          "lineagePattern": "starterkit-organisms-featured-content-carousel"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\image-carousel.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-two-column-layout-demo\\06-templates-two-column-layout-demo.rendered.html",
+          "lineagePattern": "templates-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\image-tile-only-component.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\inline-image-demo.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\isi-panel.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\language-selector.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\numbered-boxes.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\people-list.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\phase-table.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\responsive-table.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-table-layout-demo\\06-templates-table-layout-demo.rendered.html",
+          "lineagePattern": "templates-table-layout-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\right-rail-section-nav.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-two-column-layout-demo\\06-templates-two-column-layout-demo.rendered.html",
+          "lineagePattern": "templates-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\secondary-header.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\section-bar-nav.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\signup-form.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\sub-navigation.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tab-with-accordion.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tab.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-two-column-layout-demo\\06-templates-two-column-layout-demo.rendered.html",
+          "lineagePattern": "templates-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tepro-footer.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tepro-signup.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\text-leading-image.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tooltip.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\two-column-list.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\ucd-footer.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\ucd-header.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-banner.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-box.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-two-column-layout-demo\\06-templates-two-column-layout-demo.rendered.html",
+          "lineagePattern": "templates-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-chapters.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-component.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-content-split.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-library.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\zipcode-box.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "complete",
+          "lineagePath": "../../patterns/06-templates-home-page-demo\\06-templates-home-page-demo.rendered.html",
+          "lineagePattern": "templates-home-page-demo"
+        }
+      },
+      {
+        "v": "03-brand-test-organisms\\content-heading-cta.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "inprogress",
+          "lineagePath": "../../patterns/04-brand-test-molecules-content-heading-cta-dual\\04-brand-test-molecules-content-heading-cta-dual.rendered.html",
+          "lineagePattern": "brand-test-molecules-content-heading-cta-dual"
+        }
+      },
+      {
+        "v": "04-brand-test-molecules\\content-heading-cta-dual.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "06-templates\\form-page-demo.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/07-pages-form-page-demo\\07-pages-form-page-demo.rendered.html",
+          "lineagePattern": "pages-form-page-demo"
+        }
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/07-pages-home-page-demo\\07-pages-home-page-demo.rendered.html",
+          "lineagePattern": "pages-home-page-demo"
+        }
+      },
+      {
+        "v": "06-templates\\table-layout-demo.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/07-pages-table-layout-demo\\07-pages-table-layout-demo.rendered.html",
+          "lineagePattern": "pages-table-layout-demo"
+        }
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/07-pages-two-column-layout-demo\\07-pages-two-column-layout-demo.rendered.html",
+          "lineagePattern": "pages-two-column-layout-demo"
+        }
+      },
+      {
+        "v": "07-pages\\form-page-demo.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "07-pages\\home-page-demo.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "07-pages\\table-layout-demo.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "07-pages\\two-column-layout-demo.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "C:\\Users\\mkabilan\\OneDrive - Epsilon\\Projects\\Horizon_Pharma\\brand-app-test\\source\\_meta\\_00-head.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "C:\\Users\\mkabilan\\OneDrive - Epsilon\\Projects\\Horizon_Pharma\\brand-app-test\\source\\_meta\\_01-foot.mustache",
+        "value": {
+          "compileState": null
+        }
+      }
+    ],
+    "edges": [
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~only-image.json",
+        "w": "02-starterkit-organisms\\sections\\content-box.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~only-image.json",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~only-image.json",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~only-image.json",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~only-image.json",
+        "w": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~with-btn.json",
+        "w": "02-starterkit-organisms\\sections\\content-box.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~with-btn.json",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~with-btn.json",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~with-btn.json",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~with-btn.json",
+        "w": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~with-link.json",
+        "w": "02-starterkit-organisms\\sections\\content-box.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~with-link.json",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~with-link.json",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~with-link.json",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box~with-link.json",
+        "w": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "00-starterkit-atoms\\links\\links-image.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "00-starterkit-atoms\\links\\links~icon.mustache",
+        "w": "00-starterkit-atoms\\images\\font-awesome-icon.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\Video-Box2Column.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\Video-Box2Column.mustache",
+        "w": "00-starterkit-atoms\\media\\video~vimeo.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\Video-Box2Column.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\Video-Box2Column.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\banner-imagecomponent.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\banner-imagecomponent.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\bracket.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\bracket.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\content-box-with-image-v2.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\custom-layout-role-of-genetics.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\custom-layout-role-of-genetics.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\custom-layout-understanding-ucds.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\event-list.mustache",
+        "w": "00-starterkit-atoms\\list\\link-list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\footer-generic.mustache",
+        "w": "00-starterkit-atoms\\images\\images~link.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\footer-generic.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\footer-generic.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\icon-list.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-3-column.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-3-column.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-3-column.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-cta-box-2-column.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-cta-box-2-column.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-cta-with-link.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-cta-with-link.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-lightbox.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-lightbox.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-text-blocks.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-text-blocks.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-text-box.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-text-cta-multicolumn.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-text-cta-multicolumn.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-text-cta-multicolumn.mustache",
+        "w": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-text-split.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-text-split.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-text-split.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-with-cta.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-with-cta.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\image-with-cta.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\isi-selector.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\isi-selector.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\isi-selector.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\isi-selector.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\mnemonic-content.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\mnemonic-content.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\multi-column-content.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\multi-column-content.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\news-banner.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\ravicti-header.mustache",
+        "w": "00-starterkit-atoms\\images\\logo.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-2-column.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-2-column.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-carousel.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-carousel.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-image-split.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-image-split.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-image-split.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-with-image.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-with-image.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-with-image.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\text-with-image.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\two-column-content-split.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\two-column-content-split.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\two-column-content-split.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\two-column-content-split.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\video-scroll-play.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\video-scroll-play.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\video-scroll-play.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\zipcode-box.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\zipcode-box.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\zipcode-box.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\zipcode-box.mustache",
+        "w": "00-starterkit-atoms\\forms\\00-text-field.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\zipcode-two-column.mustache",
+        "w": "02-starterkit-organisms\\sections\\zipcode-box.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\zipcode-two-column.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\zipcode-two-column.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\section-2\\zipcode-two-column.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\anchor-list-with-span.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\anchor-list-with-span.mustache",
+        "w": "00-starterkit-atoms\\links\\links-span.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\Tepro-LinkList.mustache",
+        "w": "02-starterkit-organisms\\sections\\anchor-list-with-span.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box-with-image.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box-with-image.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\accordion-list.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\accordion-list.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\accordion-list.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\accordion-list.mustache",
+        "w": "02-starterkit-organisms\\sections\\content-box-with-image.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\acti-registration-form.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\acti-registration-form.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\acti-registration-form.mustache",
+        "w": "00-starterkit-atoms\\forms\\form-label.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\acti-registration-form.mustache",
+        "w": "00-starterkit-atoms\\forms\\radio-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\banner-carousel.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\banner-carousel.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\banner-carousel.mustache",
+        "w": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cta.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cta.mustache",
+        "w": "00-starterkit-atoms\\forms\\00-text-field.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cta.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cta.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\blocks-2-column.mustache",
+        "w": "02-starterkit-organisms\\sections\\cta.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\blocks-2-column.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\blocks-2-column.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\blocks-2-column.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\body-component.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\body-component.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\body-component.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\body-component.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\body-blocks-2-column.mustache",
+        "w": "02-starterkit-organisms\\sections\\body-component.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cgd-header.mustache",
+        "w": "00-starterkit-atoms\\images\\images~link.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cgd-header.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cgd-signup-form.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cgd-signup-form.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cgd-signup-form.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cgd-signup-form.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cgd-signup-form.mustache",
+        "w": "00-starterkit-atoms\\forms\\form-label.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cgd-signup-form.mustache",
+        "w": "00-starterkit-atoms\\forms\\radio-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\cgd-signup-form.mustache",
+        "w": "02-starterkit-organisms\\sections\\accordion-list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box-table.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box-table.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box-table.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box-table.mustache",
+        "w": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box-with-bottom-link.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box-with-bottom-link.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box-with-bottom-link.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box-with-paragraph.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-box.mustache",
+        "w": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-cards-with-sort.mustache",
+        "w": "00-starterkit-atoms\\forms\\form-label.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-cards-with-sort.mustache",
+        "w": "02-starterkit-organisms\\section-2\\image-cta-with-link.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-divider.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-divider.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-divider.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\content-divider.mustache",
+        "w": "00-starterkit-atoms\\images\\font-awesome-icon.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\text-leading-image.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\text-leading-image.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\text-leading-image.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\text-leading-image.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\demo-text-leading-image.mustache",
+        "w": "02-starterkit-organisms\\sections\\text-leading-image.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\document-download.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\document-download.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\document-download.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\dual-isipanel.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\dual-isipanel.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\dual-isipanel.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\external-dialog-demo.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\image-carousel-only-image.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\image-carousel-only-image.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\featured-content-carousel.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\featured-content-carousel.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\featured-content-carousel.mustache",
+        "w": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\featured-content-carousel.mustache",
+        "w": "02-starterkit-organisms\\sections\\image-carousel-only-image.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\featured-content-collage.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\featured-content-collage.mustache",
+        "w": "02-starterkit-organisms\\sections\\cards-2-column.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\floating-image-comp.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\footer-nav.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\footer-actimmune.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\footer-actimmune.mustache",
+        "w": "02-starterkit-organisms\\sections\\footer-nav.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\footer-actimmune.mustache",
+        "w": "00-starterkit-atoms\\images\\images~link.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\footer-procysbi.mustache",
+        "w": "00-starterkit-atoms\\images\\images~link.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\footer-procysbi.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\footer.mustache",
+        "w": "00-starterkit-atoms\\images\\images~link.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\footer.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\form-actimmune-get-started.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\form-actimmune-get-started.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\form-actimmune-get-started.mustache",
+        "w": "00-starterkit-atoms\\forms\\radio-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\form-actimmune.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\form-actimmune.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\form-actimmune.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\form-actimmune.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\form-actimmune.mustache",
+        "w": "00-starterkit-atoms\\forms\\radio-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\form-procysbi.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\form-procysbi.mustache",
+        "w": "00-starterkit-atoms\\forms\\radio-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\full-width-image-overlay.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\header-actimmune.mustache",
+        "w": "00-starterkit-atoms\\images\\logo.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\header-actimmune.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\header-without-search.mustache",
+        "w": "00-starterkit-atoms\\images\\logo.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\header.mustache",
+        "w": "00-starterkit-atoms\\images\\logo.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\heading-with-list.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\homepage-header.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\homepage-header.mustache",
+        "w": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\homepage-header.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\homepage-header.mustache",
+        "w": "00-starterkit-atoms\\button\\button~primay.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\hp-footertwo.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\hp-footertwo.mustache",
+        "w": "00-starterkit-atoms\\list\\link-list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\hp-header.mustache",
+        "w": "00-starterkit-atoms\\images\\images~link.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\hp-header.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\image-carousel.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\image-carousel.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\inline-image-demo.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\numbered-boxes.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\numbered-boxes.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\numbered-boxes.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\phase-table.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\phase-table.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\phase-table.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\responsive-table.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\right-rail-section-nav.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\right-rail-section-nav.mustache",
+        "w": "00-starterkit-atoms\\links\\links-image.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\secondary-header.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\secondary-header.mustache",
+        "w": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\secondary-header.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\secondary-header.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\section-bar-nav.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\signup-form.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\signup-form.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\sub-navigation.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\sub-navigation.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\sub-navigation.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tab-with-accordion.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tab-with-accordion.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tab-with-accordion.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tab-with-accordion.mustache",
+        "w": "00-starterkit-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tab-with-accordion.mustache",
+        "w": "02-starterkit-organisms\\sections\\content-box-with-paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tab-with-accordion.mustache",
+        "w": "02-starterkit-organisms\\sections\\accordion-list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tab.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tepro-footer.mustache",
+        "w": "00-starterkit-atoms\\images\\images~link.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tepro-footer.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tepro-signup.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\tepro-signup.mustache",
+        "w": "00-starterkit-atoms\\forms\\radio-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\two-column-list.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\two-column-list.mustache",
+        "w": "00-starterkit-atoms\\links\\links-span.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\two-column-list.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\ucd-footer.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\ucd-footer.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\ucd-footer.mustache",
+        "w": "00-starterkit-atoms\\list\\link-list.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\ucd-header.mustache",
+        "w": "00-starterkit-atoms\\images\\images~link.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\ucd-header.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-banner.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-banner.mustache",
+        "w": "00-starterkit-atoms\\media\\video~vimeo.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-banner.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-banner.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-box.mustache",
+        "w": "00-starterkit-atoms\\media\\video~vimeo.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-box.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-box.mustache",
+        "w": "00-starterkit-atoms\\links\\links~icon.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-chapters.mustache",
+        "w": "00-starterkit-atoms\\media\\video~vimeo.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-chapters.mustache",
+        "w": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-component.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-component.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-content-split.mustache",
+        "w": "00-starterkit-atoms\\media\\video~vimeo.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-content-split.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-library.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-starterkit-organisms\\sections\\video-library.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-brand-test-organisms\\content-heading-cta.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-brand-test-organisms\\content-heading-cta.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-brand-test-organisms\\content-heading-cta.mustache",
+        "w": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-brand-test-molecules\\content-heading-cta-dual.mustache",
+        "w": "03-brand-test-organisms\\content-heading-cta.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\form-page-demo.mustache",
+        "w": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\form-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\header.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\form-page-demo.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\form-page-demo.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\form-page-demo.mustache",
+        "w": "00-starterkit-atoms\\forms\\radio-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\form-page-demo.mustache",
+        "w": "00-starterkit-atoms\\forms\\form-label.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\form-page-demo.mustache",
+        "w": "00-starterkit-atoms\\forms\\02-select-dropdown.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\form-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\form-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\back-to-top.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\cta.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\section-2\\news-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\header.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\featured-content-collage.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\image-aside.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\accordion-list.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\language-selector.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "00-starterkit-atoms\\button\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "00-starterkit-atoms\\button\\button~primay.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\content-box.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\content-box~with-btn.json",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\content-divider.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\document-download.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "00-starterkit-atoms\\list\\link-list.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\numbered-boxes.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\responsive-table.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\section-bar-nav.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\tab.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\text-leading-image.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\card-2-column-with-ink.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\zipcode-box.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\external-dialog-demo.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\cards-2-column.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\cards-3-column.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\image-carousel.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\image-tile-only-component.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\section-2\\image-with-cta.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\featured-content-carousel.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\full-width-image-overlay.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\video-box.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\video-component.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\video-chapters.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\tab-with-accordion.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\people-list.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\phase-table.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\two-column-list.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\video-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\section-2\\image-text-cta-multicolumn.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\section-2\\image-text-split.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\section-2\\Video-Box2Column.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\section-2\\text-image-split.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\video-content-split.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\section-2\\image-text-blocks.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\section-2\\mnemonic-content.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\section-2\\dosage-calc.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\isi-panel.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\home-page-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\back-to-top.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\table-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\header.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\table-layout-demo.mustache",
+        "w": "00-starterkit-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\table-layout-demo.mustache",
+        "w": "00-starterkit-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\table-layout-demo.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\table-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\responsive-table.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\table-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\back-to-top.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\table-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\cards-3-column.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\table-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\header.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\video-box.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\right-rail-section-nav.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\image-carousel.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\content-box~with-link.json",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\content-box~only-image.json",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "w": "00-starterkit-atoms\\text\\paragraph.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\image-aside.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "w": "00-starterkit-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\tab.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\heading-with-list.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\content-box~with-btn.json",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\back-to-top.mustache",
+        "value": {}
+      },
+      {
+        "v": "06-templates\\two-column-layout-demo.mustache",
+        "w": "02-starterkit-organisms\\sections\\footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "07-pages\\form-page-demo.mustache",
+        "w": "06-templates\\form-page-demo.mustache",
+        "value": {}
+      },
+      {
+        "v": "07-pages\\home-page-demo.mustache",
+        "w": "06-templates\\home-page-demo.mustache",
+        "value": {}
+      },
+      {
+        "v": "07-pages\\table-layout-demo.mustache",
+        "w": "06-templates\\table-layout-demo.mustache",
+        "value": {}
+      },
+      {
+        "v": "07-pages\\two-column-layout-demo.mustache",
+        "w": "06-templates\\two-column-layout-demo.mustache",
+        "value": {}
+      }
+    ]
+  }
+}

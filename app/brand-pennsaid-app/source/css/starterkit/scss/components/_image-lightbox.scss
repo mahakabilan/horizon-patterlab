@@ -1,0 +1,17 @@
+.image-lightbox {
+	.lightbox-wrapper {
+		display: flex;
+		margin-bottom: 10px;
+		.content-wrapper {
+			background-color: #ddd;
+		    padding: 0 25px;
+    		display: flex;
+    		flex-basis: 100%;
+    		align-items: center;
+    	}
+	}
+	a {
+    	color: #000;
+    	text-decoration: none;
+    }
+}

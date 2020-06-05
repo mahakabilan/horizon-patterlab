@@ -1,0 +1,385 @@
+.timeline {
+  .right-row {
+    >img {
+      position: absolute;
+      width: 45px;
+      top: -11px;
+      left: -20px;
+      z-index: 10;
+      background-color: #ffffff;
+
+      @media (max-width: $mob-breakpoint) {
+        left: 10%;
+      }
+
+      @media (min-width:430px) and (max-width: $mob-breakpoint) {
+        left: 11%;
+        z-index: 20;
+      }
+    }
+
+    .content-flex {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      margin-bottom: 16px;
+
+      p {
+        padding-left: 10px;
+        color: #333;
+        margin: 10px 0;
+      }
+
+      img {
+        position: relative;
+        width: auto;
+        top: auto;
+        left: auto;
+        z-index: auto;
+      }
+    }
+  }
+
+  .left-row {
+    >img {
+      position: absolute;
+      width: 45px;
+      top: -7px;
+      right: -24px;
+      z-index: 10;
+      background-color: #ffffff;
+
+      @media (max-width: $mob-breakpoint) {
+        left: 10%;
+        right: auto;
+      }
+
+      @media (min-width:430px) and (max-width: $mob-breakpoint) {
+        left: 11%;
+      }
+
+    }
+  }
+
+  .icon-list-wrapper {
+    .left-content {
+      width: 100%;
+
+      .icon-list-content {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        span {
+          margin-bottom: 0;
+          min-width: 60px;
+        }
+      }
+    }
+  }
+
+  .mobile-swap {
+    .container {
+      margin-bottom: 0;
+      padding: 0;
+    }
+  }
+
+  .video-box {
+    iframe {
+      left: 0;
+    }
+  }
+}
+
+.timeline-wrapper {
+  position: relative;
+
+  &:after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    border: 1px solid #999;
+    top: 50px;
+    left: 50%;
+    z-index: -1;
+
+    @media (max-width: $mob-breakpoint) {
+      left: 12.5%;
+      top: 100px;
+    }
+  }
+
+  &.section-lightgrey {
+    &:after {
+      border-color: #d0d2d1;
+    }
+
+    .background-div {
+      background-color: #d0d2d1;
+    }
+
+    @media (max-width: $mob-breakpoint) {
+      .row {
+        position: relative;
+        &:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          border-bottom: 1px solid #d0d2d1;
+          left: 16%;
+          top: 7px;
+          z-index: -1;
+        }
+
+        margin-bottom: 35px;
+      }
+    }
+
+  }
+
+  &.section-grey {
+    &:after {
+      border-color: #898e8c;
+    }
+
+    .background-div {
+      background-color: #898e8c;
+
+      h2 {
+        color: #fff;
+      }
+    }
+  }
+
+  &.section-darkgrey {
+    &:after {
+      border-color: #606463;
+    }
+
+    .background-div {
+      background-color: #606463;
+
+      h2 {
+        color: #fff;
+      }
+    }
+  }
+
+  .timeline-content {
+    clear: both;
+    padding-top: 44px;
+
+    @media (max-width: $mob-breakpoint) {
+      padding-top: 35px;
+    }
+
+
+    .video-description {
+      display: none;
+    }
+
+  }
+
+
+
+  .icon-list-wrapper {
+    width: 100%;
+    display: block;
+
+    .left-content {
+      img {
+        position: relative;
+        top: auto;
+        left: auto;
+        z-index: auto;
+        padding: 8.5px 0;
+        min-width: 30px;
+        width: auto;
+      }
+    }
+
+    p {
+      padding-left: 5px;
+      padding-top: 0;
+      margin: 10px 0;
+
+      @media (max-width: $mob-breakpoint) {
+        padding-left: 0;
+      }
+    }
+  }
+
+  .right-row {
+    padding: 0 20px 0 45px;
+    position: relative;
+
+    @media (max-width: $mob-breakpoint) {
+      padding: 0 22px 0 95px;
+    }
+
+    @media (min-width:430px) and (max-width: 600px) {
+      padding: 0 0 0 120px;
+    }
+
+    @media (min-width:601px) and (max-width: $mob-breakpoint) {
+      padding: 0 0 0 130px;
+    }
+
+  }
+
+  .left-row {
+    padding: 0 45px 0 0px;
+    position: relative;
+    text-align: right;
+    margin-bottom: 25px;
+
+    @media (max-width: $mob-breakpoint) {
+      padding: 0 22px 0 95px;
+      text-align: left;
+      margin-bottom: 0;
+
+    }
+
+    @media (min-width:430px) and (max-width: 600px) {
+      padding: 0 0 0 120px;
+    }
+
+    @media (min-width:601px) and (max-width: $mob-breakpoint) {
+      padding: 0 0 0 130px;
+    }
+
+    &.vpos-bottom {
+      margin-bottom: 28px;
+    }
+  }
+
+  .video-box-wrap {
+    right: -45px;
+
+    @media (max-width: $mob-breakpoint) {
+      right: 17px;
+    }
+
+    p {
+      display: none;
+    }
+
+    h2 {
+      display: none;
+    }
+  }
+}
+
+
+.background-div {
+  padding: 15px 32px;
+  border-radius: 10px;
+  width: 50.5%;
+
+  @media (max-width: $mob-breakpoint) {
+    width: 100%;
+    padding: 17px 26px;
+    border-radius: 0 10px 10px 0;
+  }
+
+  @media (min-width:430px) and (max-width: $mob-breakpoint) {
+    border-radius: 10px;
+  }
+
+  &.left {
+    float: left;
+  }
+
+  &.right {
+    float: right;
+
+    @media (max-width: $mob-breakpoint) {
+      float: none;
+    }
+  }
+}
+
+
+
+
+.bottom-text {
+  color: #555555;
+}
+
+.right-bottom-content {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  margin-left: 45px;
+
+  @media (max-width: $mob-breakpoint) {
+    margin-left: 0;
+  }
+
+  img {
+    position: relative;
+    width: auto;
+    top: auto;
+    left: auto;
+    z-index: auto;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    padding-right: 10px;
+  }
+
+}
+
+.right-row {
+  .bordered-rectangle {
+    img {
+      width: auto;
+      height: auto;
+    }
+
+  }
+}
+
+
+.vpos-top {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.vpos-middle {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.vpos-bottom {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+@media (max-width: $mob-breakpoint) {
+  .mobile-swap {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -moz-box-direction: reverse;
+    -ms-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+}
+
+
+/*specific fix only to i-pad portrait*/
+@media (min-device-width : 768px) and (max-device-width : $tablet-breakpoint-max) and (orientation : portrait) {
+  .timeline-wrapper img[class$="-screen-img"]:last-of-type {
+    top: 57px !important;
+    z-index: -98;
+  }
+}

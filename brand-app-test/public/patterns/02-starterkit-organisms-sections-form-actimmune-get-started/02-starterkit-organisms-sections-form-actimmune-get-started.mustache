@@ -1,0 +1,44 @@
+{{#formActimmuneGetStarted}}
+  {{#formWrapper}}
+    <div class="{{ActimmuneFormClass}}">
+      <div class="caption">
+        {{#formCaption}}
+          {{>starterkit-atoms-headings}}
+        {{/formCaption}}
+      </div>
+      <form action="{{formAction}}" novalidate="novalidate" id="regForm">
+        {{#checkOne}}
+          {{>starterkit-atoms-paragraph}}
+          <fieldset class="radio-button-wrap">
+            {{#radioButtonList}}
+              {{>starterkit-atoms-radio-button}}
+            {{/radioButtonList}}
+          </fieldset>
+        {{/checkOne}}
+        <div class="checkhide">
+          <div class="selected selected-yes hide">
+            {{#checkFirst}}
+              {{>starterkit-atoms-paragraph}}
+              <fieldset class="radio-button-wrap">
+                {{#radioButtonList}}
+                  {{>starterkit-atoms-radio-button}}
+                {{/radioButtonList}}
+              </fieldset>
+            {{/checkFirst}}
+          </div>
+          <div class="selected selected-no hide">
+            {{#checkSecond}}
+              {{>starterkit-atoms-paragraph}}
+              <fieldset class="radio-button-wrap">
+                {{#radioButtonList}}
+                  {{>starterkit-atoms-radio-button}}
+                {{/radioButtonList}}
+              </fieldset>
+            {{/checkSecond}}
+          </div>
+        </div>
+        <button type="submit" class="{{buttonClass}}">Get Your Guide</button>
+      </form>
+    </div>
+  {{/formWrapper}}
+{{/formActimmuneGetStarted}}

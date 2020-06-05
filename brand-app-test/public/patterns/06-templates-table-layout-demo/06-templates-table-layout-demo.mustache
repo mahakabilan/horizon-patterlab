@@ -1,0 +1,72 @@
+<!-- Header -->
+{{#commonHeaderFooterData}}
+  <section class="hz-header-wrap" data-toggle="affix">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          {{>starterkit-organisms-header}}
+        </div>
+      </div>
+    </div>
+  </section>
+{{/commonHeaderFooterData}}
+
+<!-- Two Column Wrap -->
+<div class="two-column-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="image-description-layout">
+          {{>starterkit-atoms-headings}}
+          {{>starterkit-atoms-images}}
+          {{>starterkit-atoms-paragraph}}
+          {{#imgDescList}}
+            {{>starterkit-atoms-paragraph}}
+          {{/imgDescList}}
+          {{#classroomTable}}
+            {{>starterkit-organisms-responsive-table}}
+            {{>starterkit-atoms-paragraph}}
+          {{/classroomTable}}
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="relative-wrapper">
+          <div class="sidebar-wrapper">
+            <!-- Right side Social Icons -->
+            {{>starterkit-molecules-social-media}}
+            <!-- Back to top -->
+            {{>starterkit-organisms-back-to-top}}
+          </div>
+        </div>
+      </div>
+      <!-- Related Topics -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="related-topics-wrap">
+            {{#relatedTopics}}
+              {{>starterkit-atoms-headings}}
+              {{>starterkit-organisms-cards-3-column}}
+            {{/relatedTopics}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+{{#commonHeaderFooterData}}
+  <section class="hz-footer-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          {{>starterkit-organisms-footer}}
+        </div>
+      </div>
+      <div class="row mobileSocial hidden-desktop visible-mobile">
+        {{>starterkit-molecules-social-media}}
+        {{>starterkit-organisms-back-to-top}}
+      </div>
+    </div>
+  </section>
+{{/commonHeaderFooterData}}

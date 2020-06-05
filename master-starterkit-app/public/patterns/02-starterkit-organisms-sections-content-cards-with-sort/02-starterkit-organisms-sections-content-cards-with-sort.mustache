@@ -1,0 +1,26 @@
+{{#contentCardsSort}}
+  <div class="sort" id="{{sort-id}}">
+    {{>starterkit-atoms-form-label}}
+    <ul id="filter" class="hz-list">
+      <li data-value="everything" class="everything active" data-action="All">All</li>
+      <li data-value="lifestyle" class="lifestyle" data-action="Lifestyle">Lifestyle</li>
+      <li data-value="school" class="school" data-action="School">School</li>
+      <li data-value="health" class="health" data-action="Health">Health</li>
+      <li data-value="carrier" class="carrier" data-action="Carrier">Carrier</li>
+    </ul>
+  </div>
+  <div class="layout-cards">
+    {{#singleCardWrapper}}
+      <div class="{{singleCardClass}}" data-groups="{{cardArr}}">
+        {{>starterkit-organisms-image-cta-with-link}}
+      </div>
+    {{/singleCardWrapper}}
+    <div class="row">
+      {{#multiCardWrapper}}
+        <div class="{{singleCardClass}}" data-groups="{{cardArr}}">
+          {{>starterkit-organisms-image-cta-with-link}}
+        </div>
+      {{/multiCardWrapper}}
+    </div>
+  </div>
+{{/contentCardsSort}}

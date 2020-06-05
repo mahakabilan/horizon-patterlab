@@ -1,0 +1,18 @@
+{{#bracketComponent}}
+	<div class="brackets-wrapper"><!-- Wrapper div -->
+	{{>starterkit-atoms-headings}}
+		<div class="brackets-wrap">
+			<div class="row">
+			{{#bracketWrap}}
+				<div class="bracket-item {{bracketWidthClass}}"><!-- Item 1 -->
+					<span class="item-vertical-line"></span>
+					<div class="item-content">
+						{{>starterkit-atoms-headings}}
+						{{>starterkit-atoms-paragraph}}
+					</div>
+				</div>
+			{{/bracketWrap}}
+			</div>
+		</div>
+	</div>
+{{/bracketComponent}}

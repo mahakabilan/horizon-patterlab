@@ -1,0 +1,28 @@
+{{#videoBannerWrapper}}
+	<div class="header-container-wrap">
+		<div class="bg-stretch bg-stretch-img">
+			{{>starterkit-atoms-images}}
+		</div>
+		<div class="bg-stretch bg-video {{videoWrapperClass}}">
+            {{>starterkit-atoms-video-vimeo}}
+		</div>
+		{{#headerContentWrap}}
+			<div class="header-content-container">
+				<div class="header-content-wrap">
+					<div class="header-content">
+						{{>starterkit-atoms-headings}}
+						<div class="header-text-image">
+							{{>starterkit-atoms-images}}
+						</div>
+						{{>starterkit-atoms-links}}
+					</div>
+					<div class="header-content-scroll">
+					{{#videoBannerScroller}}	
+						{{>starterkit-atoms-links}}
+					{{/videoBannerScroller}}
+					</div>
+				</div>
+			</div>
+		{{/headerContentWrap}}
+	</div>
+{{/videoBannerWrapper}}

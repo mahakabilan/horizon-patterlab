@@ -1,0 +1,40 @@
+{{#footerAct}}
+  <footer class="{{footerActWrapClass}}">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <ul class="{{footListClass}}">
+            {{#footLinks}}
+              <li>
+                {{>starterkit-atoms-links}}
+              </li>
+            {{/footLinks}}
+          </ul>
+        </div>
+        <div class="col">
+          {{>starterkit-organisms-footer-nav}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>{{{paragraph.paraTxt}}}</p>
+          <p>{{{paragraph.paraTxt}}}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <div class="col">
+              {{>starterkit-atoms-images-link}}
+            </div>
+            <div class="col">
+              <p>{{copyrightTxt1}}</p>
+              <p>{{copyrightTxt2}}</p>
+              <p>{{copyrightTxt3}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+{{/footerAct}}

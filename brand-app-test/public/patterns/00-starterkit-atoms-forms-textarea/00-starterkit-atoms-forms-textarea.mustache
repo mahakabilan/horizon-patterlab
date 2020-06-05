@@ -1,0 +1,3 @@
+<div class="{{textarea.textareaParentClass}}">
+  <textarea {{# textarea.attributes }}{{ name }}="{{ value }}" {{/ textarea.attributes }} {{# textarea.required }} data-val-required="{{ errorMessage }}" {{/ textarea.required }}>{{{textarea.textContent}}}</textarea>
+</div>

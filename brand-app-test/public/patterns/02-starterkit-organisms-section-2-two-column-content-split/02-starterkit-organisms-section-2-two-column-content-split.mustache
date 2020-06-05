@@ -1,0 +1,20 @@
+{{# twoColumnContentSplit }}
+
+  <div class="col-md-{{ColVal}}">
+    <div class="twoColumnContentSplit {{bg-color-left}} {{padding}} {{bg-color}}">
+      {{#headings}}
+        {{>starterkit-atoms-headings}}
+      {{/headings}}
+      {{>starterkit-atoms-images}}
+
+      {{#para}}
+        {{>starterkit-atoms-paragraph}}
+      {{/para}}
+
+      {{>starterkit-atoms-links}}
+      {{#subDesc}}
+        {{>starterkit-atoms-paragraph}}
+      {{/subDesc}}
+    </div>
+  </div>
+  {{/twoColumnContentSplit}}

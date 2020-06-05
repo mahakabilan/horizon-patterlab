@@ -1,0 +1,17 @@
+{{#customLayoutRoleOfGenetics}}
+<div class="col-lg-10 role-of-genetics-graph">
+	{{>starterkit-atoms-headings}}
+	<img class="hidden-mobile" src="{{roleOfGeneticsDesktopimageURL}}" alt=""> 
+	<img class="hidden-desktop" src="{{roleOfGeneticsMobileImageURL}}" alt="">
+	{{#parentCarrier}}
+		{{>starterkit-atoms-paragraph}}
+	{{/parentCarrier}}	
+	{{#changeCarrierPositioning}}
+		<div class="positioning {{ChanceCarrierClass}}">
+		{{#chanceCarrier}}
+			{{>starterkit-atoms-paragraph}}
+		{{/chanceCarrier}}
+		</div>
+	{{/changeCarrierPositioning}}
+</div>
+{{/customLayoutRoleOfGenetics}}

@@ -1,0 +1,33 @@
+
+/*Image component for small, medium and large*/
+.small-screen-img, .medium-screen-img, .large-screen-img{
+	display: none !important;
+}
+
+@media  (max-width: $mob-breakpoint){
+	.small-screen-img{
+		display: block !important;
+	}
+	.small-screen-img[src=""]{ /*hide if there is no image authored for small screen*/
+		display: none !important;
+	}
+	.small-screen-img[src=""] ~ .large-screen-img{
+		display: block !important;
+	}
+}
+@media (min-width: 768px) and (max-width: $tablet-breakpoint-max){
+	.medium-screen-img{
+		display: block !important;
+	}
+	.medium-screen-img[src=""]{ /*hide if there is no image authored for medium screen*/
+		display: none !important;
+	}
+	.medium-screen-img[src=""] ~ .large-screen-img{
+		display: block !important;
+	}
+}
+@media  (min-width: 1024px){
+	.large-screen-img{
+		display: block !important;
+	}
+}

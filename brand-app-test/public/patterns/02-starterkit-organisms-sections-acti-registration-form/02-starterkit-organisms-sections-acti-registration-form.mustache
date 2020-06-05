@@ -1,0 +1,74 @@
+{{#actiRegistrationForm}}
+  <div class="layout--form2">
+    <div class="caption">
+      {{>starterkit-atoms-headings}}
+      {{>starterkit-atoms-paragraph}}
+    </div>
+    <form action="{{formAction}}" id="NurseregForm" class="nurse-reg-form">
+      <div class="form-group">
+        {{#instrWrapper}}
+          {{>starterkit-atoms-paragraph}}
+        {{/instrWrapper}}
+      </div>
+      <div class="form-group">
+        {{#userRadioButton}}
+          {{>starterkit-atoms-form-label}}
+          <fieldset class="radio-button-wrap">
+            {{#radioButtonList}}
+              {{>starterkit-atoms-radio-button}}
+            {{/radioButtonList}}
+          </fieldset>
+          <div class="hidden-msg">
+            {{>starterkit-atoms-paragraph}}
+          </div>
+        {{/userRadioButton}}
+      </div>
+      <div class="form-group">
+        {{#firstName}}
+          {{>starterkit-molecules-input-with-label}}
+        {{/firstName}}
+      </div>
+      <div class="form-group">
+        {{#lastName}}
+          {{>starterkit-molecules-input-with-label}}
+        {{/lastName}}
+      </div>
+      <div class="form-group">
+        {{#email}}
+          {{>starterkit-molecules-input-with-label}}
+        {{/email}}
+      </div>
+      <div class="form-group">
+        {{#confirmEmail}}
+          {{>starterkit-molecules-input-with-label}}
+        {{/confirmEmail}}
+      </div>
+      <div class="form-group">
+        {{#zipcode}}
+          {{>starterkit-molecules-input-with-label}}
+        {{/zipcode}}
+      </div>
+      <div class="form-group">
+        {{#phoneNumber}}
+          {{>starterkit-molecules-input-with-label}}
+        {{/phoneNumber}}
+      </div>
+      <div class="privacy_div">
+        {{#privacyWrapper}}
+          {{>starterkit-atoms-paragraph}}
+        {{/privacyWrapper}}
+      </div>
+      <div class="terms">
+        {{#termsAndConditionsWrapper}}
+          {{>starterkit-atoms-radio-button}}
+        {{/termsAndConditionsWrapper}}
+      </div>
+      <div class="form-group">
+        <button type="submit" class="cta-btn without-arrow">Sign up</button>
+      </div>
+    </form>
+    {{#suppCopyWrapper}}
+      {{>starterkit-atoms-paragraph}}
+    {{/suppCopyWrapper}}
+  </div>
+{{/actiRegistrationForm}}

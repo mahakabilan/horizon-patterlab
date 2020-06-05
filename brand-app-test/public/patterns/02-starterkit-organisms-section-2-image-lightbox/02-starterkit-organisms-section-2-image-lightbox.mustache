@@ -1,0 +1,17 @@
+{{#imageLightBoxWrapper}}
+  <div class="image-lightbox">
+    <div class="lightbox-wrapper">
+      <div class="image-wrapper">
+        <a href={{image-link}} title="{{image-caption}}" class='fancybox'>
+          {{>starterkit-atoms-images}}
+        </a>
+      </div>
+      <div class="content-wrapper">
+        {{>starterkit-atoms-paragraph}}
+      </div>
+    </div>
+    <figure>
+      <a href={{image-link}} title="{{image-caption}}" class='fancybox'>{{linkText}}</a>
+    </figure>
+  </div>
+{{/imageLightBoxWrapper}}

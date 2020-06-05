@@ -1,0 +1,115 @@
+.accordion-list-wrap{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 20px;
+	.accordion-img{
+		margin-right: 30px;
+		min-width: 167px;
+	}
+	.accordion-content{
+		h3{
+			margin-top: 0;
+			padding-top: 0;
+			margin-bottom: 5px;
+		}
+		span{
+			display: inline-block;
+			margin-bottom: 25px;
+		}
+		p{
+			margin-top: 0;
+		}
+	 	overflow: hidden;
+  	width: 100%;
+    display: block;
+    .panel-heading{
+    	position: relative;
+    	.acc-collapse{
+    		.open-close-opener {
+				  overflow: hidden;
+				  text-indent: -9999px;
+				  width: 22px;
+				  height: 22px;
+				  margin: 0 2px 0 10px;
+				  position: absolute;
+				  top: 0px;
+				  right: 0px; 
+				  &:before {
+				    position: absolute;
+				    top: 0;
+				    left: 10px;
+				    width: 2px;
+				    height: 22px;
+				    background-color: #C4C2C2;
+				    -webkit-transition: -webkit-transform .2s linear;
+				    transition: transform .2s linear;
+				    -webkit-transform: rotate(-90deg);
+			    	-ms-transform: rotate(-90deg);
+			    	transform: rotate(-90deg);
+				    content: ""; 
+				  }
+				  &:after {
+				    position: absolute;
+				    top: 10px;
+				    left: 0;
+				    background-color: #C4C2C2;
+				    width: 22px;
+				    height: 2px;
+				    content: ""; 
+				  }
+				}
+				&.collapsed{
+					.open-close-opener{
+						&:before{
+							-webkit-transform: rotate(0);
+						  -ms-transform: rotate(0);
+						  transform: rotate(0); 
+						}
+					}
+				}
+    	}
+    }
+		.acc-content-holder{
+			.collapse{
+				display: block;
+		    overflow: hidden;
+		    min-height: 94px;
+		    max-height: 94px;
+		    &.show{
+		    	max-height: none;
+		    	.readmore-link{
+		    		display: none;
+		    	}
+		    }
+			}
+	    .collapsing{
+	    	min-height: 94px;
+    	 	max-height: none;
+    	 	height: 0;
+    	 	.readmore-link{
+		    		display: none;
+		    	}
+	    }
+		}
+		.readmore-link{
+			position: absolute;
+	    bottom: -2px;
+	    right: 0;
+	    background-color: #ffffff;
+	    padding-left: 15px;
+		}
+	}
+	@media  (max-width: $mob-breakpoint){
+		display: block;
+		.accordion-content{
+			padding-top: 28px;
+		}
+		.accordion-img{
+			width: auto;
+		}
+	}
+}
+

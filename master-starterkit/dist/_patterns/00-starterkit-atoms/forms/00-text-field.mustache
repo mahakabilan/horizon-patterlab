@@ -1,0 +1,4 @@
+<div class="{{textInput.inputParentClass}}">
+	<input {{# textInput.attributes }}{{ name }}="{{ value }}" {{/ textInput.attributes }}
+	{{# textInput.required }} data-val-required="{{ errorMessage }}"{{/ textInput.required }}>
+</div>

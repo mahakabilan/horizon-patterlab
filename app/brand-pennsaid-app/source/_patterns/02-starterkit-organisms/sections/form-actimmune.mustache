@@ -1,0 +1,116 @@
+{{#formActimmune}}
+  <div class="content-container">
+    <div class="layout--content">
+      {{>starterkit-atoms-images}}
+      <div class="right-inner-content">
+        {{#rightContent}}
+          {{>starterkit-atoms-headings}}
+          {{>starterkit-atoms-paragraph}}
+          {{>starterkit-atoms-list}}
+        {{/rightContent}}
+      </div>
+    </div>
+    {{#formWrapper}}
+      <div class="{{ActimmuneFormClass}}">
+        <div class="caption">
+          {{#formCaption}}
+            {{>starterkit-molecules-heading-with-paragraph}}
+          {{/formCaption}}
+        </div>
+        <form action="{{formAction}}" novalidate="novalidate" id="regForm">
+          {{>starterkit-atoms-paragraph}}
+          {{#inputFirstName}}
+            {{>starterkit-molecules-input-with-label}}
+          {{/inputFirstName}}
+          {{#inputLastName}}
+            {{>starterkit-molecules-input-with-label}}
+          {{/inputLastName}}
+          {{#inputEmailAddress}}
+            {{>starterkit-molecules-input-with-label}}
+          {{/inputEmailAddress}}
+          {{#inputEmailAddressConfirm}}
+            {{>starterkit-molecules-input-with-label}}
+          {{/inputEmailAddressConfirm}}
+          {{#personailze}}
+            {{>starterkit-atoms-paragraph}}
+          {{/personailze}}
+          {{#checkOne}}
+          {{>starterkit-atoms-paragraph}}
+          <fieldset class="radio-button-wrap">
+            {{#radioButtonList}}
+              {{>starterkit-atoms-radio-button}}
+            {{/radioButtonList}}
+          </fieldset>
+          {{/checkOne}}
+          <div class="check-hide">
+            {{#checkFirst}}
+              {{>starterkit-atoms-paragraph}}
+            <fieldset class="radio-button-wrap">
+              {{#radioButtonList}}
+                {{#radioField}}
+                  <span class="field-validation-valid" data-valmsg-for="{{radioForID}}" data-valmsg-replace="true" ></span>
+                  <div class="form-check {{radioButtonClass}}">
+                    <input {{#attributes}} {{ name }}="{{ value }}" {{/attributes}} {{#required }} data-val-required="{{ errorMessage }}" {{/required }}>
+                    <label class="form-check-label {{radioLableClass}}" for="{{labelFor}}" data-patient-label="{{{patientLabelText}}}" data-caregiver-label="{{{caregiverLabelText}}}" data-patientcaregiver-errormsg="{{{PatientCaregiverErrorMessage}}}"></label>
+                  </div>
+                {{/radioField}}
+              {{/radioButtonList}}
+            </fieldset>
+            {{/checkFirst}}
+          </div>
+          <!-- <div class="check-hide-two">
+            {{#checkSecond}}
+              {{>starterkit-atoms-paragraph}}
+            <fieldset class="radio-button-wrap">
+              {{#radioButtonList}}
+               {{>starterkit-atoms-radio-button}}
+              {{/radioButtonList}}
+            </fieldset>
+            {{/checkSecond}}
+          </div> -->
+          {{#checkTwo}}
+            {{>starterkit-atoms-paragraph}}
+          <fieldset class="radio-button-wrap">
+            {{#radioButtonList}}
+              {{>starterkit-atoms-radio-button}}
+            {{/radioButtonList}}
+          </fieldset>
+          {{/checkTwo}}
+          <div class="check-display">
+            {{#addressOne}}
+             {{>starterkit-molecules-input-with-label}}
+            {{/addressOne}}
+            {{#addressTwo}}
+             {{>starterkit-molecules-input-with-label}}
+            {{/addressTwo}}
+            {{#cityInput}}
+              {{>starterkit-molecules-input-with-label}}
+            {{/cityInput}}
+            {{#stateInput}}
+              {{>starterkit-molecules-custom-dropdown}}
+            {{/stateInput}}
+            {{#zipCodeInput}}
+             {{>starterkit-molecules-input-with-label}}
+            {{/zipCodeInput}}
+          </div>
+          {{#consentText}}
+           {{>starterkit-atoms-paragraph}}
+          {{/consentText}}
+          {{#termCheckbox}}
+          <div class="radio-button-wrap terms-checkbox">
+            {{#radioField}}
+              <span class="field-validation-valid" data-valmsg-for="{{radioForID}}" data-valmsg-replace="true"></span>
+              <div class="form-check {{radioButtonClass}}">
+                <input {{#attributes}} {{ name }}="{{ value }}" {{/attributes}} {{#required }} data-val-required="{{ errorMessage }}" {{/required }}>
+                <label for=""></label>
+                <a href="#">{{{radioTxt}}}</a>
+              </div>
+            {{/radioField}}
+          </div>
+          {{/termCheckbox}}
+          <button type="submit" class="{{buttonClass}}">Submit</button>
+        </form>
+      </div>
+    {{/formWrapper}}
+  </div>
+{{/formActimmune}}

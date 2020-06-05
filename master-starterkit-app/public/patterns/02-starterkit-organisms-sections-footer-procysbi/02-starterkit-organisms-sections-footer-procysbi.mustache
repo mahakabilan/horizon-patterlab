@@ -1,0 +1,31 @@
+{{#footerProcysbi}}
+  <footer class="{{footerWrapperClass}}">
+    <div class="row {{flexDirection}}">
+      <div class="col-lg-3 left-col">
+        {{>starterkit-atoms-images-link}}
+      </div>
+      <div class="col-lg-8 right-col">
+        <div class="d-flex">
+          <ul>
+            {{#footLinks}}
+              <li>
+                {{>starterkit-atoms-links}}
+              </li>
+            {{/footLinks}}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row {{copyDirectionClass}}">
+      <div class="col-md-12">
+        <p>{{{copyrightTxt1}}}</p>
+        <p>{{copyrightTxt2}}</p>
+        <ul>
+          <li>{{{copyrightList1}}}</li>
+          <li>{{copyrightList2}}</li>
+          <li>{{{copyrightList3}}}</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+{{/footerProcysbi}}

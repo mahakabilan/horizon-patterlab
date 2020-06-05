@@ -1,0 +1,35 @@
+{{#hp-header}}
+  {{#topLogo}}
+    <div class="logo-holder">
+      <span class="logo">
+        {{>starterkit-atoms-images-link}}
+      </span>
+      {{>starterkit-atoms-links}}
+    </div>
+  {{/topLogo}}
+  {{#dropNavi}}
+    <div class="drop-nav">
+      {{#primaryNav}}
+        <nav class="menu-primary-navigation-container">
+          {{>starterkit-molecules-main-navigation}}
+        </nav>
+      {{/primaryNav}}
+      {{#secondNav}}
+        {{>starterkit-molecules-top-navigation}}
+        {{>starterkit-molecules-header-search}}
+        {{>starterkit-atoms-links}}
+        {{>starterkit-molecules-social-media}}
+      {{/secondNav}}
+      <div class="site-selector">
+        {{#siteSelectorHP}}
+          {{>starterkit-molecules-dropdown-selector}}
+        {{/siteSelectorHP}}
+      </div>
+    </div>
+    <div class="mobSearch">
+      {{#mobSearchWrapper}}
+        {{>starterkit-molecules-header-search}}
+      {{/mobSearchWrapper}}
+    </div>
+  {{/dropNavi}}
+{{/hp-header}}

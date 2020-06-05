@@ -1,0 +1,152 @@
+.dosageCalc {
+	&.has-error {
+		.error-text {
+			color: #BF0B0B;
+		}
+		.dosageCalc-ip {
+			border: 1px solid #BF0B0B !important;
+		}
+		button{
+			pointer-events: none;
+			opacity: 0.5;
+		}
+	}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	td {
+		text-align: center;
+		vertical-align: top;
+		padding: 0px;
+	}
+
+	p {
+		display: inline;
+	}
+
+	.error-text {
+		font-weight: bold;
+		display: block;
+		text-align: left;
+
+		&.has-error {
+			color: #BF0B0B;
+		}
+	}
+
+	.patientWeight {
+		width: 25%;
+		overflow: hidden;
+
+		.patientHeading {
+			padding: 15px;
+			background-color: #606463;
+			color: #fff;
+			font-size: 16px;
+			font-weight: 700;
+			border: 1px solid #dee2e6;
+
+			@media (max-width: 767px) {
+				text-align: left;
+				padding-left: 35px;
+			}
+		}
+
+		.dosageInput {
+			background-color: #d0d2d1;
+			font-size: 16px;
+			border: 1px solid #dee2e6;
+			height: 100%;
+		}
+
+		@media (max-width: 1023px) {
+			width: 100%;
+			display: block;
+		}
+	}
+
+	.dosageCalculation {
+		width: 74%;
+
+		.infusionHeading {
+			background-color: #606463;
+			color: #fff;
+			font-size: 16px;
+			font-weight: 700;
+			padding: 15px;
+			border: 1px solid #dee2e6;
+		}
+
+		.cellBg {
+			background-color: #d0d2d1;
+			padding: 15px;
+			font-size: 16px;
+			border: 1px solid #dee2e6;
+		}
+
+		.cellWoBg {
+			padding: 15px;
+			font-size: 16px;
+			border: 1px solid #dee2e6;
+		}
+
+		@media (max-width: 767px) {
+			width: 100%;
+			display: block;
+		}
+
+		.column-width {
+			width: 50%;
+			display: inline-block;
+			vertical-align: top;
+		}
+	}
+
+	.dosageCalc-wrap {
+		padding: 20px;
+
+		h5 {
+			padding: 10px 0;
+			margin: 0;
+
+			@media (max-width: 767px) {
+				display: inline-block;
+				padding: 0 10px;
+				padding: 5px;
+			}
+		}
+
+		.dosageCalc-ip {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: #fff;
+			border-radius: 3px;
+			padding: 5px;
+			border: 1px solid transparent;
+
+			input {
+				border: 0;
+				width: 100px;
+				background-color: transparent;
+
+				@media (max-width: 767px) {
+					width: 70px;
+				}
+			}
+
+			label {
+				margin: 0;
+			}
+
+			@media (max-width: 767px) {
+				display: inline-block;
+				border: 1px solid #606463;
+				border-radius: 7px;
+			}
+		}
+	}
+}

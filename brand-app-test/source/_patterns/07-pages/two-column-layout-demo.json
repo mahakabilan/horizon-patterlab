@@ -1,0 +1,351 @@
+{
+	"twoColumnLayoutDemo":{
+		"rightRail": {
+	  	"socialLinks":{},
+	    "asideLinks": [
+	    	{
+	    		"className":"",
+    			"links": {
+	          "link":"#intro-section",
+	          "linkClass":"",
+	          "linkTxt":"An intro to cystinosis"
+	        }
+	    	},
+	      {
+	    		"className":"",
+	      	"links": {
+	          "link":"#understanding-cystine",
+	          "linkClass": "",
+	          "linkTxt": "Understanding cystinosis"
+	        }
+	      },
+	      {
+	    		"className":"",
+	      	"links": {
+	          "link": "#how-passed-down",
+	          "linkClass": "",
+	          "linkTxt": "How cystinosis is passed down"
+	        }
+	      },
+	      {
+	    		"className":"",
+	      	"links": {
+	          "link": "#how-it-affects",
+	          "linkClass": "",
+	          "linkTxt": "How cystinosis affects the body"
+	        }
+	      }
+	    ],
+	    "linkIcons": [
+	      {
+	        "links": {
+	          "link": "#",
+	          "linkClass": "link-with-image",
+	          "linkTxt": "Download this page",
+	          "imageList": {
+				      "imgPath": "../../images/starterkit/download.png",
+				      "imgAlttxt": "alt text"
+				    }
+	        }
+	      },
+	      {
+	        "links": {
+	          "link": "#",
+	          "linkClass": "link-with-image",
+	          "linkTxt": "Cystinosis glossary of words",
+	          "imageList": {
+				      "imgPath": "../../images/starterkit/tool-tip.png",
+				      "imgAlttxt": "alt text"
+				    }
+	        }
+	      }
+	    ]
+	  },
+	  "quickLinks":{
+	  	"rightRail": {
+		  	"socialLinks":"",
+		    "asideLinks": [
+		      {
+		    		"className":"visible-mobile",
+		      	"links": {
+		          "link":"#understanding-cystine",
+		          "linkClass": "",
+		          "linkTxt": "Understanding cystinosis"
+		        }
+		      },
+		      {
+		    		"className":"visible-mobile",
+		      	"links": {
+		          "link": "#how-passed-down",
+		          "linkClass": "",
+		          "linkTxt": "How cystinosis is passed down"
+		        }
+		      },
+		      {
+		    		"className":"visible-mobile",
+		      	"links": {
+		          "link": "#how-it-affects",
+		          "linkClass": "",
+		          "linkTxt": "How cystinosis affects the body"
+		        }
+		      }
+		    ],
+		    "linkIcons": ""
+		  }
+	  },
+		"videoBoxWrap": {
+	    "headingTag": "h1",
+	    "headingTxt":"What is cystinosis?",
+	    "paragraph":{
+	      "paraTxt":"Whether your cystinosis journey has just begun or you've been living with the disease for a long time, understanding what's going on in the body can help. Cystinosis is a rare, genetic disease. It's caused by a buildup of cystine. This buildup causes crystals to form and harm the body.",
+	      "paraClass":""
+	    },
+
+	    "videoBox": {
+	      "headingTag": "h2",
+	      "headingTxt":"An intro to cystinosis",
+	      "videoBoxContent": "Learn the basic facts about the disease and how to manage it.",
+	      "videoBoxHiddenContent": "Cystinosis is a rare disease that affects about 500 to 600 children and adults in the United States. Cystinosis is a genetic disorder, which means a person is born with it. It occurs when both parents pass down a specific gene that doesn’t work right. In people with cystinosis an amino acid called cystine gets trapped inside the cells, builds up, and forms crystals. People with cystinosis cannot feel the rise in cystine levels. But over time, the buildup of crystals causes damage to every cell and organ in the body. Signs of damage usually start in the kidneys and eyes. Damage cannot be undone but it can be slowed down. Keeping cystine levels low is the main way to slow this damage. Current treatments for cystinosis are called cystine-depleting therapies, or CDTs. CDTs help keep cystine levels low by removing cystine. If a dose is delayed or missed, cystine levels can rise very quickly, which may lead to damage in the future. So it’s important to take the dose your doctor recommends on time, every time. Work with your healthcare team and your doctor to schedule routine cystine level tests. Cystine level tests measure the amount of cystine in your cells. They also help your doctor make sure you’re getting the right amount of cystine-depleting therapy. Careful planning with your healthcare team and routine tests can help with the management of your cystinosis.",
+	      "links": {
+	        "link": "#",
+	        "linkClass": "video-show-content",
+	        "linkTxt": "Read the full video transcript",
+	        "fontAwesomeIconClass": "fa fa-plus"
+	      }
+	    }
+	  },
+	  "imageCarousal":{
+	    "carousalWrapperClass":"",
+	    "carousalName":"master-carousal",
+	    "headingTag": "h2",
+	    "headingTxt":"Understanding cystinosis",
+	    "carousalContent":[
+	      {
+	        "carousalSubHeading":"Cystinosis is",
+	        "headingTag": "h1",
+	        "headingTxt": "RARE.",
+	        "imageList": {
+	          "imgPath": "../../images/starterkit/rare.png"
+	        },
+	        "imageContent":"About 500 to 600 people in the United States have cystinosis. An estimated 20 new cases of cystinosis are diagnosed each year."
+	      },
+	      {
+	        "carousalSubHeading":"Cystinosis is",
+	        "headingTag": "h1",
+	        "headingTxt": "GENETIC.",
+	        "imageList": {
+	          "imgPath": "../../images/starterkit/genetic.png"
+	        },
+	        "imageContent":"Cystinosis is inherited, means it's passed down in a person's genes. Some people may be carriers od the disease. Carriers doesn't have the disease, but they can pas it on to their children."
+	      },
+	      {
+	      	"carousalSubHeading":"Cystinosis is",
+	        "headingTag": "h1",
+	        "headingTxt": "HARMFUL TO THE WHOLE BODY.",
+	        "imageList": {
+	          "imgPath": "../../images/starterkit/harms-whole-body.png"
+	        },
+	        "imageContent":"In people with cystinosis, an amino acid called cystine gets trapped inside cells. This causes harm or damage to every cell and organ in the body. A person may not feel the damage, but it can be happening even there are no signs or symptoms."
+	      },
+	      {
+	      	"carousalSubHeading":"Cystinosis is",
+	        "headingTag": "h1",
+	        "headingTxt": "PROGRESSIVE.",
+	        "imageList": {
+	          "imgPath": "../../images/starterkit/progressive.png"
+	        },
+	        "imageContent":"Cystinosis gets worse  over time, and damage to cells cannot be undone. The goal of treatment is to slow down damage to the body by reducing cystine buildup in cells."
+	      }
+
+	    ]
+	  },
+	  "contentBox": {
+	    "headingTag":"h4",
+	    "headingTxt":"The 3 types of cystinosis",
+	    "contentWithLink": {
+	      "contentDesc1": "Nephropathic or classic infantile cystinosis is the most common form of the disease. It is also the most serious. About 95% of people with cystinosis have this type. Symptoms usually appear early in the first year of life, and it's a lifelong disease.",
+	      "links": {
+			    "link": "#",
+			    "linkClass": "",
+			    "linkTxt": "Learn about a medicine for nephropathic cystinosis"
+			  },
+	      "contentDesc2": "Intermediate or juvenile cystinosis is a less serious form of the disease. It may not be diagnosed until a person is a teenager. Ocular or nonnephropathic cystinosis is the least serious form of the disease and only affects the eyes."
+	      },
+	    "contentWithBtn": "",
+	    "imageOnly": ""
+	  },
+	  "howPassedDown":{
+	    "headingTag":"h2",
+	    "headingTxt":"How cystinosis is passed down",
+	    "paragraph":{
+		    "paraTxt":"Cystinosis isn't something you can catch from another person. It's a genetic condition, which means a child is born with it. A child can get cystinosis if both parents are carriers of the disease. A child gets cystinosis when the specific gene that doesn't work right is passed down from both parents.",
+		    "paraClass":""
+		  },
+      "contentBox": {
+        "headingTag":"h4",
+        "headingTxt":"Chances of a carrier couple having a child with cystinosis",
+        "contentWithLink": "",
+        "contentWithBtn": "",
+        "imageOnly": {
+          "imageList": {
+				    "imgPath": "../../images/starterkit/passed-down-dt.png",
+				    "imgAlttxt": "alt text",
+				    "imgLink": "#"
+					}
+        }
+      },
+      "paraUnderImage":{
+      	"paragraph":{
+			    "paraTxt":"When two carriers have a child, there is a 25% chance that the child will have cystinosis and a 50% chance of the child being a carrier.",
+			    "paraClass":""
+			  }
+      }
+	  },
+	  "howItAffects":{
+	    "headingTag":"h2",
+	    "headingTxt":"How cystinosis affects the body",
+	    "paragraph":{
+		    "paraTxt":"In people with cystinosis, cystine gets trapped in the cells. This causes cystine levels to rise. When cystine levels rise, crystals form that lead to harm to the body.",
+		    "paraClass":""
+		  },
+	    "imageAsideHead":{
+	      "headingTag":"h4",
+	      "headingTxt":"What cystinosis looks like in the cells",
+	      "paragraph":{
+			    "paraTxt":"Human cells are like little factories in the body. They do a lot of work to help keep the body healthy. But in people with cystinosis, a part of the cell called the 'lysosome' doesn't work right.",
+			    "paraClass":""
+			  }
+			},
+		  "imageAsideRight":{
+		    "asideImgClass":"img-right",
+		    "imageList": {
+		      "imgPath": "../../images/starterkit/lysosome-dt.png"
+		    },
+		    "headingTag": "h4",
+		    "headingTxt":"Lysosome in a person without cystinosis",
+		    "imageAsideContent":"In a person without cystinosis, cystine is removed from the lysosome and used normally."
+	    },
+	    "imageAsideLeft":{
+		    "asideImgClass":"img-left",
+		    "imageList": {
+		      "imgPath": "../../images/starterkit/lysosome-dt-2.png"
+		    },
+		    "headingTag": "h4",
+		    "headingTxt":"Lysosome in a person with cystinosis",
+		    "imageAsideContent":"In a person with cystinosis, cystine can be removed, so it builds up and forms crystals. These crystals lead to damage in cells and organs all over the body."
+		  },
+	    "links": {
+        "link": "#",
+        "linkClass": "",
+        "linkTxt": "Learn how to keep your cystine levels low with medicine"
+      },
+	    "tabComp":{
+	      "headingTag":"h4",
+	      "headingTxt":"How cystinosis can harm the body over time",
+	      "paragraph":{
+			    "paraTxt":"Cystinosis harms the body little by little over time. This means that new cystinosis issues can appear at different ages. Cystinosis can also progress differently in each person. The age when new damage appears can be different for every person. The amount of damage to the body and the rate at which it occurs is related to how well a person manages his or her condition. Click on the tabs to see common signs of cystinosis at different life stages.",
+			    "paraClass":""
+			  },
+			  "tab": {
+			    "tabWrapperClass":"hz-tabs",
+			    "tabLinks": [
+			      {
+			        "isActiveClass": "active",
+			        "tabId": "#id1",
+			        "text": "Infants"
+			      },
+			      {
+			        "isActiveClass": "",
+			        "tabId": "#id2",
+			        "text": "Children"
+			      },
+			      {
+			        "isActiveClass": "",
+			        "tabId": "#id3",
+			        "text": "Adults"
+			      }
+			    ],
+			    "tabContent": [
+			      {
+			        "isActiveClass": "show active",
+			        "tabId": "id1",
+			        "imageList": {
+						    "imgPath": "../../images/starterkit/bodymap-infant-dt.jpg",
+						    "imgAlttxt": "alt text",
+						    "imgLink": "#",
+						    "linkClass": ""
+						  }
+			      },
+			      {
+			        "isActiveClass": "",
+			        "tabId": "id2",
+			        "imageList": {
+						    "imgPath": "../../images/starterkit/bodymap-child-dt.jpg",
+						    "imgAlttxt": "alt text",
+						    "imgLink": "#",
+						    "linkClass": ""
+						  }
+			      },
+			      {
+			        "isActiveClass": "",
+			        "tabId": "id3",
+			        "imageList": {
+						    "imgPath": "../../images/starterkit/bodymap-adult-dt.jpg",
+						    "imgAlttxt": "alt text",
+						    "imgLink": "#",
+						    "linkClass": ""
+						  }
+			      }
+			    ]
+			  },
+	      "listWithHead":{
+      		"headingTag":"h4",
+		      "headingTxt":"Fanconi syndrome and cystinosis",
+		      "paragraph":{
+				    "paraTxt":"Fanconi syndrome is a type of kidney disease. It is often the first sign of cystinosis. It can lead to:",
+				    "paraClass":""
+				  },
+		      "listWrap":{
+				    "listType":"ul",
+				    "listClass":"syndrome-list",
+				    "list":[
+				      {
+				          "listItem":"The body losing important substances needed for good health"
+				      },
+				      {
+				          "listItem":"Needing to pee (urinate) a lot"
+				      },
+				      {
+				          "listItem":"Extreme thirst or dehydration"
+				      },
+				      {
+				          "listItem":"A softening or weakening of the bones, commonly called rickets"
+				      }
+				    ]
+				  }
+	      },
+	      "links": {
+	        "link": "#",
+	        "linkClass": "syndrome-link",
+	        "linkTxt": "Learn about medicines that may help delay cystinosis damage"
+	      }
+	    }
+	  },
+   	"contentBoxWithBtn":{
+	    "contentBox": {
+	      "headingTag":"h4",
+	      "headingTxt":"Download this page",
+	      "imageOnly": "",
+	      "contentWithLink": "",
+	      "contentWithBtn": {
+          "contentDesc1": "Share this information with family and friends. You can also share it with your doctor when you talk about the best way to manage cystinosis.",
+        	"button": {
+				    "buttonText": "Download now",
+				    "buttonClass": "cta-btn",
+				    "fontAwesomeIconClass": "fa fa-caret-right"
+				  }
+	      }
+	    }
+	  }
+	}
+}

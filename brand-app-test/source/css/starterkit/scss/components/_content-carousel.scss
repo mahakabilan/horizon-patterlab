@@ -1,0 +1,63 @@
+.slick-prev:before,
+.slick-next:before {
+	color: #333 !important;
+}
+
+.content-carousel-wrap {
+	padding: 10px;
+
+	.content-carousel {
+		padding: 10px 0;
+		display: none;
+
+		&.slick-initialized {
+			display: block;
+		}
+	}
+
+	.slick-slide {
+		img {
+			margin: 0 auto;
+
+			&.align-left {
+				margin: 0;
+			}
+		}
+
+		h2 {
+			text-align: center;
+		}
+	}
+
+	.slick-arrow {
+		z-index: 1;
+		@media (min-width: 768px) {
+			&.slick-prev {
+				left: 0;
+			}
+
+			&.slick-next {
+				right: 0;
+			}
+		}
+	}
+}
+
+.next-arrow .withHover {
+    display: none;
+}
+.next-arrow:hover .withoutHover {
+    display: none;
+}
+.next-arrow:hover .withHover {
+    display: block;
+}
+.prev-arrow .withHover {
+    display: none;
+}
+.prev-arrow:hover .withoutHover {
+    display: none;
+}
+.prev-arrow:hover .withHover {
+    display: block;
+}

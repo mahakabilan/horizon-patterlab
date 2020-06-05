@@ -1,0 +1,17 @@
+/* Font declarations */
+@import "font-awesome.scss";
+
+
+@font-face {
+  font-family: 'Lora';
+  src: url("../../fonts/starterkit/lora/Lora-Regular.eot");
+  src: url("../../fonts/starterkit/lora/Lora-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/starterkit/lora/Lora-Regular.ttf") format("truetype"), url("../../fonts/starterkit/lora/Lora-Regular.svg#Lora-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+  
+@font-face {
+font-family: 'Lora';
+src: url("../../fonts/starterkit/lora/Lora-Bold.eot");
+src: url("../../fonts/starterkit/lora/Lora-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/starterkit/lora/Lora-Bold.ttf") format("truetype"), url("../../fonts/starterkit/lora/Lora-Bold.svg#Lora-Bold") format("svg");
+font-weight: bold;
+font-style: normal; }

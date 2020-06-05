@@ -1,0 +1,33 @@
+{{#isiPanel}}
+<div class="isi-tray-wrapper {{isiFixedClass}}">
+	<div class="isi-tray-main-div">
+		{{>starterkit-molecules-heading-with-paragraph}}
+		{{#isiParagraph}}
+			{{>starterkit-molecules-heading-with-paragraph}}
+		{{/isiParagraph}}
+		<div class="buttons">
+			{{>starterkit-atoms-links}}
+		</div>    
+		{{#isiContent}}
+			{{>starterkit-molecules-heading-with-paragraph}}
+			{{>starterkit-atoms-list}}
+		{{/isiContent}}
+
+		{{#isiCentral}}
+			{{>starterkit-atoms-paragraph}}
+			{{#isiInfo}}
+			{{>starterkit-molecules-heading-with-paragraph}}
+			{{/isiInfo}}
+			{{>starterkit-atoms-headings}}
+			{{>starterkit-atoms-list}}
+		{{/isiCentral}}
+
+		{{#isiBottom}}
+			{{>starterkit-atoms-paragraph}}
+		{{/isiBottom}}
+		{{#isiEnd}}
+		{{>starterkit-molecules-heading-with-paragraph}}
+		{{/isiEnd}}
+	</div>	
+</div>
+{{/isiPanel}}

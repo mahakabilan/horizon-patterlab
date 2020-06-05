@@ -1,0 +1,14 @@
+.contentBlock {
+    text-align: center;
+    padding: 20px;
+    .link-heading{
+        text-transform: uppercase;
+    }
+}
+.button-gradient{
+    color:$white-color;
+    background: rgb(206,25,124);
+    background: linear-gradient(90deg, rgba(206,25,124,1) 0%, rgba(134,35,106,1) 100%);
+    border-radius: 27px;
+    padding: 10px 20px;
+}

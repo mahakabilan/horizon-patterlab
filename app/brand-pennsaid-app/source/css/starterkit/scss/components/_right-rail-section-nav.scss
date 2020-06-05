@@ -1,0 +1,44 @@
+.aside-nav {
+  width: 100%;
+  ul{
+    list-style-type: none;
+    padding-left: 0;
+  }
+  li {
+    padding: 8px 0;
+    margin: 0;
+
+    &.active {
+      font-weight: bold;
+    }
+
+    a {
+      display: block;
+      color: $base-blue-color;
+      font-family: "Roboto", sans-serif !important;
+    }
+
+    .social-media {
+      ul {
+        margin-left: -10px;
+        margin-right: -10px;
+      }
+
+      li {
+        padding: 0;
+      }
+    }
+
+    &.link-icons i.fa,
+    &.link-icons i.far {
+      padding-left: 5px;
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 1023px){
+    li{
+        padding: 15px 10px !important;
+        border-bottom: 1px solid #E1E1E1;
+    }
+  }
+}

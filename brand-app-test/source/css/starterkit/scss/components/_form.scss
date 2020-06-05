@@ -1,0 +1,163 @@
+.form-wrapper {
+	background-color: $alt-grey-color;
+	padding: 30px 25px;
+
+	form {
+		select.form-control {
+			margin-bottom: 20px;
+		}
+
+		.form-control {
+			margin: 0px 0 10px;
+			border-radius: 0;
+		}
+
+		input {
+
+			&[type="text"],
+			&[type="email"] {
+				border: 1px solid #58585B;
+			}
+
+			&[type="text"]:focus,
+			&[type="email"]:focus {
+				outline: 5px auto -webkit-focus-ring-color;
+				-webkit-box-shadow: none;
+				-moz-box-shadow: none;
+				box-shadow: none;
+			}
+		}
+
+		label {
+			margin-bottom: 5px;
+			margin-top: 10px;
+		}
+
+		fieldset {
+			margin-bottom: 15px;
+		}
+
+		select {
+			width: 100%;
+		}
+
+		.radio-button-wrap {
+			position: relative;
+
+			input[type=radio] {
+				position: absolute;
+				opacity: 0;
+				width: 20px;
+				height: 20px;
+				z-index: 99;
+				top: 7px;
+				cursor: pointer;
+			}
+
+			input[type=radio]+label {
+				padding-left: 15px;
+				vertical-align: middle;
+				display: inline-block;
+				cursor: pointer;
+
+				&:before {
+					content: "";
+					display: inline-block;
+					width: 20px;
+					height: 20px;
+					position: absolute;
+					left: 0px;
+					top: 12px;
+					border: 1px solid $base-blue-color;
+					border-radius: 50%;
+					background-color: $white-color;
+				}
+			}
+
+			input[type=radio]:checked+label:after {
+				background-color: #2E3191;
+				content: "";
+				display: inline-block;
+				width: 14px;
+				height: 14px;
+				position: absolute;
+				left: 3px;
+				top: 15px;
+				border-radius: 50%;
+			}
+		}
+
+		.subscribe-snail-mail {
+			display: none;
+		}
+
+		.checkbox-styled {
+			position: relative;
+
+			input[type=checkbox] {
+				position: absolute;
+				opacity: 0;
+				width: 20px;
+				height: 20px;
+				z-index: 99;
+				top: 7px;
+				cursor: pointer;
+			}
+
+			input[type=checkbox]+label {
+				padding-left: 15px;
+				vertical-align: middle;
+				display: inline-block;
+				cursor: pointer;
+
+				&:before {
+					content: "";
+					display: inline-block;
+					width: 20px;
+					height: 20px;
+					position: absolute;
+					left: 0px;
+					top: 12px;
+					border: 1px solid $base-blue-color;
+					background-color: $white-color;
+				}
+			}
+
+			input[type=checkbox]:checked+label:after {
+				background-color: #2E3191;
+				content: "";
+				display: inline-block;
+				width: 14px;
+				height: 14px;
+				position: absolute;
+				left: 3px;
+				top: 15px;
+			}
+		}
+
+		.cta-btn {
+			margin: 20px 0 0;
+		}
+
+		.field-validation-error span {
+			color: #FF0000;
+			font-size: 14.4px;
+		}
+
+		.privacy-notice {
+			position: relative;
+
+			.radio-flex {
+				display: flex;
+				flex-direction: row-reverse;
+				justify-content: flex-end;
+				align-items: center;
+
+				.field-validation-error {
+					margin-top: 5px;
+					margin-left: 5px;
+				}
+			}
+		}
+	}
+}

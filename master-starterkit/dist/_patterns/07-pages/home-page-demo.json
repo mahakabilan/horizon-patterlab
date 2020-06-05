@@ -1,0 +1,143 @@
+{
+	"homePageDemo":{
+		"ctaBannerCloseImg":"../../images/starterkit/collapse-white.png",
+	  "heroBanner": {
+	    "bannerClass": "hero-banner",
+	    "headingTag": "h1",
+	    "headingClass": "",
+	    "headingTxt": "United to live well with cystinosis",
+	    "bannerContent": "A community can help you find your way on your cystinosis journey. Whether you're a patient, caregiver, sibling, or spouse, unity makes choices—big and small—less complicated. ",
+	    "links": {
+	      "link": "#",
+	      "linkClass": "",
+	      "linkTxt": "Get tips to help with everyday living"
+	    },
+	    "imageList": {
+		    "imgPath": "../../images/starterkit/home-banner.jpg",
+		    "imgAlttxt": "alt text"
+		  }
+	  },
+	  "featuredContentCollage": {
+	  	"imageTile": {
+		    "imageList": {
+			    "imgPath": "../../images/starterkit/treatment-main.jpg",
+			    "imgAlttxt": "alt text"
+			  },
+		    "headingTag":"h3",
+					      "headingTxt": "Finding a cystinosis treatment that's right for you",
+		    "imageDescription": "We give you information to help you understand your treatment options so you can have a meaningful discussion with your doctor."
+		  },
+	    "headingTag": "h2",
+	    "headingTxt": "We're Cystinosis United, and we're glad you're here",
+	    "collageContent": "Cystinosis United is a part of a growing community of people—like you—who want to live their best lives with this rare disease. By uniting to share experiences and tips, people with cystinosis grow stronger, more confident, and better prepared to face the unique challenges of this condition.",
+	    "leftColumnClass": "staticLeftColumn",
+	    "cards2Column": {
+	      "wrapperClass": "",
+	      "cards2Images": [
+	      	{
+	      		"imageTile": {
+	      			"imageList": {
+						    "imgPath": "../../images/starterkit/living.jpg",
+						    "imgAlttxt": "alt text"
+						  },
+					    "headingTag":"h3",
+					      "headingTxt": "What is cystinosis?",
+					    "imageDescription": "Get information about cystinosis that's easy to understand from reliable sources."
+					  }
+				  },
+				  {
+	      		"imageTile": {
+	      			"imageList": {
+						    "imgPath": "../../images/starterkit/advocate.jpg",
+						    "imgAlttxt": "alt text"
+						  },
+						  "headingTag":"h3",
+					      "headingTxt": "Tips for advocating for yourself or your child",
+					    "imageDescription": "Learn how to speak up and be heard."
+					  }
+				  },
+				  {
+	      		"imageTile": {
+	      			"imageList": {
+						    "imgPath": "../../images/starterkit/wbc.png",
+						    "imgAlttxt": "alt text"
+						  },
+					  	"headingTag":"h3",
+					      "headingTxt": "Track your cystine levels",
+					    "imageDescription": "One of the most important things you can do is check and keep track of your cystine levels."
+					  }
+				  },
+				  {
+	      		"imageTile": {
+	      			"imageList": {
+						    "imgPath": "../../images/starterkit/bullying.jpg",
+						    "imgAlttxt": "alt text"
+						  },
+					  	"headingTag":"h3",
+					      "headingTxt": "School and bullying",
+					    "imageDescription": "Advice for dealing with social issues your child may face."
+					  }
+				  }
+	      ]
+	    }
+	  },
+	  "cta": {
+	    "headingTag": "h4",
+	    "headingTxt":"Cystinosis United: where people living with cystinosis come together",
+	    "ctaContent": "Join our community, and we'll send information about living with cystinosis to your inbox.",
+	    "textInput": {
+	      "inputParentClass": "email-input col-md-6",
+	      "attributes": [{
+	          "name": "id",
+	          "value": "email"
+	        },
+	        {
+	          "name": "autoComplete",
+	          "value": "off"
+	        },
+	        {
+	          "name": "class",
+	          "value": "form-control"
+	        },
+	        {
+	          "name": "placeholder",
+	          "value": "Email Address"
+	        },
+	        {
+	          "name": "type",
+	          "value": "email"
+	        },
+	        {
+	          "name": "data-minlength",
+	          "value": "2"
+	        },
+	        {
+	          "name": "data-minlength-error",
+	          "value": "Invalid First Name"
+	        },
+	        {
+	          "name": "maxlength",
+	          "value": "60"
+	        },
+	        {
+	          "name": "aria-label",
+	          "value": "Email"
+	        }
+	      ],
+	      "required": {
+	        "errorMessage": "Email is required"
+	      }
+	    },
+	    "links": {
+	      "link": "#",
+	      "linkClass": "cta-btn",
+	      "linkTxt": "Get connected",
+	      "imageList": ""
+	    },
+	    "imageList": {
+	      "imgPath": "../../images/starterkit/cta-bg.png",
+	      "imgAlttxt": "alt text"
+	    }
+	  }
+	}
+}

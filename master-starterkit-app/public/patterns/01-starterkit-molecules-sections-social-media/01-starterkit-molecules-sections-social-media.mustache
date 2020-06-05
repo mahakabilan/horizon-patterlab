@@ -1,0 +1,15 @@
+{{#socialMedia}}
+  <div class="social-media {{wrapperClass}}">
+    <ul class="{{socialMediaIconsClass}}">
+      {{#socialMediaList}}
+        <li>
+          <a href="{{Link}}" class="{{SocialClass}}" target="_blank">
+            {{#socialMediaSpan}}
+              <span>{{{socialIconText}}}</span>
+            {{/socialMediaSpan}}
+          </a>
+        </li>
+      {{/socialMediaList}}
+    </ul>
+  </div>
+{{/socialMedia}}

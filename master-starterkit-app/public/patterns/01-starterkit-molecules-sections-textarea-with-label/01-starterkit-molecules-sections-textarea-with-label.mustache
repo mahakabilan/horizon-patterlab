@@ -1,0 +1,9 @@
+{{#textareaWithLabel}}
+  <div class="form-group">
+    {{>starterkit-atoms-form-label}}
+    {{>starterkit-atoms-textarea}}
+    {{#validationField}}
+      <span class="field-validation-valid" data-valmsg-for="{{labelFor}}" data-valmsg-replace="true"></span>
+    {{/validationField}}
+  </div>
+{{/textareaWithLabel}}

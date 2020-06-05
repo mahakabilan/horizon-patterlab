@@ -1,0 +1,105 @@
+{{#tabWithAccordion}}
+<div class="hz-tabs {{tabWrapperClass}}">
+  <ul class="nav nav-tabs">
+    {{#tabLinks}}
+    <li class="nav-item {{navColClass}}">
+      <a class="nav-link {{isActiveClass}}" data-toggle="tab" href="{{tabId}}">{{text}}</a>
+    </li>
+    {{/tabLinks}}
+  </ul>
+  <div class="tab-content">
+  {{#tabContent}}
+    <div class="tab-pane {{isActiveClass}}" id="{{tabId}}">
+      {{>starterkit-atoms-paragraph}}
+      <hr>
+      {{#accordionList}}
+      <div class="accordion-list-wrap">
+        <div class="accordion-img">
+          {{>starterkit-atoms-images}}
+        </div>
+        <div class="accordion-content">
+          {{#toggle}}
+          <div class="panel-heading">
+            <div class="panel-title">
+              <a class="acc-collapse collapsed {{linkClass}}" href="#{{targetLink}}" data-toggle="collapse"  role="button" aria-controls="{{collapseName}}" data-target="#{{targetLink}}">
+                {{>starterkit-atoms-headings}}
+                <span>{{position}}</span>
+                <span class="open-close-opener pull-right"></span>
+              </a>
+            </div>
+          </div>
+          <div class="acc-content-holder">
+            <div class="collapse" id="{{targetLink}}">
+              <div class="panel-body">
+                {{#accContent}}
+                  {{>starterkit-atoms-paragraph}}
+                {{/accContent}}
+                {{#absLink}}
+                  <a class="{{linkClass}}" href="#{{targetLink}}" data-toggle="collapse" role="button" aria-controls="{{collapseName}}" data-target="#{{targetLink}}"> {{linkTxt}}
+                  </a>
+                {{/absLink}}
+              </div>
+            </div>
+          </div>
+          {{/toggle}}
+        </div>
+      </div>
+      {{/accordionList}}
+    </div>
+  {{/tabContent}}
+  {{#tabContent1}}
+      {{#leftTab1}}
+        <div class="tab-pane {{isActiveClass}}" id="{{tabId}}">
+          {{>starterkit-atoms-headings}}
+          {{>starterkit-atoms-paragraph}}
+          {{>starterkit-atoms-images}}
+          {{#lastPara}}
+            {{>starterkit-atoms-paragraph}}
+          {{/lastPara}}
+        </div>
+      {{/leftTab1}}
+      {{#rightTab1}}
+        <div class="tab-pane {{isActiveClass}}" id="{{tabId}}">
+          {{>starterkit-atoms-headings}}
+          {{>starterkit-atoms-paragraph}}
+          {{#tabSecHeader}}
+            {{>starterkit-atoms-headings}}
+            {{>starterkit-atoms-paragraph}}
+          {{/tabSecHeader}}
+          {{>starterkit-molecules-multi-column-list}}
+        </div>
+      {{/rightTab1}}
+  {{/tabContent1}}
+  {{#tabContent3}}
+    {{#leftTab3}}
+      <div class="tab-pane {{isActiveClass}}" id="{{tabId}}">
+        <div class="row">
+          <div class="col-md-5">
+            {{#leftWrapper}}
+              {{>starterkit-atoms-paragraph}}
+              {{#secPara}}
+                {{>starterkit-atoms-paragraph}}
+              {{/secPara}}
+            {{/leftWrapper}}
+          </div>
+          <div class="col-md-6">
+            {{#rightWrapper}}
+              {{>starterkit-atoms-list}}
+            {{/rightWrapper}}
+          </div>
+          <div class="col-md-12">
+            {{>starterkit-atoms-paragraph}}
+            {{>starterkit-organisms-content-box-with-paragraph}}
+          </div>
+        </div>
+      </div>
+    {{/leftTab3}}
+    {{#rightTab3}}
+      <div class="tab-pane {{isActiveClass}}" id="{{tabId}}">
+        {{>starterkit-organisms-accordion-list}}
+      </div>
+    {{/rightTab3}}
+  {{/tabContent3}}
+  </div>
+</div>
+{{/tabWithAccordion}}

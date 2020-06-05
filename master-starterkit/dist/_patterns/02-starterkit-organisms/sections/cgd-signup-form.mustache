@@ -1,0 +1,137 @@
+{{#cgdContactForm}}
+	<div class="content-container">
+		<div class="layout--content">
+			{{>starterkit-atoms-images}}
+			<div class="right-inner-content">
+				{{#rightContent}}
+					{{>starterkit-atoms-paragraph}}
+					{{>starterkit-atoms-list}}
+				{{/rightContent}}
+				{{#secParagraph}}
+					{{>starterkit-atoms-paragraph}}
+				{{/secParagraph}}
+				{{#footnoteWrapper}}
+					{{>starterkit-atoms-paragraph}}
+				{{/footnoteWrapper}}
+			</div>
+		</div>
+	</div>
+	<div class="cgd-form-wrapper">
+		<div class="cgd-contact-form {{contactFormClass}}">
+			{{>starterkit-atoms-headings}}
+			{{>starterkit-atoms-paragraph}}
+		</div>
+		<div class="form-body">
+			{{#footNoteWrapper}}
+				{{>starterkit-atoms-paragraph}}
+			{{/footNoteWrapper}}
+			<form action="{{formAction}}" id="regForm" class="formregistration">
+					{{#firstName}}
+						{{>starterkit-molecules-input-with-label}}
+					{{/firstName}}
+					{{#lastName}}
+						{{>starterkit-molecules-input-with-label}}
+					{{/lastName}}
+					{{#email}}
+						{{>starterkit-molecules-input-with-label}}
+					{{/email}}
+					{{#confirmEmail}}
+						{{>starterkit-molecules-input-with-label}}
+					{{/confirmEmail}}
+				<div class="form-group">
+					{{#helpText}}
+						{{>starterkit-atoms-paragraph}}
+						{{>starterkit-atoms-form-label}}
+					{{/helpText}}
+					{{#patientRadioButton}}
+					<fieldset class="radio-button-wrap">
+						{{#radioButtonList}}
+							{{>starterkit-atoms-radio-button}}
+						{{/radioButtonList}}
+					</fieldset>
+					{{/patientRadioButton}}
+					{{#caregiverRadioButton}}
+					<fieldset class="radio-button-wrap">
+						{{#radioButtonList}}
+							{{>starterkit-atoms-radio-button}}
+						{{/radioButtonList}}
+					</fieldset>
+					{{/caregiverRadioButton}}
+					{{#patientWrapper}}
+						<div class="patient set">
+							{{>starterkit-atoms-headings}}
+							
+					          {{#radioButtonList}}
+					            {{#radioField}}
+					            <fieldset class="radio-button-wrap">
+					              <span class="field-validation-valid" data-valmsg-for="{{radioForID}}" data-valmsg-replace="true" ></span>
+					              <div class="form-check {{radioButtonClass}}">
+					                <input {{#attributes}} {{ name }}="{{ value }}" {{/attributes}} {{#required }} data-val-required="{{ errorMessage }}" {{/required }}>
+					                <label class="form-check-label {{radioLableClass}}" for="{{labelFor}}" data-patient-label="{{{patientLabelText}}}" data-caregiver-label="{{{caregiverLabelText}}}" data-patientcaregiver-errormsg="{{{PatientCaregiverErrorMessage}}}"></label>
+					              </div>
+					              </fieldset>		
+					            {{/radioField}}
+					          {{/radioButtonList}}
+					        
+						</div>
+					{{/patientWrapper}}
+				
+					{{#moreInfoWrapper}}
+						<div class="more-information">
+							{{>starterkit-atoms-paragraph}}
+							{{#takingActimmune}}
+								<fieldset class="radio-button-wrap">
+									{{#radioButtonList}}
+										{{>starterkit-atoms-radio-button}}
+									{{/radioButtonList}}
+								</fieldset>
+							{{/takingActimmune}}
+							{{#notTakingActimmune}}
+								<fieldset class="radio-button-wrap">
+									{{#radioButtonList}}
+										{{>starterkit-atoms-radio-button}}
+									{{/radioButtonList}}
+								</fieldset>
+							{{/notTakingActimmune}}
+						</div>
+					{{/moreInfoWrapper}}
+					{{#subscribeMailWrapper}}
+						<div class="subscribe-snail-mail">
+								{{#address1}}
+									{{>starterkit-molecules-input-with-label}}
+								{{/address1}}
+								{{#address2}}
+									{{>starterkit-molecules-input-with-label}}
+								{{/address2}}
+								{{#city}}
+									{{>starterkit-molecules-input-with-label}}
+								{{/city}}
+								{{#state}}
+									{{>starterkit-molecules-custom-dropdown}}
+								{{/state}}
+								{{#zipcode}}
+									{{>starterkit-molecules-input-with-label}}
+								{{/zipcode}}
+							</div>	
+					{{/subscribeMailWrapper}}
+					<div class="privacy_div">
+						{{#privacyWrapper}}
+							{{>starterkit-atoms-paragraph}}
+						{{/privacyWrapper}}
+					</div>
+					<div class="privacy_notice">
+						{{#privacyContentWrapper}}
+							{{>starterkit-organisms-accordion-list}}
+						{{/privacyContentWrapper}}
+					</div>
+					<div class="terms">
+						{{#termsAndConditionsWrapper}}
+							{{>starterkit-atoms-radio-button}}
+						{{/termsAndConditionsWrapper}}
+					</div>
+						<button type="submit" class="cta-btn without-arrow">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+{{/cgdContactForm}}

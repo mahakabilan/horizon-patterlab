@@ -1,0 +1,254 @@
+{
+	"homePageDemo":{
+		"styleGuide": {
+			"listWrapperOl": {
+				"headingTxt": "Ordered List",
+				"listWrap": {
+					"listType": "ol",
+					"listClass": "",
+					"list": [{
+							"listItem": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+						},
+						{
+							"listItem": "Lorem <strong>Ipsum is</strong> simply dummy text of the printing and typesetting industry."
+						},
+						{
+							"listItem": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+						}
+					]
+				}
+			},
+			"listWrapperUl": {
+				"headingTxt": "Unordered List",
+				"listWrap": {
+					"listType": "ul",
+					"listClass": "",
+					"list": [{
+							"listItem": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+						},
+						{
+							"listItem": "Lorem <strong>Ipsum is</strong> simply dummy text of the printing and typesetting industry."
+						},
+						{
+							"listItem": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+						}
+					]
+				}
+			},
+			"paragraph": {
+				"paraTxt": "Do not get PENNSAID 2% in or near your eyes, nose, and mouth. If you get PENNSAID 2% in your eyes, rinse your eyes right away with water or saline. Use PENNSAID 2% only twice daily as prescribed.",
+				"paraClass": ""
+			},
+			"legalText": {
+				"paragraph": {
+					"paraTxt": "*Terms and Conditions: Card cannot be combined with any other rebate or coupon, free trial or similar offer for the specified prescription. Not valid for prescriptions reimbursed in whole or in part by Medicaid, Medicare, VA, DOD, TriCare, or other federal or state programs (including state prescription drug programs). Offer good only in the United States at participating retail pharmacies. Absent a change in Massachusetts law, offer not valid in Massachusetts after July 1, 2019. Offer not valid where otherwise prohibited by law. Horizon Pharma reserves the right to rescind, revoke, or amend offer without notice. The selling, purchasing, trading, or counterfeiting of this card is prohibited by law. This card is not insurance and is not intended to substitute for insurance. Participating patients and pharmacists understand and agree to comply with all Terms and Conditions of offer. Patients must be 18 or older. Program managed by PSKW & Associates on behalf of Horizon Pharma.",
+					"paraClass": "legal-text-small"
+				}
+			}
+		},
+		"videoScrollPlay": [
+			{
+				"videoID":"video1",
+				"videoURL":"../../videos/shot_4_high.mp4",
+				"textPosition":"",
+				"headingTag": "h3",
+				"headingTxt": "",
+				"imgClass":"",
+				"paragraph": {
+					"paraTxt": "",
+					"paraClass": ""
+				},
+			  	"listWrap": {
+					"listType": "ul",
+					"listClass": "",
+					"list": []
+				}
+			}
+		],
+		"ImageBtnList":{
+			"btnParent":[
+			  {
+				"button": {
+					"buttonImage": "https://www.pennsaid.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-29-at-12.24.47-PM.png",
+					"buttonText": "Save $",
+					"buttonClass": "cta-btn"
+				}
+			  },
+			  {
+				"button": {
+					"buttonImage": "https://www.pennsaid.com/wp-content/uploads/2017/03/Brochure.jpg",
+					"buttonText": "Download Our Brochure",
+					"buttonClass": "cta-btn"
+				}
+			  },
+			  {
+				"button": {
+					"buttonImage": "https://www.pennsaid.com/wp-content/uploads/2017/03/Doc_Discussion_Guide_Image2.jpg",
+					"buttonText": "Download Doctor Discussion Guide",
+					"buttonClass": "cta-btn"
+				}
+			  },
+			  {
+				"button": {
+					"buttonImage": "https://www.pennsaid.com/wp-content/uploads/2017/03/thum_check.png",
+					"buttonText": "Sign Up For Updates & Resources",
+					"buttonClass": "cta-btn"
+				}
+			  }
+			]
+		},
+		"twoColumnContentSplit": {
+			"leftContent": {
+				"ColVal": "8",
+				"bg-color-left": "",
+				"padding": "",
+				"bg-color": ""
+			},
+			"rightContent": {
+				"ColVal": "4",
+				"bg-color-left": "",
+				"padding": "",
+				"bg-color": ""
+			}
+		},
+		"ctaBannerCloseImg":"../../images/starterkit/collapse-white.png",
+	  "heroBanner": {
+	    "bannerClass": "hero-banner",
+	    "headingTag": "h1",
+	    "headingClass": "",
+	    "headingTxt": "United to live well with cystinosis",
+	    "bannerContent": "A community can help you find your way on your cystinosis journey. Whether you're a patient, caregiver, sibling, or spouse, unity makes choices—big and small—less complicated. ",
+	    "links": {
+	      "link": "#",
+	      "linkClass": "",
+	      "linkTxt": "Get tips to help with everyday living"
+	    },
+	    "imageList": {
+		    "imgPath": "../../images/starterkit/home-banner.jpg",
+		    "imgAlttxt": "alt text"
+		  }
+	  },
+	  "featuredContentCollage": {
+	  	"imageTile": {
+		    "imageList": {
+			    "imgPath": "../../images/starterkit/treatment-main.jpg",
+			    "imgAlttxt": "alt text"
+			  },
+		    "headingTag":"h3",
+					      "headingTxt": "Finding a cystinosis treatment that's right for you",
+		    "imageDescription": "We give you information to help you understand your treatment options so you can have a meaningful discussion with your doctor."
+		  },
+	    "headingTag": "h2",
+	    "headingTxt": "We're Cystinosis United, and we're glad you're here",
+	    "collageContent": "Cystinosis United is a part of a growing community of people—like you—who want to live their best lives with this rare disease. By uniting to share experiences and tips, people with cystinosis grow stronger, more confident, and better prepared to face the unique challenges of this condition.",
+	    "leftColumnClass": "staticLeftColumn",
+	    "cards2Column": {
+	      "wrapperClass": "",
+	      "cards2Images": [
+	      	{
+	      		"imageTile": {
+	      			"imageList": {
+						    "imgPath": "../../images/starterkit/living.jpg",
+						    "imgAlttxt": "alt text"
+						  },
+					    "headingTag":"h3",
+					      "headingTxt": "What is cystinosis?",
+					    "imageDescription": "Get information about cystinosis that's easy to understand from reliable sources."
+					  }
+				  },
+				  {
+	      		"imageTile": {
+	      			"imageList": {
+						    "imgPath": "../../images/starterkit/advocate.jpg",
+						    "imgAlttxt": "alt text"
+						  },
+						  "headingTag":"h3",
+					      "headingTxt": "Tips for advocating for yourself or your child",
+					    "imageDescription": "Learn how to speak up and be heard."
+					  }
+				  },
+				  {
+	      		"imageTile": {
+	      			"imageList": {
+						    "imgPath": "../../images/starterkit/wbc.png",
+						    "imgAlttxt": "alt text"
+						  },
+					  	"headingTag":"h3",
+					      "headingTxt": "Track your cystine levels",
+					    "imageDescription": "One of the most important things you can do is check and keep track of your cystine levels."
+					  }
+				  },
+				  {
+	      		"imageTile": {
+	      			"imageList": {
+						    "imgPath": "../../images/starterkit/bullying.jpg",
+						    "imgAlttxt": "alt text"
+						  },
+					  	"headingTag":"h3",
+					      "headingTxt": "School and bullying",
+					    "imageDescription": "Advice for dealing with social issues your child may face."
+					  }
+				  }
+	      ]
+	    }
+	  },
+	  "cta": {
+	    "headingTag": "h4",
+	    "headingTxt":"Cystinosis United: where people living with cystinosis come together",
+	    "ctaContent": "Join our community, and we'll send information about living with cystinosis to your inbox.",
+	    "textInput": {
+	      "inputParentClass": "email-input col-md-6",
+	      "attributes": [{
+	          "name": "id",
+	          "value": "email"
+	        },
+	        {
+	          "name": "autoComplete",
+	          "value": "off"
+	        },
+	        {
+	          "name": "class",
+	          "value": "form-control"
+	        },
+	        {
+	          "name": "placeholder",
+	          "value": "Email Address"
+	        },
+	        {
+	          "name": "type",
+	          "value": "email"
+	        },
+	        {
+	          "name": "data-minlength",
+	          "value": "2"
+	        },
+	        {
+	          "name": "data-minlength-error",
+	          "value": "Invalid First Name"
+	        },
+	        {
+	          "name": "maxlength",
+	          "value": "60"
+	        },
+	        {
+	          "name": "aria-label",
+	          "value": "Email"
+	        }
+	      ],
+	      "required": {
+	        "errorMessage": "Email is required"
+	      }
+	    },
+	    "links": {
+	      "link": "#",
+	      "linkClass": "cta-btn",
+	      "linkTxt": "Get connected",
+	      "imageList": ""
+	    },
+	    "imageList": {
+	      "imgPath": "../../images/starterkit/cta-bg.png",
+	      "imgAlttxt": "alt text"
+	    }
+	  }
+	}
+}

@@ -1,0 +1,25 @@
+{{#resposiveTable}}
+  <table class="classroom-table {{tableClass}}">
+    <thead>
+      <tr>
+        {{#tableHeader}}
+          <th>{{{tableHeading}}}</th>
+        {{/tableHeader}}
+      </tr>
+    </thead>
+    <tbody>
+      {{#tableBody}}
+        <tr class="{{rowClass}}">
+          {{#bodyColumns}}
+            <td colspan="{{colspan}}" data-label="{{labelHeading}}">
+              {{#bodyContent}}
+                {{{bodyTxt}}}
+                {{>starterkit-atoms-list}}
+              {{/bodyContent}}
+            </td>
+          {{/bodyColumns}}
+        </tr>
+      {{/tableBody}}
+    </tbody>
+  </table>
+{{/resposiveTable}}

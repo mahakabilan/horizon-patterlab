@@ -1,0 +1,35 @@
+/* Background images */
+.back-to-top a{
+	background-image:url("../../images/starterkit/back-to-top.png");
+}
+
+.header .hamburger{
+	.menuIcon{
+    background-image: url(../../images/starterkit/hamburger.jpg);
+    &.open{
+    	background-image: url(../../images/starterkit/collapse.jpg);
+    }
+	}
+}
+.checlist-heading h4{
+	&:before{
+    background-image: url(../../images/starterkit/checklist.png);
+	}
+}
+.social-media a{
+	&.facebook-icon{
+    background-image:url("../../images/starterkit/fb.svg");
+  }
+  &.twitter-icon{
+    background-image:url("../../images/starterkit/twitter.svg");
+  }
+  &.email-icon{
+    background-image:url("../../images/starterkit/email.svg");
+  }
+}
+.tooltip-icon:before{
+	content:url("../../images/starterkit/tool-tip.svg");
+}
+.signup-form{
+	 background-image: url("../../images/starterkit/cta-bg.png");
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <circle id="a" cx="12" cy="12" r="11"/>
+  </defs>
+  <clipPath id="b">
+    <use xlink:href="#a" overflow="visible"/>
+  </clipPath>
+  <path clip-path="url(#b)" fill="#F7F8F9" d="M-4-4h32v32H-4z"/>
+  <circle fill="#F7F8F9" cx="12" cy="12" r="11"/>
+  <path fill="#2E3191" d="M12 24C5.383 24 0 18.617 0 12S5.383 0 12 0s12 5.383 12 12-5.383 12-12 12zm0-22C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2z"/>
+  <defs>
+    <path id="c" d="M6.837 8c-.121 0-.237.03-.34.087l5.233 5.533c.129.136.412.136.541 0l5.233-5.533C17.399 8.03 17.283 8 17.163 8H6.837zm-.745.568c-.058.141-.092.301-.092.47v6.923c0 .576.373 1.039.837 1.039h10.326c.464 0 .837-.463.837-1.038V9.038c0-.17-.034-.33-.092-.471l-5.276 5.576c-.362.382-.903.382-1.264 0L6.092 8.568z"/>
+  </defs>
+  <clipPath id="d">
+    <use xlink:href="#c" overflow="visible"/>
+  </clipPath>
+  <path clip-path="url(#d)" fill="#2E3191" d="M1 3h22v19H1z"/>
+</svg>

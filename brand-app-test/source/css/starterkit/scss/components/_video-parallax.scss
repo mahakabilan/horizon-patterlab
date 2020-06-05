@@ -1,0 +1,133 @@
+/*video-parallax-banner*/
+
+.home-banner-wrap {
+  margin-bottom: 0;
+
+  .container {
+    max-width: 100%;
+    width: 100%;
+
+    @media (max-width: 991px) {
+      padding: 0;
+      margin-top: 20px;
+
+      .row {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+
+  .header-container-wrap {
+    overflow: hidden;
+
+    .bg-stretch {
+      position: relative;
+      @media (max-width: 1023px){
+        position: absolute;
+      }
+      img {
+        max-width: 100%;
+        @media (min-width: 1024px){
+          display: none !important;
+        }
+
+        @media (max-width: 767px) {
+          margin-left: 0px;
+          width: 100%;
+        }
+      }
+
+      .fluid-width-video-wrapper {
+        padding-top: 56.25%;
+
+        iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+        }
+
+        @media (max-width: 991px) {
+          visibility: hidden;
+          opacity: 0;
+          z-index: 0;
+        }
+
+        @media (max-width: 767px) {
+          display: none;
+        }
+      }
+    }
+
+    .bg-video {
+      height: auto;
+      position: absolute;
+    }
+
+    @media (max-width: 991px) {
+      padding-top: 0px;
+    }
+  }
+
+  .header-content-container {
+    padding-top: 100px;
+    position: relative;
+    opacity: 0;
+    -webkit-animation: mymove 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.43);
+
+    @media (max-width: 991px) {
+      padding-top: 30px;
+      background: none;
+
+      .header-container-wrap {
+        padding-top: 0px;
+
+        .see-more {
+          span {
+            display: none;
+          }
+        }
+
+        .fade-in-heading {
+          margin-bottom: 0;
+        }
+
+        .header-content {
+          padding-bottom: 0;
+          margin: 0 auto 70px;
+        }
+      }
+    }
+
+    @media (max-width: 767px) {
+      .header-container-wrap {
+        .fade-in-heading {
+          padding: 0 20px;
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+}
+
+
+
+@keyframes mymove {
+  from {
+    top: 1000px;
+  }
+
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+/*video-parallax-banner-end*/

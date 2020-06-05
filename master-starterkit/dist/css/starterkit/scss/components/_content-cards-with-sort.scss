@@ -1,0 +1,303 @@
+#sort-controls {
+  text-align: right;
+  padding: 0;
+  margin-bottom: 10px;
+
+  .hz-list {
+    display: inline-block;
+    padding-left: 0px;
+    margin-bottom: 0;
+
+    li {
+      display: inline-block;
+      border: 2px solid;
+      padding: 5px;
+      font-size: 13px;
+      font-family: inherit;
+      min-width: 64px;
+      width: auto;
+      text-align: center;
+      margin: 0 2px 5px 2px;
+
+      &.active {
+        color: #000;
+        background-color: #f1f2f1;
+        border-color: #f1f2f1;
+      }
+
+      &:hover {
+        color: #fff;
+        background-color: #000;
+        border-color: #000;
+      }
+
+      @media  (max-width: 767px) {
+        min-width: 60px;
+        width: auto;
+      }
+    }
+  }
+
+}
+
+.layout-cards {
+  position: relative;
+  width: 100%;
+
+  .image-cta {
+    a {
+      display: flex;
+
+    }
+  }
+
+  .shuffle {
+    margin: 0px 0 0 10px;
+
+    @media  (max-width: 767px) {
+      margin: 0;
+      left: 0;
+    }
+  }
+
+  .shuffle-item {
+    margin-bottom: 10px;
+  }
+
+  .card {
+    
+    .image-cta {
+      margin-right: -5px;
+      margin-bottom: 20px;
+      @media  (max-width: 1023px) {
+        margin-right: 0;
+      }
+      .icon-container{
+        img{
+          left: 103px;
+          top: 52px;
+          @media  (max-width: 1023px) {
+            left: 0;
+            top: 190px;
+          }
+        }
+      }
+      a {
+        .cta-content {
+          h2 {
+            position: relative;
+            z-index: 9;
+            @media  (max-width:1023px) {
+              padding-left: 20px;
+            }
+            @media  (max-width: 767px) {
+              padding: 20px 15px 0px 25px;
+            }
+          }
+
+          p {
+            @media  (max-width:1023px) {
+              padding-left: 20px;
+            }
+
+            @media  (max-width: 767px) {
+              padding: 20px 15px 0px 25px;
+            }
+          }
+
+          span {
+            @media  (max-width:1023px) {
+              margin: 0px 15px 0px 410px;
+              margin-left: 20px;
+            }
+
+            @media  (max-width: 767px) {
+              margin: 0;
+              padding: 0px 15px 0px 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media  (min-width: 1025px) {
+    .cards {
+      min-width: 388.53px;
+    }
+  }
+  .cards,
+  .card {
+    position: relative;
+    border: 0px;
+
+    .image-cta {
+
+      a {
+        display: block;
+        .cta-content{
+          &:hover {
+            span {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+    &.cards-two-column {
+      width: 48.75%;
+      .image-cta {
+        height: 361px;
+        margin-right: 1px;
+        a {
+          .cta-content {
+            padding: 157px 0px 35px 35px;
+            height: 100%;
+            width: auto;
+            background: #f1f2f1;
+            img {
+              height: 157px;
+            }
+            h2 {
+              margin-bottom: 8px;
+              padding: 20px 15px 0px 25px;
+            }
+            p {
+              padding: 0px 15px 0px 25px;
+            }
+            span {
+              margin: 0;
+              padding: 0px 15px 0px 25px;
+            }
+            .icon-container {
+              img {
+                height: auto;
+                top: 186px;
+                margin-left: 20px;
+                left: 0;
+              }
+            }
+          }
+          &:hover {
+            span {
+              text-decoration: underline;
+            }
+          }
+        }
+
+        
+      }
+
+     
+    }
+  }
+}
+.full-width-cta{
+  height: 244px;
+  a{
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      border: 2px solid #ffffff;
+      display: block;
+      .cta-content{
+      position: relative;
+        height: 100%;
+        width: auto;
+        padding: 45px 0px 45px 35px;
+      img{
+        position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          @media  (max-width: 767px){
+            &.large-screen-img {
+              display: block !important;
+            }
+          }
+         
+      }
+      h2{
+        width: 100%;
+          padding: 0px 0px 0px 440px;
+          display: block;
+          float: right;
+          line-height: 31.2px;
+          margin-bottom: 10px;
+          @media  (max-width: 1025px){
+            padding: 0px 0px 0px 535px;
+          }
+          @media  (max-width: 767px){
+            padding: 0px 0px 0px 375px;
+          }
+         
+      }
+      .icon-container{
+        img{
+          width: 30px;
+            height: 30px;
+            position: absolute;
+            z-index: 9;
+            top: 50px;
+            left: 95px;
+            right: 0;
+            margin: 0 auto;
+            @media  (max-width: 1025px){
+              top: 55px;
+              left: 110px;
+            }
+          
+        }
+      }
+      p{
+        position: relative;
+          z-index: 9;
+          line-height: 19.2px;
+          margin-bottom: 10px;
+          width: 100%;
+          display: block;
+          padding: 0px 15px 0px 440px;
+        @media  (max-width: 1025px){
+          padding: 0px 15px 0px 535px;
+        }
+          @media  (max-width: 767px){
+            padding: 0px 0px 0px 375px;
+          }
+         
+      }
+      span{
+        position: relative;
+          z-index: 9;
+          margin: 0px 15px 0px 440px;
+          border: 0;
+          background: transparent;
+          padding: 0;
+          &:hover{
+            background: transparent;
+            &:after{
+              background-image: url(../../images/cgdconnections/arrows.svg) !important;
+            }
+          }
+        @media  (max-width: 1025px){
+          margin: 0px 15px 0px 535px;
+        }
+          @media  (max-width: 767px){
+            margin: 0px 15px 0px 375px;
+          }
+          
+      }
+      
+    }
+    &:hover{
+      border: 2px solid ;
+    } 
+   
+  }
+  @media  (max-width: 767px){
+    background: transparent;
+  }
+ 
+}

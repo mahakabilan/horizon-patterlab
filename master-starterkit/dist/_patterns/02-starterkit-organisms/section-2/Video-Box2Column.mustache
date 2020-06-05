@@ -1,0 +1,33 @@
+{{#videoBox2Column}}
+  {{#videoBlock}}
+  <div class="{{columnClass}}">
+    <div class="videowrapper">
+          <div class="single-video {{variantClass}}">
+      <div class="video-cover">
+        <div class="video-overlay"></div>
+        <div class="play-btn"></div>
+        {{>starterkit-atoms-images}}
+      </div>
+      {{>starterkit-atoms-video-vimeo}}
+    </div>
+      <div class="video-content-box">
+        <div class="download-icon">
+          {{#downloadLink}}
+          {{>starterkit-atoms-links}}
+            {{>starterkit-atoms-paragraph}}
+          {{/downloadLink}}
+        </div>
+             {{#extLinkWrapper}}
+            <div class="{{downloadWrapperClass}}">
+              {{>starterkit-atoms-links}}
+             <div class="videobox-hidden-content">
+              {{{videoBoxHiddenContent}}}
+            </div>
+            </div>
+            {{/extLinkWrapper}}
+        
+      </div>
+    </div>
+  </div>
+  {{/videoBlock}}
+{{/videoBox2Column}}

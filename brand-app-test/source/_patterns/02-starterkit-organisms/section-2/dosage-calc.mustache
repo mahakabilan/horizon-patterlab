@@ -1,0 +1,51 @@
+{{#dosageCalc}}
+<div class="dosageCalc {{dosageVarClass}}" {{#defaultValues}} {{{key}}}="{{{value}}}" {{/defaultValues}}>
+  <p class="error-text">{{{errorTxt}}}</p>
+  <div class="d-flex flex-column flex-desktop-row">
+    <div class="patientWeight align-self-stretch">
+      <div class="patientHeading">{{{headingTxt}}}</div>
+      {{#dosageTableHead}}
+      <div class="dosageInput">
+        <div class="dosageCalc-wrap">
+          {{#lbInputWrap}}
+          <div class="dosageCalc-ip {{wrapperClass}}">
+            <input {{#inputField}} {{key}}="{{{value}}}" {{/inputField}}>
+            <label for="{{labelFor}}">{{{labelTxt}}}</label>
+          </div>
+          {{/lbInputWrap}}
+          <h5>{{{separatorTxt}}}</h5>
+          {{#kgInputWrap}}
+          <div class="dosageCalc-ip {{wrapperClass}}">
+            <input {{#inputField}} {{key}}="{{{value}}}" {{/inputField}}>
+            <label for="{{labelFor}}">{{{labelTxt}}}</label>
+          </div>
+          {{/kgInputWrap}}
+        </div>
+      </div>
+      {{/dosageTableHead}}
+    </div>
+    {{#dosageTableBody}}
+    <div class="dosageCalculation {{flexWrapClass}}">
+      {{#dosageBodyContent}}
+      <div class="{{flexParent}}" dosage-col="">
+        <div class="infusionHeading {{flexChild}}">{{infusionTitle}}</div>
+        <div class="dosageInput">
+          {{#infusionDetails}}
+          <div class="{{cellClass}}">
+            <span {{{rowOrder}} } data-dosage-factor="{{{dosageFactorVal}}}">{{{cellVal}}}</span>
+            <p>{{{cellLabel}}}</p>
+          </div>
+          {{/infusionDetails}}
+        </div>
+      </div>
+      {{/dosageBodyContent}}
+    </div>
+    {{/dosageTableBody}}
+  </div>
+  <div class="footnote">
+    {{#footNote}}
+    <p class="note">{{{footTxt}}}</p>
+    {{/footNote}}
+  </div>
+</div>
+{{/dosageCalc}}

@@ -1,0 +1,11 @@
+{{#imageButton}}
+  <a href="{{buttonURL}}" class="image-button {{buttonClass}}  {{#buttonImageHover}}has-hover-image{{/buttonImageHover}}">
+    <p>{{buttonText}}</p>
+    <div class="image-wrapper">
+      {{#buttonImageHover}}
+        <img class="hover-image" src="{{buttonImageHover}}" alt="{{buttonText}} image Hover" />
+      {{/buttonImageHover}}
+      <img src="{{buttonImage}}" alt="{{buttonText}} image" />
+    </div>
+  </a>
+{{/imageButton}}

@@ -1,0 +1,106 @@
+<!-- Header -->
+{{#commonHeaderFooterData}}
+  <section class="hz-header-wrap" data-toggle="affix">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          {{>starterkit-organisms-header}}
+        </div>
+      </div>
+    </div>
+  </section>
+{{/commonHeaderFooterData}}
+
+<!-- Two Column Wrap -->
+<div class="two-column-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="scrollspy-wrapper">
+          <section class="scroll-section" id="intro-section">
+            <!-- Video box -->
+            {{>starterkit-organisms-video-box}}
+          </section>
+          {{#quickLinks}}
+            <div class="row visible-mobile">
+              <div class="col-md-12">
+                {{>starterkit-organisms-right-rail-section-nav}}
+              </div>
+            </div>
+          {{/quickLinks}}
+          <section class="scroll-section" id="understanding-cystine">
+            <!-- Image Carousal -->
+            {{>starterkit-organisms-image-carousel}}
+
+            <!-- content box -->
+            {{>starterkit-organisms-content-box-with-link}}
+          </section>
+          <section class="scroll-section" id="how-passed-down">
+            <!-- passed down with content box -->
+            {{#howPassedDown}}
+              {{>starterkit-molecules-heading-with-paragraph}}
+              {{>starterkit-organisms-content-box-only-image}}
+              {{#paraUnderImage}}
+                {{>starterkit-atoms-paragraph}}
+              {{/paraUnderImage}}
+            {{/howPassedDown}}
+          </section>
+          <section class="scroll-section" id="how-it-affects">
+            <!-- How it affects -->
+            {{#howItAffects}}
+              {{>starterkit-molecules-heading-with-paragraph}}
+              {{#imageAsideHead}}
+                {{>starterkit-molecules-heading-with-paragraph}}
+              {{/imageAsideHead}}
+              {{>starterkit-organisms-image-aside}}
+              {{>starterkit-atoms-links}}
+              <div class="tab-comp-wrap">
+                {{#tabComp}}
+                  {{>starterkit-molecules-heading-with-paragraph}}
+                  {{>starterkit-organisms-tab}}
+                  {{#listWithHead}}
+                    {{>starterkit-organisms-heading-with-list}}
+                  {{/listWithHead}}
+                  {{>starterkit-atoms-links}}
+                {{/tabComp}}
+              </div>
+
+            {{/howItAffects}}
+
+            <!-- Content box CTA -->
+            {{#contentBoxWithBtn}}
+              {{>starterkit-organisms-content-box-with-btn}}
+            {{/contentBoxWithBtn}}
+          </section>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="relative-wrapper right-content-list">
+          <div class="sidebar-wrapper">
+            <!-- Right side bar -->
+            {{>starterkit-organisms-right-rail-section-nav}}
+            <!-- Back to top -->
+            {{>starterkit-organisms-back-to-top}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+{{#commonHeaderFooterData}}
+  <section class="hz-footer-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          {{>starterkit-organisms-footer}}
+        </div>
+      </div>
+      <div class="row mobileSocial hidden-desktop visible-mobile">
+        {{>starterkit-molecules-social-media}}
+        {{>starterkit-organisms-back-to-top}}
+      </div>
+    </div>
+  </section>
+{{/commonHeaderFooterData}}

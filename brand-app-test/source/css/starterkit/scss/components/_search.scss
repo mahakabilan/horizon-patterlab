@@ -1,0 +1,63 @@
+.input-with-icon {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 99;
+  .search-btn{
+    img{
+      height: 24px;
+      width: 24px;
+    }
+     @media (max-width: $desktop-breakpoint) {
+      img{
+	      height: 40px;
+	      width: auto;
+        margin-right: 7px;
+      }
+     }
+  }
+  @media (min-width: $desktop-breakpoint) {
+    &:hover,
+    &:focus {
+      input {
+       visibility:visible;
+       &:focus{
+         visibility:visible;
+       }
+      }
+    }
+  }
+
+  input {
+    visibility: hidden;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    color: $base-grey-color;
+    padding-right: 30px;
+    outline: none;
+    border-bottom: 1px solid $base-blue-color;
+    padding: 10px 0 0;
+     &:focus{
+       visibility:visible;
+     }
+  }
+
+  a {
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    color: $base-grey-color;
+    cursor: pointer;
+	z-index: 999;
+  }
+
+}
+
+.result a{
+   font-size:1.5rem;
+}
+#resultsWrapper .result{
+        padding-top: 18px;
+        padding-bottom:5px;
+}

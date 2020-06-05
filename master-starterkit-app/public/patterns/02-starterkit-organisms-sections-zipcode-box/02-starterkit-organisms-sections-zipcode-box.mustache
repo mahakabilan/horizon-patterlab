@@ -1,0 +1,20 @@
+{{#zipcodeBox}}
+  <div class="zipcode-box {{variationClass}}">
+    {{#zipContent}}
+      <div class="zip-content {{contentVariationClass}}">
+        {{>starterkit-atoms-headings}}
+        {{>starterkit-atoms-paragraph}}
+        {{>starterkit-atoms-images}}
+      </div>
+    {{/zipContent}}
+    {{#zipInput}}
+      <form method="{{formMethod}}" action="{{formAction}}" class="{{formClass}}" name=zipform>
+        <div class="zip-field">
+          {{>starterkit-atoms-text-field}}
+          <button class="{{btnClass}}" type="submit">{{btnTxt}}</button>
+        </div>
+        <p class="error_message">{{errorMsg}}</p>
+      </form>
+    {{/zipInput}}
+  </div>
+{{/zipcodeBox}}

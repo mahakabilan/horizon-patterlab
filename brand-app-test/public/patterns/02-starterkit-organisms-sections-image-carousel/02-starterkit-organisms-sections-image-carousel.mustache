@@ -1,0 +1,17 @@
+{{#imageCarousal}}
+  <div class="image-carousal-wrap {{carousalWrapperClass}}">
+    {{>starterkit-atoms-headings}}
+    <div class="image-carousal {{carousalName}}">
+      {{#carousalContent}}
+        <div class="carousal-content">
+          <p>{{carousalSubHeading}}</p>
+          {{>starterkit-atoms-headings}}
+          <div class="image-content">
+            {{>starterkit-atoms-images}}
+            <p>{{imageContent}}</p>
+          </div>
+        </div>
+      {{/carousalContent}}
+    </div>
+  </div>
+{{/imageCarousal}}

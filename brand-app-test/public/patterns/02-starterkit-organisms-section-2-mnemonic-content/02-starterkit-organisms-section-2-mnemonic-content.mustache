@@ -1,0 +1,36 @@
+{{#nmemonicContent}}
+  <div class="nmemonic">
+    <div class="nmemonic-head {{nm-bgcolor}}">
+      {{#firstHead}}
+        {{>starterkit-atoms-headings}}
+      {{/firstHead}}
+      {{#headImage}}
+        <img src="{{headImgsrc}}" alt="{{imgAlttxt}}" class="{{headImgclass}}">
+      {{/headImage}}
+      {{#secondHead}}
+        {{>starterkit-atoms-headings}}
+      {{/secondHead}}
+    </div>
+    <div class="nmemonic-details">
+      {{#imageBlock}}
+        <div class="img-block">
+          <div class="img">
+            {{#topDetail}}
+              <div class="letter">{{letter}}</div>
+              <img src="{{headImgsrc}}" alt="{{imgAlttxt}}" class="{{headImgclass}}">
+            {{/topDetail}}
+          </div>
+          <div class="img-details">
+            {{#imgDetails}}
+              {{>starterkit-atoms-headings}}
+              <div class="img-details-inner">
+                <img src="{{headImgsrc}}" alt="{{imgAlttxt}}" class="{{headImgclass}}">
+                {{>starterkit-atoms-paragraph}}
+              </div>
+            {{/imgDetails}}
+          </div>
+        </div>
+      {{/imageBlock}}
+    </div>
+  </div>
+{{/nmemonicContent}}

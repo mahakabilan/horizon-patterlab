@@ -1,0 +1,57 @@
+.fullwidth-banner {
+  background-image: url('https://via.placeholder.com/768x250.jpg');
+  background-repeat: no-repeat;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+
+  @media (min-width: 768px) {
+    background-image: url('https://via.placeholder.com/1024x250.jpg');
+    height: 435px;
+  }
+
+  @media (min-width: 1024px) {
+    background-image: url('https://via.placeholder.com/2560x800.jpg');
+    height: 435px;
+  }
+}
+
+.fullwidth-banner-content {
+  position: absolute;
+  top: 35%;
+  margin: 0 auto;
+  overflow: hidden;
+  right: 5%;
+  text-align: center;
+}
+
+.banner-container {
+  position: relative;
+
+  .banner-arrow {
+    display: none;
+
+    @media (min-width: 768px) {
+      display: block;
+      background-image: url(/images/starterkit/chevron-down.png);
+      width: 152px;
+      height: 167px;
+      background-repeat: no-repeat;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      position: absolute;
+      top: auto;
+      z-index: 10;
+      bottom: -36px;
+
+      color: transparent;
+    }
+
+    &:hover {
+      border-bottom: 0;
+      color: transparent;
+    }
+  }
+
+}

@@ -1,0 +1,11 @@
+{{#imageTextBox}}
+	<div class="image-text-box {{bgColorClass}} {{textWidthClass}}">
+		<div class="image-left">
+			<img class="hidden-desktop {{imageTxtBoxClass}}" src="{{imageLeftMobileURL}}" alt="" />
+            <img class="hidden-mobile" src="{{imageLeftDesktopURL}}" alt="" />
+		</div>
+		<div class="text-content-right">
+			{{>starterkit-atoms-headings}}
+		</div>
+	</div>
+{{/imageTextBox}}

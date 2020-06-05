@@ -1,0 +1,11 @@
+<div class="select-dropdown-container {{ styleModifier }}">
+  {{# selectField }}
+
+    <select {{# attributes }}{{ name }}="{{ value }}" {{/ attributes }} {{# required }} data-val-required="{{ errorMessage }}" {{/ required }}>
+      {{# options }}
+        <option value="{{ value }}" {{# selected }}selected{{/ selected }}>{{ name }}</option>
+        {{/ options }}
+    </select>
+    <span class="field-validation-valid" data-valmsg-for="{{labelFor}}" data-valmsg-replace="true"></span>
+    {{/ selectField }}
+</div>

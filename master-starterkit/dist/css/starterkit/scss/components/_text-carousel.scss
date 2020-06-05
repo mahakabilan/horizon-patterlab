@@ -1,0 +1,56 @@
+.text-carousel-wrap {
+	.slick-arrow {
+		img {
+			width: 19.6px;
+			height: 34.6px;
+		}
+
+		&.prev-arrow {
+			position: absolute;
+			top: 54px;
+			left: 0;
+			z-index: 999;
+		}
+
+		&.next-arrow {
+			float: right;
+			position: absolute;
+			top: 54px;
+			right: 0;
+		}
+	}
+
+	.carousel-content {
+		text-align: center;
+
+		h4 {
+			text-transform: uppercase;
+		}
+
+	}
+
+	.slick-dots {
+		li {
+			button {
+				&:before {
+					font-size: 18px;
+					line-height: 18px;
+					position: absolute;
+					top: 0px;
+					left: 0px;
+					width: 18px;
+					height: 18px;
+				}
+			}
+
+			&.slick-active {
+				button {
+					&:before {
+						opacity: .75;
+						color: #000000;
+					}
+				}
+			}
+		}
+	}
+}

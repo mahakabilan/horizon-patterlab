@@ -1,0 +1,22 @@
+.image-lightbox {
+	.lightbox-wrapper {
+		display: flex;
+		margin-bottom: 10px;
+		@media (max-width: $mob-breakpoint){
+			display: block;
+			img{
+				width: 100%;
+			}
+		}
+		.content-wrapper {
+			background-color: #ddd;
+	    padding: 0 25px;
+  		display: flex;
+  		flex-basis: 100%;
+  		align-items: center;
+  		@media (max-width: $mob-breakpoint){
+  			padding: 10px 25px;
+  		}
+  	}
+	}
+}

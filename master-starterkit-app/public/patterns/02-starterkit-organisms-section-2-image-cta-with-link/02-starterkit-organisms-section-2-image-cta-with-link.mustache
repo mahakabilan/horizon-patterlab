@@ -1,0 +1,17 @@
+{{#imageCtaWithLink}}
+  <div class="image-cta {{image-cta-parent-div}}">
+    <a href="#">
+      <div class="cta-content">
+        <div class="{{iconContainerClass}}">
+          {{>starterkit-atoms-images}}
+        </div>
+        {{>starterkit-atoms-headings}}
+        <p>{{{imageCtaContent}}}</p>
+        <span href="{{pageLink}}" class="{{btnClass}}">{{btnTxt}}</span>
+        {{#bgImage}}
+          {{>starterkit-atoms-images}}
+        {{/bgImage}}
+      </div>
+    </a>
+  </div>
+{{/imageCtaWithLink}}

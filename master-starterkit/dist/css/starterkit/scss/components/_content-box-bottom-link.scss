@@ -1,0 +1,68 @@
+.box-wrapper{
+	padding: 0px 15px;
+	.cta-wrapper{
+		background-color: rgba(255, 255, 255, 0.2);
+		.content-title{
+			letter-spacing: 1px;
+		    border-top: 8px solid #017dc3;
+		    border-width: 8px 0px 0px;
+		    padding: 21px 25px 18px;
+		    background-color: #ffffff;
+		    h2{
+	    	    font-size: 26px;
+			    color: #58585B;
+			    margin-bottom: 0;
+			    font-weight: 700;
+			    padding: 0px;
+		    }
+		}
+		.content-wrapper{
+			color: #000;
+		    font-size: 16px;
+		    line-height: 18px;
+		    padding: 25px 24px 25px;
+		    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+		    .leave-site-off{
+		    	color: #ffffff;
+		    	&:first-of-type{
+		    		&:after{
+		    			height: 1px;
+					    background-color: #fff;
+					    content: " ";
+					    display: block;
+					    margin: 12px 0px;
+		    		}
+		    	}
+		    }
+		    p{
+		    	@media  (max-width: $desktop-breakpoint){
+		    		margin: 0;
+		    	}
+		    	
+		    }
+		}
+		.btn-wrapper{
+		    text-align: center;
+		    padding-top: 15px;
+		    padding-bottom: 15px;
+		    a{
+		    	font-size: 16px;
+			    letter-spacing: 0.8px;
+			    text-transform: uppercase;
+			    color: #000;
+			    font-weight: 400;
+			    &:after{
+			    	content: '';
+				    display: inline-block;
+				    width: 5px;
+				    height: 9px;
+				    margin-top: -4px;
+				    margin-left: 4px;
+				    vertical-align: middle;
+				    background-image: url(../../images/starterkit/see-more-caret.png);
+				    background-size: 100% 100%;
+			    }
+		    }
+		}
+	}
+}

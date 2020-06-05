@@ -1,0 +1,113 @@
+// Include variables
+@import "scss/abstracts/variables";
+
+// Bootstrap overrides
+/*// @import "scss/base/bootstrap-variables-override";*/
+
+// Include sass-rem
+/*@import '../../../node_modules/sass-rem/_rem.scss';*/
+
+// Include bootstrap mixins for media queries usage
+/*@import "../../../node_modules/bootstrap/scss/mixins";*/
+
+/*Mixins*/
+
+/*------------------------------------*\
+    $ABSTRACTS
+/*------------------------------------*/
+
+
+/*------------------------------------*\
+    $BASE
+/*------------------------------------*/
+
+@import "scss/base/body";
+@import "scss/base/helper";
+@import "scss/base/print";
+
+/*------------------------------------*\
+    $COMPONENTS
+\*------------------------------------*/
+
+@import "scss/components/header";
+@import "scss/components/social-media";
+@import 'scss/components/hero-banner';
+@import 'scss/components/cta';
+@import 'scss/components/top-navigation';
+@import 'scss/components/search';
+@import 'scss/components/right-rail-section-nav';
+@import 'scss/components/content-box';
+@import 'scss/components/image-tile';
+@import 'scss/components/footer';
+@import 'scss/components/video';
+@import 'scss/components/image-carousal';
+@import 'scss/components/image-aside';
+@import 'scss/components/tab';
+@import 'scss/components/back-to-top';
+@import 'scss/components/list';
+@import 'scss/components/table';
+@import 'scss/components/form';
+@import 'scss/components/external-links';
+@import 'scss/components/tooltip';
+@import "scss/components/body-component";
+@import "scss/components/text-leading-image";
+@import 'scss/components/content-box-bottom-link';
+@import 'scss/components/video-banner';
+@import 'scss/components/tab-with-accordion';
+@import 'scss/components/full-width-image-banner';
+@import 'scss/components/custom-dropdown';
+@import 'scss/components/dropdown-selector';
+@import 'scss/components/content-divider';
+@import 'scss/components/modal';
+@import 'scss/components/backto-menulist';
+@import 'scss/components/text-with-image';
+@import 'scss/components/footer-generic';
+@import 'scss/components/video-scroll-play';
+@import 'scss/components/video-content-split';
+@import "scss/components/text-twocolumn";
+@import "scss/components/img-text-cta-multicolumn";
+@import "scss/components/video-2column";
+@import "scss/components/section-banner";
+@import "scss/components/cta-box-2-column";
+@import "scss/components/multiline-heading";
+@import "scss/components/image-text-blocks";
+@import "scss/components/mnemonic";
+@import "scss/components/text-carousel";
+@import "scss/components/image-lightbox";
+@import "scss/components/content-cta";
+@import "scss/components/cta-ribbon";
+@import "scss/components/event-list";
+@import "scss/components/button-list";
+@import "scss/components/isi-panel";
+@import "scss/components/image-btn";
+@import "scss/components/notification-header";
+@import "scss/components/section-bar-nav";
+@import "scss/components/news-banner";
+@import "scss/components/specialist-finder";
+@import "scss/components/brackets";
+@import "scss/components/content-carousel";
+@import "scss/components/timeline";
+@import "scss/components/icon-list";
+@import "scss/components/image-text-box";
+@import "scss/components/two-column-content-split";
+@import "scss/components/accordion-list";
+@import "scss/components/accordion-link";
+@import "scss/components/video-scrubber";
+@import "scss/components/page-title";
+@import "scss/components/images";
+@import "scss/components/text-banner";
+@import "scss/components/dosage-calc";
+@import "scss/components/videobanner-component";
+@import "scss/components/npi-modal";
+@import "scss/components/multi-column-content";
+@import "scss/components/video-chapters";
+@import "scss/components/quiz";
+@import "scss/components/recipe-filter";
+@import "scss/components/video-parallax";
+@import "scss/components/isi-dual-tab";
+@import "scss/components/content-cards-with-sort";
+@import "scss/components/language-selector";
+
+
+/*Template Styles*/
+@import "scss/base/templates";

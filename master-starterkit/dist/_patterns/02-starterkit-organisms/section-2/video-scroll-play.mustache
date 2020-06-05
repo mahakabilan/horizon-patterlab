@@ -1,0 +1,23 @@
+{{#videoScrollPlay}}
+<div class="video-scroll-play">
+	<div class="video-wrap">
+		<img src="{{imgURL}}" alt="Alt text" class="{{imgClass}}">
+		{{#mobImg}}
+			<img src="{{imgURL}}" alt="Alt text" class="{{imgClass}}">
+		{{/mobImg}}
+		<video id="{{videoID}}" playsinline autoplay muted="muted" src="{{videoURL}}" class="scrollplay {{hideToggle}}" {{#loop}}{{key}}={{value}} {{/loop}}>
+		</video>
+		{{#mobVideo}}
+		<video id="{{videoID}}" playsinline autoplay muted="muted" src="{{videoURL}}" class="scrollplay {{hideToggle}}" {{#loop}}{{key}}={{value}} {{/loop}}>
+		</video>
+		{{/mobVideo}}
+	</div>
+	<div class="text-container {{varWidth}}">
+		<div class="text-wrap {{textPosition}}">
+			{{>starterkit-atoms-headings}}
+			{{>starterkit-atoms-paragraph}}
+			{{>starterkit-atoms-list}}
+		</div>
+	</div>
+</div>
+{{/videoScrollPlay}}

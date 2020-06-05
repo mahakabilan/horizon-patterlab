@@ -1,0 +1,53 @@
+{{#contactForm}}
+  <div class="contact-form {{contactFormClass}}">
+    {{>starterkit-atoms-headings}}
+    <div class='validation_form_error'>
+      {{>starterkit-atoms-paragraph}}
+    </div>
+    <form action="{{formAction}}" id="regForm">
+      <div class="row">
+        <div class="col-lg-6">
+          {{#firstNameInput}}
+            {{>starterkit-molecules-input-with-label}}
+          {{/firstNameInput}}
+        </div>
+        <div class="col-lg-6">
+          {{#lastNameInput}}
+            {{>starterkit-molecules-input-with-label}}
+          {{/lastNameInput}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          {{#organizationInput}}
+            {{>starterkit-molecules-input-with-label}}
+          {{/organizationInput}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          {{#emailInput}}
+            {{>starterkit-molecules-input-with-label}}
+          {{/emailInput}}
+        </div>
+        <div class="col-lg-6">
+          {{#phoneInput}}
+            {{>starterkit-molecules-input-with-label}}
+          {{/phoneInput}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          {{#textareaInput}}
+            {{>starterkit-molecules-textarea-with-label}}
+          {{/textareaInput}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <button type="submit" class="{{buttonClass}}">Send</button>
+        </div>
+      </div>
+    </form>
+  </div>
+{{/contactForm}}

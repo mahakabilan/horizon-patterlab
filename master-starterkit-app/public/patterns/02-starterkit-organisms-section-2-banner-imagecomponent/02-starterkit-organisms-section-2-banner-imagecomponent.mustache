@@ -1,0 +1,31 @@
+{{#bannerImageComponent}}
+  <div class="banner-container">
+    <div class="fullwidth-banner container"></div>
+    <div class="fullwidth-banner-content container">
+      {{>starterkit-atoms-headings}}
+      {{#imageHeading}}
+        {{>starterkit-molecules-heading-with-paragraph}}
+      {{/imageHeading}}
+      <div class="fullwidth-image-content container">
+        <div class="btn-box">
+          {{>starterkit-atoms-links}}
+          {{#firstLink}}
+            <div class="arrow">
+              <a href="{{ImgLink}}" target="" class="{{classLink}}" data-cat="" data-action="" data-label="Link"><span class="{{iconClass}}" aria-hidden="true"></span></a>
+            </div>
+          {{/firstLink}}
+        </div>
+        <div class="btn-box">
+          {{#twoLinkImage}}
+            {{>starterkit-atoms-links}}
+          {{/twoLinkImage}}
+          {{#secondLink}}
+            <div class="arrow">
+              <a href="{{ImgLink}}" target="" class="{{classLink}}" data-cat="" data-action="" data-label="Link"><span class="{{iconClass}}" aria-hidden="true"></span></a>
+            </div>
+          {{/secondLink}}
+        </div>
+      </div>
+    </div>
+  </div>
+{{/bannerImageComponent}}

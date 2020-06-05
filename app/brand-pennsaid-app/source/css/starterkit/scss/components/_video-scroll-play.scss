@@ -1,0 +1,34 @@
+/*Video Scroll Play styles*/
+.video-scroll-play{
+	position: relative;
+	.video-wrap{
+		bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 50% 0;
+    video {
+		  display: none;
+		  height: auto;
+		  left: 0;
+		  position: absolute;
+		  top: 0;
+		  width: 100%;
+		  @media only screen and (min-width: 62.5em) {
+        display: block;
+			}
+		}
+	}
+	.text-container {
+    margin: 0 auto;
+    padding: 2em 0;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+    @media only screen and (min-width: 62.5em) {
+      padding: 0 0 56.25%;
+      position: relative;
+    }
+	}
+}

@@ -1,0 +1,65 @@
+/*Modal Buttons*/
+.btn-cancel {
+	background-color: #63696B;
+	padding: 5px 20px;
+	border-radius: 0;
+	color: #fff !important;
+}
+
+.btn-continue {
+	background-color: transparent;
+	border: 1px solid $base-blue-color;
+	padding: 5px 20px;
+	border-radius: 0;
+
+	&:hover {
+		background-color: $base-blue-color;
+		color: $white-color;
+	}
+}
+
+.modal-footer .btn-primary {
+	color: $base-blue-color;
+
+	&:hover {
+		color: $white-color;
+	}
+}
+
+span[class*='external'] {
+	visibility: hidden;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+#external-link-dialog {
+
+	.modal-body {
+		padding-bottom: 0;
+	}
+
+	.modal-content {
+		border-radius: 0;
+		padding: 30px 20px;
+	}
+
+	.modal-header {
+		border: none;
+	}
+
+	.modal-footer {
+		border: none;
+
+		>&:not(:last-child) {
+			margin-right: 10px;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		.modal-dialog {
+			margin: 30px auto;
+		}
+
+	}
+}

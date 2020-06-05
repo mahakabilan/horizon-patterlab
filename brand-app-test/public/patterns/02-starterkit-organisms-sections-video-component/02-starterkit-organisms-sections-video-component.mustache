@@ -1,0 +1,36 @@
+{{#videoComponent}}
+  <div class="pd-archive-video-row clearfix">
+    {{#videoSegment}}
+      {{#videoIndi}}
+        <a href="{{videoUrl}}" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" class="pd-single-video" data-archive-video-gallery="video-gallery">
+          <div class="pd-single-video-wrap">
+            {{>starterkit-atoms-images}}
+            {{#overlayHover}}
+              <div class="pd_video_overlay_hover">
+                <div class="pd_video_overlay_hover-table">
+                  <div class="pd_video_overlay_hover-cell">
+                    {{>starterkit-atoms-headings}}
+                  </div>
+                </div>
+              </div>
+            {{/overlayHover}}
+            <div class="wrapper-video-play">
+              <div class="tri"></div>
+            </div>
+            {{#popupCaption}}
+              <div class="popup-caption">
+                <div class="popup-caption-wrapper">
+                  <div class="popup-title">
+                    {{>starterkit-atoms-headings}}
+                  </div>
+                  <div class="popup-description">
+                  </div>
+                </div>
+              </div>
+            {{/popupCaption}}
+          </div>
+        </a>
+      {{/videoIndi}}
+    {{/videoSegment}}
+  </div>
+{{/videoComponent}}

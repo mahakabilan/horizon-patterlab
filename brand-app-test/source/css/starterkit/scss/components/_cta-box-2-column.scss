@@ -1,0 +1,160 @@
+/*image-cta-box-2-column-ravicti*/
+.grey-background-pattern {
+  @media(max-width: $tablet-breakpoint-max) {
+    .container {
+      .row {
+        .col-lg-6 {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+.cta-box-2-column {
+  padding: 20px 20px 22px 25px;
+  text-align: left;
+  background-color: #ffffff;
+  position: relative;
+  min-height: auto;
+
+  @media(max-width: $tablet-breakpoint-max) {
+    padding: 24px 0;
+  }
+
+  a.fill-space {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  img {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+
+    @media(max-width: $tablet-breakpoint-max) {
+      position: relative;
+      right: auto;
+      top: auto;
+    }
+
+    &.small-image {
+      width: 98px;
+      right: 40px;
+      height: auto;
+      max-height: 100%;
+      top: 20px;
+
+      @media(max-width: $tablet-breakpoint-max) {
+        width: 25%;
+        margin: 0 auto;
+        position: relative;
+        right: auto;
+        top: auto;
+      }
+    }
+
+    &.full-image {
+      width: auto;
+    }
+  }
+
+  .inner-box-content {
+    max-width: 64%;
+
+    @media(max-width: $tablet-breakpoint-max) {
+      max-width: 100%;
+      text-align: center;
+    }
+
+    h4 {
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 25px;
+
+      @media(max-width: $tablet-breakpoint-max) {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 27px;
+      }
+    }
+
+    p {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 22px;
+
+      @media(min-width: 1024px) {
+        min-height: auto;
+      }
+    }
+
+    a.button.button-full-width {
+      width: 408px;
+      z-index: 1;
+
+      &:after {
+        content: " ";
+        position: absolute;
+        right: 0;
+        width: 40px;
+        height: 40px;
+      }
+
+      @media(max-width: $tablet-breakpoint-max) {
+        width: 290px;
+        line-height: 22px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        &:after {
+          height: 100%;
+          top: 0;
+        }
+      }
+    }
+  }
+
+  img {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    height: 110%;
+    max-height: 110%;
+    top: auto;
+
+    @media(max-width: $tablet-breakpoint-max) {
+      &.full-image {
+        position: static;
+        bottom: 0;
+        right: 0px;
+        height: auto;
+        max-height: initial;
+        top: auto;
+      }
+    }
+  }
+
+  @media(max-width: $tablet-breakpoint-max) {
+    .inner-box-content {
+      padding: 24px 15px;
+      background-color: #f4f4f4;
+    }
+  }
+
+  &.box-shadow-cta {
+    box-shadow: 0px 0px 9px 2px #d6d6d6;
+
+    @media(max-width: $tablet-breakpoint-max) {
+      .inner-box-content {
+        padding-bottom: 40px;
+      }
+    }
+  }
+}
+
+/*image-cta-box-2-column-ravicti-end*/

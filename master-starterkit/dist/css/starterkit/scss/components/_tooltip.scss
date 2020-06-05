@@ -1,0 +1,38 @@
+.tooltip-icon{
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	vertical-align: top;
+	&:before{
+		margin-left: 2px;
+	}
+}
+[data-toggle="tooltip"]{
+	cursor: pointer;
+}
+.tooltip > .tooltip-inner{
+	box-shadow: 1px 5px 10px $base-grey-color;
+	padding: 20px;
+	width: 250px;
+	max-width: 250px;
+	background-color: rgba(255, 255, 255, 0.95);
+	color: $base-grey-color;
+	text-align: left;
+}
+.bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
+  border-top-color: rgba(255,255,255,0.9) !important;
+}
+
+.bs-tooltip-right .arrow::before, .bs-tooltip-auto[x-placement^="right"] .arrow::before {
+  border-right-color: rgba(255,255,255,0.9) !important;
+}
+
+
+.bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+  border-bottom-color: rgba(255,255,255,0.9) !important;
+}
+
+
+.bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^="left"] .arrow::before {
+  border-left-color: rgba(255,255,255,0.9) !important;
+}

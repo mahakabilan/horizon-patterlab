@@ -1,0 +1,311 @@
+{
+	"tableLayoutDemo":{
+		"headingTag":"h1",
+		"headingTxt":"Help in the classroom while living with cystinosis",
+		"imageList": {
+	    "imgPath": "../../images/starterkit/IEPvs504.png",
+	    "imgAlttxt": "alt text",
+	    "imgClass":""
+		 },
+	  "paragraph":{
+	    "paraTxt":"When a child has a complex disease, like cystinosis, it can be hard for teachers and school staff to understand. This is why there are special laws that allow a plan to be made for your child. These plans are called a 504 plan and an individualized education program (IEP). These programs can help students living with cystinosis by giving them extra time to complete schoolwork, provide preapproved nurse's office visits, reduce homework, and much more.",
+	    "paraClass":""
+	  },
+	  "imgDescList":{
+	  	"paragraph":{
+		    "paraTxt":"Compare the two programs to help you decide which one may be right for your child.",
+		    "paraClass":""
+		  }
+	  },
+
+	  "classroomTable":{
+  	  "resposiveTable":{
+        "tableClass":"",
+        "tableHeader":[
+          {
+            "tableHeading":""
+          },
+          {
+            "tableHeading":"504 plan"
+          },
+          {
+            "tableHeading":"IEP"
+          }
+        ],
+        "tableBody":[
+          {
+            "bodyColumns":[
+              {
+                "labelHeading":"",
+                "bodyContent":{
+                  "bodyTxt":"What is it?",
+                  "listWrap":""
+                }
+              },
+              {
+                "labelHeading":"504 plan",
+                "bodyContent":{
+                  "bodyTxt":"A legal plan for any student in a public school who has a disability",
+                  "listWrap":""
+                }
+              },
+              {
+                "labelHeading":"IEP",
+                "bodyContent":{
+                  "bodyTxt":"A legal, written document that's individualized for a student 3 to 22 years old in a public school who qualifies for special education",
+                  "listWrap":""
+                }
+              }
+            ]
+          },
+          {
+            "bodyColumns":[
+              {
+                "labelHeading":"",
+                "bodyContent":{
+                  "bodyTxt":"Who is eligible?",
+                  "listWrap":""
+                }
+              },
+              {
+                "labelHeading":"504 plan",
+                "bodyContent":{
+                  "bodyTxt":"Student can have any disability, including physical or mental issues",
+                  "listWrap":""
+                }
+              },
+              {
+                "labelHeading":"IEP",
+                "bodyContent":{
+                  "bodyTxt":"Student must fit 1 of 13 disability categories, which include visual, intellectual, and emotional issues",
+                  "listWrap":""
+                }
+              }
+            ]
+          },
+          {
+            "bodyColumns":[
+              {
+                "labelHeading":"",
+                "bodyContent":{
+                  "bodyTxt":"What is in it?",
+                  "listWrap":""
+                }
+              },
+              {
+                "labelHeading":"504 plan",
+                "bodyContent":{
+                  "bodyTxt":"Doesn't have to be written or list specific goals but includes:",
+                  "listWrap":{
+                  	"listType":"ul",
+    						    "list":[
+    						      {
+    						          "listItem":"Certain accommodations for the student to participate in the classroom"
+    						      },
+    						      {
+    						          "listItem":"Who will provide services and support"
+    						      },
+    						      {
+    						          "listItem":"Who is responsible for making sure the plan is carried out"
+    						      }
+    						    ]
+                  }
+                }
+              },
+              {
+                "labelHeading":"IEP",
+                "bodyContent":{
+                  "bodyTxt":"Document outlines specific and measurable goals and includes:",
+                  "listWrap":{
+                  	"listType":"ul",
+    						    "list":[
+    						      {
+    						          "listItem":"Current school performance"
+    						      },
+    						      {
+    						          "listItem":"How educational services will be delivered"
+    						      },
+    						      {
+    						          "listItem":"When services start"
+    						      },
+    						      {
+    						          "listItem":"How the student will be able to participate in class"
+    						      }
+    						    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "bodyColumns":[
+              {
+                "labelHeading":"",
+                "bodyContent":{
+                  "bodyTxt":"Who creates the program?",
+                  "listWrap":""
+                }
+              },
+              {
+                "labelHeading":"504 plan",
+                "bodyContent":{
+                  "bodyTxt":"No legal standard for who is involved but typically includes:",
+                  "listWrap":{
+                  	"listType":"ul",
+    						    "list":[
+    						      {
+    						          "listItem":"The parent(s)"
+    						      },
+    						      {
+    						          "listItem":"The general classroom teacher"
+    						      },
+    						      {
+    						          "listItem":"A special education teacher"
+    						      },
+    						      {
+    						          "listItem":"The school principal"
+    						      }
+    						    ]
+                  }
+                }
+              },
+              {
+                "labelHeading":"IEP",
+                "bodyContent":{
+                  "bodyTxt":"By law, a multiperson team, including:",
+                  "listWrap":{
+                  	"listType":"ul",
+    						    "list":[
+    						      {
+    						          "listItem":"The parent(s)"
+    						      },
+    						      {
+    						          "listItem":"The student's teacher"
+    						      },
+    						      {
+    						          "listItem":"A special education teacher"
+    						      },
+    						      {
+    						          "listItem":"A school psychologist"
+    						      },
+    						      {
+    						          "listItem":"A special education services representative"
+    						      }
+    						    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "bodyColumns":[
+              {
+                "labelHeading":"",
+                "bodyContent":{
+                  "bodyTxt":"How often is progress reviewed?",
+                  "listWrap":""
+                }
+              },
+              {
+                "labelHeading":"504 plan",
+                "bodyContent":{
+                  "bodyTxt":"Not required but usually once a year",
+                  "listWrap":""
+                }
+              },
+              {
+                "labelHeading":"IEP",
+                "bodyContent":{
+                  "bodyTxt":"Required at least once a year",
+                  "listWrap":""
+                }
+              }
+            ]
+          },
+          {
+            "bodyColumns":[
+              {
+                "labelHeading":"",
+                "bodyContent":{
+                  "bodyTxt":"How much does it cost?",
+                  "listWrap":""
+                }
+              },
+              {
+                "labelHeading":"504 plan",
+                "bodyContent":{
+                  "bodyTxt":"No cost to families",
+                  "listWrap":""
+                }
+              },
+              {
+                "labelHeading":"IEP",
+                "bodyContent":{
+                  "bodyTxt":"No cost to families",
+                  "listWrap":""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "paragraph":{
+        "paraTxt":"Take a look at these government websites to learn more about <a href=\"#\">504 plans</a> and <a href=\"#\">IEPs</a>.",
+        "paraClass":""
+      }
+	  },
+
+	  "relatedTopics":{
+	  	"headingTag":"h4",
+			"headingTxt":"You might also like:",
+			"cards3Column": {
+		    "wrapperClass": "",
+		    "cards3Images": [
+		    	{
+		    		"imageTile": {
+					    "imageList": {
+					      "imgPath": "../../images/starterkit/living.jpg",
+					      "imgAlttxt": "alt text",
+					      "imgLink": "/what-is-cystinosis",
+					      "linkClass": "",
+					      "imgClass": "visible-desktop"
+					    },
+					    "headingTag":"h3",
+					      "headingTxt": "What is cystinosis?",
+					    "imageDescription": "Get information about cystinosis that’s easy to understand from reliable sources."
+					  }
+		    	},
+		      {
+		      	"imageTile": {
+					    "imageList": {
+					      "imgPath": "../../images/starterkit/educating.jpg",
+					      "imgAlttxt": "alt text",
+					      "imgLink": "/living-with-cystinosis/educate-school-staff-about-cystinosis",
+					      "linkClass": "",
+					      "imgClass": "visible-desktop"
+					    },
+					    "headingTag":"h3",
+					      "headingTxt":"Educating the educators",
+					    "imageDescription": "Learn how to speak up for yourself or your child while living with cystinosis."
+					  }
+		      },
+		      {
+		      	"imageTile": {
+					    "imageList": {
+					      "imgPath": "../../images/starterkit/resources.png",
+					      "imgAlttxt": "alt text",
+					      "imgLink": "/cystinosis-resources-and-support-for-patients",
+					      "linkClass": "",
+					      "imgClass": "visible-desktop"
+					    },
+					    "headingTag":"h3",
+					      "headingTxt":"Cystinosis resources",
+					    "imageDescription": "Meet others living with cystinosis, and learn about advocacy programs."
+					  }
+		      }
+		    ]
+		  }
+	  }
+
+	}
+}

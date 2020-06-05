@@ -1,0 +1,54 @@
+{{#contentDivider}}
+<div class="row content-divider-wrap {{contentDividerWrapClass}}">
+  {{#contentDividerCol1}}
+  <div class="col">
+    {{>starterkit-atoms-headings}}
+    {{>starterkit-atoms-paragraph}}
+  </div>
+  {{/contentDividerCol1}}
+  <div class="col content-divider">
+    <div class="content-divider-inner"></div>
+  </div>
+  {{#contentDividerCol2}}
+  <div class="col">
+    {{#imgVar}}
+      <div class="img-var">
+        <a href="#">
+          {{>starterkit-atoms-images}}
+          {{#linkSection}}
+            <span class="action">{{{actionTxt}}}</span>
+            <span class="icon-div"><i class="{{iconClass}}"></i></span>
+            <span class="description">{{{descTxt}}}</span>
+          {{/linkSection}}
+        </a>
+      </div>
+    {{/imgVar}}
+    {{#iconVar}}
+      <div class="icon-var">
+        {{#linkSection}}
+          <a href="#">
+            {{>starterkit-atoms-font-awesome-icon}}
+            <span class="action">{{{actionTxt}}}</span>
+            <span class="icon-div"><i class="{{iconClass}}"></i></span>
+            <span class="description">{{{descTxt}}}</span>
+          </a>
+        {{/linkSection}}
+      </div>
+    {{/iconVar}}
+    
+    {{#downloadVar}}
+      <div class="download-var">
+        {{#linkSection}}
+          <a href="#">
+            {{>starterkit-atoms-font-awesome-icon}}
+            <span class="action">{{{actionTxt}}}</span>
+            <span class="icon-div"><i class="{{iconClass}}"></i></span>
+            <span class="description">{{{descTxt}}}</span>
+          </a>
+        {{/linkSection}}
+      </div>
+    {{/downloadVar}}
+  </div>
+  {{/contentDividerCol2}}
+</div>
+{{/contentDivider}}

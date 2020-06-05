@@ -1,0 +1,42 @@
+.social-media {
+  text-align: right;
+  .class-itag{
+    display: none;
+  }
+  ul {
+  	list-style-type: none;
+  	padding-left: 0;
+    li {
+    	display: inline-block;
+      margin: 0;
+      padding-left:19px;
+      a {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        padding: 0px;
+        text-decoration: none;
+        text-align: center;
+        color: $white-color;
+        font-weight: normal;
+        transition: all 0.2s ease-in-out;
+        margin: 5px 0px;
+        &.facebook-icon{
+    			background-size: contain;
+        }
+        &.twitter-icon{
+    			background-size: contain;
+        }
+        &.email-icon{
+          background-size: contain;
+        }
+        span{
+          display: none;
+          
+        }
+      }
+    }
+  }
+}

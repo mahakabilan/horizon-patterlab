@@ -1,0 +1,41 @@
+{{#featuredContentCarousel}}
+	<div class="featured-content-carousel">
+		<div class="row">
+			<div class="col-lg-8 col-md-12">
+				<div class="first-section">
+					<div class="featured-content-carousel-bg">
+						<div class="header-div">
+							<div class="home-left-top">
+								{{>starterkit-atoms-paragraph}}
+								{{>starterkit-atoms-headings}}
+								{{#firstSection}}
+									{{>starterkit-atoms-paragraph}}
+								{{/firstSection}}
+								{{#shortDesc}}
+									{{>starterkit-atoms-paragraph}}
+								{{/shortDesc}}
+								<div class="check-btn">
+									{{>starterkit-atoms-button}}
+								</div>
+							</div>
+						</div>
+						<div class="home-left-bottom">
+							{{>starterkit-organisms-image-carousel-only-image}}
+							<div class="slider-arrow-container"></div>
+						</div> 
+					</div> 
+					<div class="featured-bottom-content">
+						{{#homePara}}
+	            {{>starterkit-atoms-paragraph}}
+	          {{/homePara}}
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-12 custom-padding">
+				<div class="sec-description">
+					{{>starterkit-molecules-image-aside-with-link-content}}
+				</div>
+			</div>
+		</div>	
+	</div>
+{{/featuredContentCarousel}}

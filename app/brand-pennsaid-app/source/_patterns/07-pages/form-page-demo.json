@@ -1,0 +1,1012 @@
+{
+	"formPageDemo":{
+		"headingTag":"h2",
+		"headingTxt":"Don’t miss out on new information about cystinosis, including support resources and treatment options. Sign up below to get started.",
+	  "paragraph":{
+	    "paraTxt":"All fields are required.",
+	    "paraClass":""
+	  },
+	  "formWrapper":{
+	    "formFields":[
+	      {
+	      	"inputWithLabel":{
+	      		"formLabel":{
+					    "labelFor":"firstName",
+					    "labelClass":"",
+					    "labelTxt":"First name"
+					  },
+	      		"textInput": {
+		          "attributes": [
+		          	{
+		              "name": "id",
+		              "value": "firstName"
+		            },
+		            {
+		              "name": "name",
+		              "value": "firstName"
+		            },
+		            {
+		              "name": "autoComplete",
+		              "value": "off"
+		            },
+		            {
+		              "name": "class",
+		              "value": "form-control"
+		            },
+		            {
+		              "name": "placeholder",
+		              "value": ""
+		            },
+		            {
+		              "name": "type",
+		              "value": "text"
+		            },
+		            {
+		            	"name":"data-val",
+		            	"value":"true"
+		            },
+		            {
+		              "name": "data-val-length-min",
+		              "value": "2"
+		            },
+		            {
+		              "name": "data-val-length",
+		              "value": "Your first name cannot be less than 2 characters or more than 35."
+		            },
+		            {
+		              "name": "data-val-length-max",
+		              "value": "35"
+		            },
+		            {
+		              "name": "aria-label",
+		              "value": "First name"
+		            }
+		          ],
+		          "required": {
+		            "errorMessage": "First name is required."
+		          }
+		        },
+		        "validationField":{
+		        	"labelFor":"firstName"
+		        }
+	      	}
+	      },
+	      {
+	        "inputWithLabel":{
+	      		"formLabel":{
+					    "labelFor":"lastName",
+					    "labelClass":"",
+					    "labelTxt":"Last name"
+					  },
+	      		"textInput": {
+		          "attributes": [
+		          	{
+		              "name": "id",
+		              "value": "lastName"
+		            },
+		            {
+		              "name": "name",
+		              "value": "lastName"
+		            },
+		            {
+		              "name": "autoComplete",
+		              "value": "off"
+		            },
+		            {
+		              "name": "class",
+		              "value": "form-control"
+		            },
+		            {
+		              "name": "placeholder",
+		              "value": ""
+		            },
+		            {
+		              "name": "type",
+		              "value": "text"
+		            },
+		            {
+		            	"name":"data-val",
+		            	"value":"true"
+		            },
+		            {
+		              "name": "data-val-length-min",
+		              "value": "2"
+		            },
+		            {
+		              "name": "data-val-length",
+		              "value": "Your last name cannot be less than 2 characters or more than 70."
+		            },
+		            {
+		              "name": "data-val-length-max",
+		              "value": "70"
+		            },
+		            {
+		              "name": "aria-label",
+		              "value": "Last name"
+		            }
+		          ],
+		          "required": {
+		            "errorMessage": "Last name is required."
+		          }
+		        },
+		        "validationField":{
+		        	"labelFor":"lastName"
+		        }
+	      	}
+	      },
+	      {
+	        "inputWithLabel":{
+	      		"formLabel":{
+					    "labelFor":"emailAddress",
+					    "labelClass":"",
+					    "labelTxt":"Email address"
+					  },
+	      		"textInput": {
+		          "attributes": [
+		          	{
+		              "name": "id",
+		              "value": "emailAddress"
+		            },
+		            {
+		              "name": "name",
+		              "value": "emailAddress"
+		            },
+		            {
+		              "name": "autoComplete",
+		              "value": "off"
+		            },
+		            {
+		              "name": "class",
+		              "value": "form-control"
+		            },
+		            {
+		              "name": "placeholder",
+		              "value": ""
+		            },
+		            {
+		              "name": "type",
+		              "value": "email"
+		            },
+		            {
+		            	"name":"data-val",
+		            	"value":"true"
+		            },
+		            {
+		            	"name":"data-val-email",
+		            	"value":"The Email field is not a valid e-mail address."
+		            },
+		            {
+		              "name": "aria-label",
+		              "value": "Email address"
+		            }
+		          ],
+		          "required": {
+		            "errorMessage": "Please enter valid email address."
+		          }
+		        },
+		        "validationField":{
+		        	"labelFor":"emailAddress"
+		        }
+	      	}
+	      },
+	      {
+	        "inputWithLabel":{
+	      		"formLabel":{
+					    "labelFor":"confirmEmailAddress",
+					    "labelClass":"",
+					    "labelTxt":"Confirm email address"
+					  },
+	      		"textInput": {
+		          "attributes": [
+		          	{
+		              "name": "id",
+		              "value": "confirmEmailAddress"
+		            },
+		            {
+		              "name": "name",
+		              "value": "confirmEmailAddress"
+		            },
+		            {
+		              "name": "autoComplete",
+		              "value": "off"
+		            },
+		            {
+		              "name": "class",
+		              "value": "form-control"
+		            },
+		            {
+		              "name": "placeholder",
+		              "value": ""
+		            },
+		            {
+		              "name": "type",
+		              "value": "email"
+		            },
+		            {
+		            	"name":"data-val",
+		            	"value":"true"
+		            },
+		            {
+		            	"name" : "data-val-equalto",
+		            	"value": "Email address does not match."
+		            },
+		            {
+		            	"name":"data-val-equalto-other",
+		            	"value":"*.emailAddress"
+		            },
+		            {
+		              "name": "aria-label",
+		              "value": "Confirm Email address"
+		            }
+		          ],
+		          "required": ""
+		        },
+		        "validationField":{
+		        	"labelFor":"confirmEmailAddress"
+		        }
+	      	}
+	      }
+	    ],
+	    "radioButton":{
+	    	"paragraph":{
+			    "paraTxt":"Choose an option that best describes you:",
+			    "paraClass":""
+			  },
+	      "radioButtonList":[
+	        {
+	          "radioField":{
+		          "attributes": [
+		          	{
+		              "name": "id",
+		              "value": "cystinosys"
+		            },
+		            {
+		              "name": "name",
+		              "value": "cystinosys"
+		            },
+		            {
+		              "name": "autoComplete",
+		              "value": "off"
+		            },
+		            {
+		              "name": "class",
+		              "value": "form-check-input"
+		            },
+		            {
+		            	"name":"data-val",
+		            	"value":"true"
+		            },
+		            {
+		              "name": "type",
+		              "value": "radio"
+		            }
+		          ],
+		          "required": {
+		            "errorMessage": "Please choose 1 of these options."
+		          },
+	            "radioForID":"cystinosys",
+	            "radioTxt":"I am a person living with cystinosis"
+	          }
+	        },
+	        {
+	          "radioField":{
+	          	"attributes": [
+		          	{
+		              "name": "id",
+		              "value": "careGiver"
+		            },
+		            {
+		              "name": "name",
+		              "value": "cystinosys"
+		            },
+		            {
+		              "name": "autoComplete",
+		              "value": "off"
+		            },
+		            {
+		              "name": "class",
+		              "value": "form-check-input"
+		            },
+		            {
+		              "name": "type",
+		              "value": "radio"
+		            }
+		          ],
+		          "required": "",
+	            "radioForID":"careGiver",
+	            "radioTxt":"I am a caregiver of a person with cystinosis"
+	          }
+	        },
+	        {
+	          "radioField":{
+	          	"attributes": [
+		          	{
+		              "name": "id",
+		              "value": "other"
+		            },
+		            {
+		              "name": "name",
+		              "value": "cystinosys"
+		            },
+		            {
+		              "name": "autoComplete",
+		              "value": "off"
+		            },
+		            {
+		              "name": "class",
+		              "value": "form-check-input"
+		            },
+		            {
+		              "name": "type",
+		              "value": "radio"
+		            }
+		          ],
+		          "required": "",
+	            "radioForID":"other",
+	            "radioTxt":"Other"
+	          }
+	        }
+	      ]
+	    },
+	    "radioButtonHomeAddress":{
+	    	"paragraph":{
+			    "paraTxt":"Would you like information about cystinosis and helpful resources sent to your home address?",
+			    "paraClass":""
+			  },
+	      "radioButtonList":[
+	        {
+	          "radioField":{
+	          	"attributes": [
+		          	{
+		              "name": "id",
+		              "value": "DeliverToHome"
+		            },
+		            {
+		              "name": "name",
+		              "value": "DeliverToHome"
+		            },
+		            {
+		              "name": "class",
+		              "value": "form-check-input"
+		            },
+		            {
+		              "name": "type",
+		              "value": "radio"
+		            },
+		            {
+		            	"name":"value",
+		            	"value":"true"
+		            },
+		            {
+		            	"name":"data-val",
+		            	"value":"true"
+		            }
+		          ],
+		          "required": {
+		            "errorMessage": "Please choose 1 of these options."
+		          },
+	            "radioForID":"DeliverToHome",
+	            "radioTxt":"Yes"
+	          }
+	        },
+	        {
+	          "radioField":{
+	          	"attributes": [
+		          	{
+		              "name": "id",
+		              "value": "DeliverToHome"
+		            },
+		            {
+		              "name": "name",
+		              "value": "DeliverToHome"
+		            },
+		            {
+		              "name": "class",
+		              "value": "form-check-input"
+		            },
+		            {
+		              "name": "type",
+		              "value": "radio"
+		            },
+		            {
+		            	"name":"value",
+		            	"value":"false"
+		            }
+		          ],
+		          "required":"",
+	            "radioForID":"DeliverToHomeNo",
+	            "radioTxt":"No"
+	          }
+	        }
+	      ]
+	    },
+	    "addHomeAddress":{
+	    	"formFields":{
+	    		"primaryFields":[
+	    			{
+			      	"inputWithLabel":{
+			      		"formLabel":{
+							    "labelFor":"addressFirst",
+							    "labelClass":"",
+							    "labelTxt":"Address line 1"
+							  },
+			      		"textInput": {
+				          "attributes": [
+				          	{
+				              "name": "id",
+				              "value": "addressFirst"
+				            },
+				            {
+				              "name": "name",
+				              "value": "addressFirst"
+				            },
+				            {
+				              "name": "autoComplete",
+				              "value": "off"
+				            },
+				            {
+				              "name": "class",
+				              "value": "form-control"
+				            },
+				            {
+				              "name": "placeholder",
+				              "value": ""
+				            },
+				            {
+				              "name": "type",
+				              "value": "text"
+				            },
+				            {
+				            	"name":"data-val",
+				            	"value":"true"
+				            },
+				            {
+				              "name": "data-val-min-length",
+				              "value": "4"
+				            },
+				            {
+				            	"name":"data-val-max-length",
+				            	"value":"255"
+				            },
+				            {
+				            	"name":"data-val-requireiftrue",
+				            	"value":"Address is required."
+				            },
+				            {
+				            	"name":"data-val-requireiftrue-dependentproperty",
+				            	"value":"DeliverToHome"
+				            },
+				            {
+				            	"name":"data-val-stringlengthiftrue",
+				            	"value":"Your address cannot be less than 4 characters or more than 255."
+				            },
+				            {
+				            	"name":"data-val-stringlengthiftrue-dependentproperty",
+				            	"value":"DeliverToHome"
+				            },
+				            {
+				              "name": "aria-label",
+				              "value": "First name"
+				            }
+				          ],
+				          "required":{
+				          	"errorMessage":"Address is required."
+				          }
+				        },
+		        		"validationField":{
+		        			"labelFor":"addressFirst"
+		        		}
+			      	}
+			      },
+			      {
+			        "inputWithLabel":{
+			      		"formLabel":{
+							    "labelFor":"addressLast",
+							    "labelClass":"",
+							    "labelTxt":"Address line 2 (optional)"
+							  },
+			      		"textInput": {
+				          "attributes": [
+				          	{
+				              "name": "id",
+				              "value": "addressLast"
+				            },
+				            {
+				              "name": "name",
+				              "value": "addressLast"
+				            },
+				            {
+				              "name": "autoComplete",
+				              "value": "off"
+				            },
+				            {
+				              "name": "class",
+				              "value": "form-control"
+				            },
+				            {
+				              "name": "placeholder",
+				              "value": ""
+				            },
+				            {
+				              "name": "type",
+				              "value": "text"
+				            },				            
+				            {
+				              "name": "aria-label",
+				              "value": "Last name"
+				            }
+				          ],
+				          "required": ""
+				        },
+				        "validationField":{
+		        			"labelFor":"addressLast"
+		        		}
+			      	}
+			      },
+			      {
+			        "inputWithLabel":{
+			      		"formLabel":{
+							    "labelFor":"city",
+							    "labelClass":"",
+							    "labelTxt":"City"
+							  },
+			      		"textInput": {
+				          "attributes": [
+				          	{
+				              "name": "id",
+				              "value": "city"
+				            },
+				            {
+				              "name": "name",
+				              "value": "city"
+				            },
+				            {
+				              "name": "autoComplete",
+				              "value": "off"
+				            },
+				            {
+				              "name": "class",
+				              "value": "form-control"
+				            },
+				            {
+				              "name": "placeholder",
+				              "value": ""
+				            },
+				            {
+				              "name": "type",
+				              "value": "text"
+				            },
+				            {
+				            	"name":"data-val",
+				            	"value":"true"
+				            },
+				            {
+				              "name": "data-val-min-length",
+				              "value": "2"
+				            },
+				            {
+				            	"name":"data-val-max-length",
+				            	"value":"70"
+				            },
+				            {
+				            	"name":"data-val-requireiftrue",
+				            	"value":"City is required."
+				            },
+				            {
+				            	"name":"data-val-requireiftrue-dependentproperty",
+				            	"value":"DeliverToHome"
+				            },
+				            {
+				            	"name":"data-val-stringlengthiftrue",
+				            	"value":"Your city cannot be less than 2 characters or more than 70."
+				            },
+				            {
+				            	"name":"data-val-stringlengthiftrue-dependentproperty",
+				            	"value":"DeliverToHome"
+				            },
+				            {
+				              "name": "aria-label",
+				              "value": "City"
+				            }
+				          ],
+				          "required":{
+				          	"errorMessage":"City is required."
+				          }
+				        },
+		        		"validationField":{
+		        			"labelFor":"city"
+		        		}
+			      	}
+			      }
+	    		],
+	    		"dropdown":[
+	    			{
+	    				"formLabel":{
+	    					"labelFor":"state",
+	    					"labelTxt":"State"
+	    				},
+
+			      	"selectField": {
+								"attributes": [
+									{
+										"name": "id",
+										"value": "state"
+									},
+									{
+										"name": "name",
+										"value": "state"
+									},
+									{
+										"name": "class",
+										"value": "state-dd form-control"
+									},
+									{
+			            	"name":"data-val",
+			            	"value":"true"
+			            },
+			            {
+			            	"name":"data-val-requireiftrue",
+			            	"value":"State is required."
+			            },
+			            {
+			            	"name":"data-val-requireiftrue-dependentproperty",
+			            	"value":"DeliverToHome"
+			            },
+								],
+								"options": [
+									{
+										"name": "",
+										"value": "",
+										"selected": "selected"
+									},
+									{
+										"name": "Alabama",
+										"value": "AL"
+									},
+									{
+										"name": "Alaska",
+										"value": "AK"
+									},
+									{
+										"name": "Arizona",
+										"value": "AZ"
+									},
+									{
+										"name": "Arkansas",
+										"value": "AR"
+									},
+									{
+										"name": "California",
+										"value": "CA"
+									},
+									{
+										"name": "Colorado",
+										"value": "CO"
+									},
+									{
+										"name": "Connecticut",
+										"value": "CT"
+									},
+									{
+										"name": "Delaware",
+										"value": "DE"
+									},
+									{
+										"name": "District of Columbia",
+										"value": "DC"
+									},
+									{
+										"name": "Florida",
+										"value": "FL"
+									},
+									{
+										"name": "Georgia",
+										"value": "GA"
+									},
+									{
+										"name": "Hawaii",
+										"value": "HI"
+									},
+									{
+										"name": "Idaho",
+										"value": "ID"
+									},
+									{
+										"name": "Illinois",
+										"value": "IL"
+									},
+									{
+										"name": "Indiana",
+										"value": "IN"
+									},
+									{
+										"name": "Iowa",
+										"value": "IA"
+									},
+									{
+										"name": "Kansas",
+										"value": "KS"
+									},
+									{
+										"name": "Kentucky",
+										"value": "KY"
+									},
+									{
+										"name": "Louisiana",
+										"value": "LA"
+									},
+									{
+										"name": "Maine",
+										"value": "ME"
+									},
+									{
+										"name": "Maryland",
+										"value": "MD"
+									},
+									{
+										"name": "Massachusetts",
+										"value": "MA"
+									},
+									{
+										"name": "Michigan",
+										"value": "MI"
+									},
+									{
+										"name": "Minnesota",
+										"value": "MN"
+									},
+									{
+										"name": "Mississippi",
+										"value": "MS"
+									},
+									{
+										"name": "Missouri",
+										"value": "MO"
+									},
+									{
+										"name": "Montana",
+										"value": "MT"
+									},
+									{
+										"name": "Nebraska",
+										"value": "NE"
+									},
+									{
+										"name": "Nevada",
+										"value": "NV"
+									},
+									{
+										"name": "New Hampshire",
+										"value": "NH"
+									},
+									{
+										"name": "New Jersey",
+										"value": "NJ"
+									},
+									{
+										"name": "New Mexico",
+										"value": "NM"
+									},
+									{
+										"name": "New York",
+										"value": "NY"
+									},
+									{
+										"name": "North Carolina",
+										"value": "NC"
+									},
+									{
+										"name": "North Dakota",
+										"value": "ND"
+									},
+									{
+										"name": "Ohio",
+										"value": "OH"
+									},
+									{
+										"name": "Oklahoma",
+										"value": "OK"
+									},
+									{
+										"name": "Oregon",
+										"value": "OR"
+									},
+									{
+										"name": "Pennsylvania",
+										"value": "PA"
+									},
+									{
+										"name": "Rhode Island",
+										"value": "RI"
+									},
+									{
+										"name": "South Carolina",
+										"value": "SC"
+									},
+									{
+										"name": "South Dakota",
+										"value": "SD"
+									},
+									{
+										"name": "Tennessee",
+										"value": "TN"
+									},
+									{
+										"name": "Texas",
+										"value": "TX"
+									},
+									{
+										"name": "Utah",
+										"value": "UT"
+									},
+									{
+										"name": "Vermont",
+										"value": "VT"
+									},
+									{
+										"name": "Virginia",
+										"value": "VA"
+									},
+									{
+										"name": "Washington",
+										"value": "WA"
+									},
+									{
+										"name": "West Virginia",
+										"value": "WV"
+									},
+									{
+										"name": "Wisconsin",
+										"value": "WI"
+									},
+									{
+										"name": "Wyoming",
+										"value": "WY"
+									}
+								],
+								"required":{
+				          	"errorMessage":"State is required."
+				          },
+	        			"labelFor":"state"
+							}	        		
+		      	}
+	    		],
+	    		"zipcode":[
+	    			{
+			        "inputWithLabel":{
+			      		"formLabel":{
+							    "labelFor":"zipcode",
+							    "labelClass":"",
+							    "labelTxt":"Zipcode"
+							  },
+			      		"textInput": {
+				          "attributes": [
+				          	{
+				              "name": "id",
+				              "value": "zipcode"
+				            },
+				            {
+				              "name": "name",
+				              "value": "zipcode"
+				            },
+				            {
+				              "name": "autoComplete",
+				              "value": "off"
+				            },
+				            {
+				              "name": "class",
+				              "value": "form-control"
+				            },
+				            {
+				              "name": "placeholder",
+				              "value": ""
+				            },
+				            {
+				              "name": "type",
+				              "value": "text"
+				            },
+				            {
+				              "name": "aria-label",
+				              "value": "Zipcode"
+				            },
+				            {
+				            	"name":"data-val",
+				            	"value":"true"
+				            },
+				            {
+				              "name": "data-val-min-length",
+				              "value": "5"
+				            },
+				            {
+				            	"name":"data-val-max-length",
+				            	"value":"9"
+				            },
+				            {
+				            	"name":"data-val-requireiftrue",
+				            	"value":"ZIP is required."
+				            },
+				            {
+				            	"name":"data-val-requireiftrue-dependentproperty",
+				            	"value":"DeliverToHome"
+				            },
+				            {
+				            	"name":"data-val-stringlengthiftrue",
+				            	"value":"Your ZIP code cannot be less than 5 characters or more than 9."
+				            },
+				            {
+				            	"name":"data-val-stringlengthiftrue-dependentproperty",
+				            	"value":"DeliverToHome"
+				            }
+				          ],
+				          "required":{
+				          	"errorMessage":"Zip is required."
+				          }
+				        },
+		        		"validationField":{
+		        			"labelFor":"zipcode"
+		        		}
+			      	}
+		      	}
+	    		]
+	    	}
+	    },
+	    "privacyNotice":{
+	      "headingTag":"h4",
+	      "headingTxt":"Privacy Notice and Consent:",
+	      "paragraph":{
+			    "paraTxt":"I understand I am giving Horizon Pharma, its affiliates, and business partners permission to use the personal information provided in this registration form, as described in this authorization. I understand that the information I am providing may be used by Horizon Pharma to provide me with health and product information and related services concerning health conditions and treatments. By submitting this form, I consent to these uses and confirm that I have read and agree to the Horizon Pharma <a href=\"#\">Terms & Conditions</a> and <a href=\"#\">Privacy Policy</a>. I understand that Horizon and its contracted third parties will not sell or rent personal information and the information provided in this form will be used in accordance with the Horizon Pharma <a href=\"#\">Privacy Policy</a>. I agree that this authorization will expire 10 years from the date submitted or when my participation in the program ends through my cancellation. I acknowledge that I am submitting this form voluntarily and that I am at least 18 years of age.",
+			    "paraClass":""
+			  },
+	      "radioField":{
+	      	"radioButtonClass":"checkbox-styled bold-txt",
+	      	"attributes": [
+          	{
+              "name": "id",
+              "value": "Terms"
+            },
+            {
+              "name": "name",
+              "value": "Terms"
+            },
+            {
+              "name": "class",
+              "value": "form-check-input"
+            },
+            {
+              "name": "type",
+              "value": "checkbox"
+            },
+            {
+            	"name":"data-val",
+            	"value":"true"
+            },
+            {
+            	"name":"data-val-range",
+            	"value":"Please opt in to continue."
+            },
+            {
+            	"name":"data-val-range-min",
+            	"value":"True"
+            },
+            {
+            	"name":"data-val-range-max",
+            	"value":"True"
+            },
+            
+            {
+            	"name":"value",
+            	"value":"true"
+            }
+          ],
+          "required":{
+          	"errorMessage":"The Terms field is required."
+          },
+	        "radioForID":"Terms",
+	        "radioTxt":"I accept"
+	      }
+	    },
+	    "submitClass":"",
+	    "submitTxt":"Submit"
+	  }
+	}
+}

@@ -1,0 +1,35 @@
+{{#teproFooter}}
+  <footer class="{{footerWrapperClass}}">
+    <div class="row">
+      <div class="col-md-9">
+        {{>starterkit-atoms-images-link}}
+
+      </div>
+      <div class="col-md-3 right-txt">
+        <p>{{{footerTxt}}}</p>
+        <p>{{{footerTxttwo}}}</p>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 link-parent">
+        <ul class="{{footListClass}}">
+          {{#footLinks}}
+            <li>
+              {{>starterkit-atoms-links}}
+            </li>
+          {{/footLinks}}
+        </ul>
+        {{#secondlinklist}}
+          <ul class="{{footListClass}}">
+            {{#footLinks}}
+              <li>
+                {{>starterkit-atoms-links}}
+              </li>
+            {{/footLinks}}
+          </ul>
+        {{/secondlinklist}}
+      </div>
+    </div>
+  </footer>
+{{/teproFooter}}

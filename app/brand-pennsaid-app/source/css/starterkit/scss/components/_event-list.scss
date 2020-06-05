@@ -1,0 +1,18 @@
+
+	.eventlist-section {
+		.bold-text {
+			font-weight: bold;
+		}
+		ul{
+			list-style: none;
+			li {
+				border-bottom: 1px solid #ddd;
+				a {
+					text-decoration: none;
+					p {
+						display: inline-block;
+					}
+				}
+			}
+		}
+	}

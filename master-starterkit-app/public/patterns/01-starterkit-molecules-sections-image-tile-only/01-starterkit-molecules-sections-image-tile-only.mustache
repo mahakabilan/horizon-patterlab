@@ -1,0 +1,17 @@
+{{#imageTileOnly}}
+  <div class="{{imageTileOnlyClass}}">
+    <div class="image-tile-only">
+      <div class="{{imgTileWithoutLinkClass}}">
+        {{#imageTileWithoutLink}}
+          {{>starterkit-atoms-images}}
+        {{/imageTileWithoutLink}}
+      </div>
+      <div class="{{imgTileWithLinkClass}}">
+        {{#imageTileWithLink}}
+          <a href="{{{link}}}" class="{{linkClass}}" data-link="{{linkType}}" target="{{{linkTarget}}}">{{>starterkit-atoms-images}}</a>
+          {{>starterkit-molecules-external-links-dialog}}
+        {{/imageTileWithLink}}
+      </div>
+    </div>
+  </div>
+{{/imageTileOnly}}

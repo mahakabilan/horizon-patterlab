@@ -1,0 +1,42 @@
+{{#bannerCarousel}}
+<div class="banner-carousel-wrap {{HeroBannerClass}}">
+    <div class="slides">
+        <div class="slides">
+            {{#bannerCasouselItemList}}
+            <div class="item {{carouselActiveState}}">
+                <div class="slide" style="background-image: url({{bgItemSliderImageURL}}); opacity: 0; transform: translateX(0px); display: none;" alt="{{bgItemSliderAlt}}">
+                    <div style="display: none; opacity: 0; transform: translateX(0px);" class="quote-container">
+                        {{>starterkit-atoms-paragraph}}
+                        <div class="attribution">
+                            <span class="name">{{bgItemSliderName}}</span>
+                            <span class="role">{{bgItemSliderRole}}</span>
+                            <span class="age">AGE {{bgItemSliderAge}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            {{/bannerCasouselItemList}} 
+        </div>
+    </div>
+
+    <div class="slide-mobile">
+    </div>
+
+    <div class="item-static {{staticItemContentAlignment}}">
+      {{#staticItemContent}}
+          {{>starterkit-atoms-headings}}
+          {{>starterkit-atoms-paragraph}}
+      {{/staticItemContent}}
+    </div>
+
+    {{#rightBannerContent}}
+    <div class="main">
+        {{>starterkit-atoms-headings}}
+        {{#rightBannerContentText}}
+            {{>starterkit-atoms-paragraph}}
+            {{>starterkit-atoms-button}}
+        {{/rightBannerContentText}}
+    </div>
+    {{/rightBannerContent}}
+</div>
+{{/bannerCarousel}}

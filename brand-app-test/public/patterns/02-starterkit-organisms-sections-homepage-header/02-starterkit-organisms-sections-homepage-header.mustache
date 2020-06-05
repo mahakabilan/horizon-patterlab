@@ -1,0 +1,28 @@
+{{#homepageHeader}}
+  <div class="homepage-header-wrap">
+    <div class="homepage-header">
+      <div class="mobile-menu-btn"></div>
+      <div class="logo-nav">
+        <a href="{{logoTEDLink}}">{{>starterkit-atoms-images}}</a>
+        <div class="tablet-signup-btn">
+          {{>starterkit-atoms-button}}
+        </div>
+        {{>starterkit-molecules-top-navigation}}
+        <div class="mobile-overlay"></div>
+      </div>
+      <div class="mobile-signup-btn">
+        {{>starterkit-atoms-button}}
+      </div>
+      <div class="homepage-banner-content">
+        {{#bannerCopy}}
+          {{>starterkit-atoms-headings}}
+        {{/bannerCopy}}
+        <div class="banner-button">
+          {{#bannerBtn}}
+            {{>starterkit-atoms-button-primay}}
+          {{/bannerBtn}}
+        </div>
+      </div>
+    </div>
+  </div>
+{{/homepageHeader}}

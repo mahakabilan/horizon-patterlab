@@ -1,0 +1,15 @@
+{{#twoColumnWrapper}}
+	<div class="two-column-list">
+		{{>starterkit-atoms-headings}}
+		<{{listType}} class="{{listClass}}">
+			{{#list}}
+				<li>
+					{{>starterkit-atoms-links-span}}
+				</li>
+			{{/list}}
+		</{{listType}}>
+		{{#loadMoreLink}}
+			{{>starterkit-atoms-links}}
+		{{/loadMoreLink}}
+	</div>
+{{/twoColumnWrapper}}

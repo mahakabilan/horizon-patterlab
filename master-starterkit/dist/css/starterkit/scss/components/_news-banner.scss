@@ -1,0 +1,104 @@
+.news-banner-wrapper {
+  padding: 20px 0px;
+  display: none;
+  background-color: #333;
+  border-bottom: 1px solid #3335;
+  min-height: 70px;
+
+  @media (max-width: 1023px) {
+    padding: 20px;
+  }
+
+  .news-banner-container {
+    max-width: 1000px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    padding-right: 30px;
+
+    @media (max-width: $mob-breakpoint) {
+      flex-direction: column;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .news-banner-close {
+      position: absolute;
+      top: 5px;
+      right: 0px;
+      width: 20px;
+      height: 20px;
+      opacity: 1;
+      background-image: url('../../images/starterkit/collapse-black.svg');
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.6;
+        text-decoration: underline;
+      }
+    }
+
+    .left-content {
+      color: #FFF;
+
+      a {
+        text-decoration: underline;
+        border-bottom: none;
+        color: #FFF;
+
+        &:hover {
+          text-decoration: underline;
+          opacity: 0.6;
+          color: #FFF;
+        }
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      p {
+        color: #FFF;
+      }
+
+      p:last-of-type {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+      }
+    }
+
+    .main-content {
+      h4 {
+        color: #000000;
+      }
+
+      h2 {
+        color: #000000;
+      }
+
+      p {
+        color: #000000;
+      }
+
+      &.cta-btn {}
+    }
+
+    .right-content {
+      align-self: flex-end;
+
+      @media (max-width: $mob-breakpoint) {
+        align-self: auto;
+      }
+
+      a {
+        color: #000000;
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{{#cgdHeader}}
+<div class="page-header">
+	<div class="page-header-top">
+		{{>starterkit-molecules-top-navigation}}
+		{{>starterkit-molecules-dropdown-selector}}
+	</div>
+	<div class="page-logo-nav">
+		<div class="page-logo">
+		{{#cgdLogo}}
+			{{>starterkit-atoms-images-link}}
+		{{/cgdLogo}}
+		</div>
+		<div class="navigation-wrap">
+			<div class="page-navigation">
+				{{>starterkit-molecules-main-navigation}}
+				{{>starterkit-molecules-search-with-content}}				
+				<div class="social-links">
+				{{#headerSocialFb}}
+					{{#imageList}}
+						<a href="#"><span>{{imgTxt}}</span><img src="{{imgPath}}" alt="{{imgAlttxt}}"></a>
+					{{/imageList}}
+				{{/headerSocialFb}}	
+				</div>
+			</div>
+			<div class="page-navigation-mobile">
+				<div class="hamburger">
+					<a href="#" class="nav-opener" data-link="" target=""><span>menu</span></a>
+			    </div>
+				<div class="mobile-nav-triggers">
+					{{#mobileTriggers}}
+					<div class="mobile-site-social">
+						<div class="mobile-site">
+							{{>starterkit-molecules-dropdown-selector}}
+						</div>
+						<div class="social-links">
+							{{#mobileSocial}}
+								{{#imageList}}
+									<a href="#"><span>{{imgTxt}}</span><img src="{{imgPath}}" alt="{{imgAlttxt}}"></a>
+								{{/imageList}}
+							{{/mobileSocial}}
+						</div>
+					</div>
+					<div class="mobile-list-nav-text">
+						{{#mobileNavList}}
+							{{>starterkit-atoms-links}}
+						{{/mobileNavList}}
+					</div>
+					{{/mobileTriggers}}
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="pop-overlay"></div>
+</div>
+{{/cgdHeader}}

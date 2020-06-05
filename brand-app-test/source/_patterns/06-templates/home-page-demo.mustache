@@ -1,0 +1,650 @@
+<!-- CTA Banner popup-->
+<div class="banner headerpop">
+	{{>starterkit-organisms-cta}}
+</div>
+{{>starterkit-organisms-news-banner}}
+<!-- Header -->
+{{#commonHeaderFooterData}}
+<section class="hz-header-wrap" data-toggle="affix">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{>starterkit-organisms-header}}
+			</div>
+		</div>
+	</div>
+</section>
+{{/commonHeaderFooterData}}
+<!-- Social Share Section-->
+<section class="social-share-wrap">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{>starterkit-molecules-social-media}}
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Banner Section -->
+<section class="home-banner-wrap">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{>starterkit-molecules-hero-banner}}
+			</div>
+		</div>
+	</div>
+</section>
+<div class="container-full">
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Video Banner Component</h2>
+			{{>starterkit-molecules-video-banner}}
+		</div>
+	</div>
+</div>
+<div class="container">
+	<!-- Featured Collage Section -->
+	<div class="row featured-collage-wrapper">
+		<div class="col-md-12">
+			{{>starterkit-organisms-featured-content-collage}}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Image Aside Component With Variations</h2>
+			{{>starterkit-organisms-image-aside}}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h2>NPI MODAL</h2>
+			{{>starterkit-molecules-npi-modal}}
+			{{>starterkit-molecules-npi-input}}
+
+			<div class="form-group">
+				<label for="" class="FirstName">First Name</label>
+				<div class="">
+					<input class="form-control first-name" id="fname" name="FirstName" autocomplete="off" data-val="true" type="text" data-val-length-min="1" data-val-length="" data-val-length-max="35" data-val-required="This field is required.">
+				</div>
+				<span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+			</div>
+
+			<div class="form-group">
+				<label for="" class="LastName">Last Name</label>
+				<div class="">
+					<input class="form-control last-name" id="lname" name="LastName" autocomplete="off" data-val="true" type="text" data-val-length-min="1" data-val-length="" data-val-length-max="35" data-val-required="This field is required.">
+				</div>
+				<span class="field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+			</div>
+
+			<div class="form-group">
+				<label for="PhoneNo" class="">Office Phone Number (Optional)</label>
+				<div class="">
+					<input class="form-control optional-phone" id="Phone" name="Phone" autocomplete="off" type="tel" data-val-length-min="10" data-val-length="Please enter a valid phone number." data-val-regex="Please enter a valid phone number." data-val="false" data-val-required="Please enter a valid phone number.">
+				</div>
+				<span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
+			</div>
+
+			<div class="form-group">
+				<label for="" class="Address1">Address of Your Practice (Optional)</label>
+				<div class="">
+					<input type="text" id="address1" autocomplete="off" name="Address1" class="form-control adress-input" data-val="false" data-val-length-min="1" data-val-length="Address is required." data-val-length-max="200" data-val-required="This field is required.">
+				</div>
+				<span class="field-validation-valid" data-valmsg-for="Address1" data-valmsg-replace="true"></span>
+			</div>
+
+			<div class="form-group">
+				<label for="City" class="">City (Optional)</label>
+				<div class="">
+					<input type="text" class="form-control city-input" id="city" data-val="false" name="City" data-val-length-min="1" data-val-length="Please enter a valid city." data-val-length-max="35" data-val-required="This field is required.">
+				</div>
+				<span class="field-validation-valid" data-valmsg-for="City" data-valmsg-replace="true"></span>
+			</div>
+
+			<div class="form-group">
+				<label for="State" class="">State (Optional)</label>
+				<div class="select-wrapper">
+					<select name="State" id="State" data-hide-disabled="true" value="" data-val="false" data-val-required="This field is required." class="form-control state-input">
+						<option value=""></option>
+						<option value="AL">Alabama</option>
+						<option value="AK">Alaska</option>
+						<option value="AZ">Arizona</option>
+						<option value="AR">Arkansas</option>
+						<option value="CA">California</option>
+						<option value="CO">Colorado</option>
+						<option value="CT">Connecticut</option>
+						<option value="DE">Delaware</option>
+						<option value="DC">District Of Columbia</option>
+						<option value="FL">Florida</option>
+						<option value="GA">Georgia</option>
+						<option value="HI">Hawaii</option>
+						<option value="ID">Idaho</option>
+						<option value="IL">Illinois</option>
+						<option value="IN">Indiana</option>
+						<option value="IA">Iowa</option>
+						<option value="KS">Kansas</option>
+						<option value="KY">Kentucky</option>
+						<option value="LA">Louisiana</option>
+						<option value="ME">Maine</option>
+						<option value="MD">Maryland</option>
+						<option value="MA">Massachusetts</option>
+						<option value="MI">Michigan</option>
+						<option value="MN">Minnesota</option>
+						<option value="MS">Mississippi</option>
+						<option value="MO">Missouri</option>
+						<option value="MT">Montana</option>
+						<option value="NE">Nebraska</option>
+						<option value="NV">Nevada</option>
+						<option value="NH">New Hampshire</option>
+						<option value="NJ">New Jersey</option>
+						<option value="NM">New Mexico</option>
+						<option value="NY">New York</option>
+						<option value="NC">North Carolina</option>
+						<option value="ND">North Dakota</option>
+						<option value="OH">Ohio</option>
+						<option value="OK">Oklahoma</option>
+						<option value="OR">Oregon</option>
+						<option value="PA">Pennsylvania</option>
+						<option value="RI">Rhode Island</option>
+						<option value="SC">South Carolina</option>
+						<option value="SD">South Dakota</option>
+						<option value="TN">Tennessee</option>
+						<option value="TX">Texas</option>
+						<option value="UT">Utah</option>
+						<option value="VT">Vermont</option>
+						<option value="VA">Virginia</option>
+						<option value="WA">Washington</option>
+						<option value="WV">West Virginia</option>
+						<option value="WI">Wisconsin</option>
+
+					</select>
+				</div>
+				<span class="field-validation-valid" data-valmsg-for="State" data-valmsg-replace="true"></span>
+
+			</div>
+
+			<div class="form-group">
+				<label for="Zip" class="">ZIP Code</label>
+				<div class="">
+					<input type="tel" id="zipcode" name="Zip" class="form-control zip-input" data-val="true" data-val-length-min="5" data-val-length="Your ZIP code should be 5 digits." maxlength="5" data-val-required="This field is required. <br>Your ZIP code should be 5 digits.">
+				</div>
+				<span class="field-validation-valid" data-valmsg-for="Zip" data-valmsg-replace="true"></span>
+			</div>
+
+		</div>
+	</div>
+	<!-- Accordion List start-->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Accordion List</h2>
+			{{>starterkit-organisms-accordion-list}}
+		</div>
+	</div>
+	<!-- Accordion List End -->
+	<!-- Language Selector start-->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Language Selector</h2>
+			{{>starterkit-organisms-language-selector}}
+		</div>
+	</div>
+	<!-- Language Selector End -->
+
+	<!-- Button with arrow Component start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Button with arrow Component</h2>
+			{{>starterkit-atoms-button}}
+		</div>
+	</div>
+	<!-- Button with arrow Component end -->
+	<!-- ButtonComponent start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>ButtonComponent</h2>
+			{{>starterkit-atoms-button-primay}}
+		</div>
+	</div>
+	<!-- ButtonComponent end-->
+	<!-- Checklist with heading start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Checklist with heading</h2>
+			{{>starterkit-molecules-checklistHeading}}
+		</div>
+	</div>
+	<!-- Checklist with heading end -->
+	<!-- Content Box component start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Content Box component</h2>
+			{{>starterkit-organisms-content-box}}
+		</div>
+	</div>
+	<!-- Content Box component end -->
+	<!-- Content Box with button start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Content Box with button component</h2>
+			{{>starterkit-organisms-content-box-with-btn}}
+		</div>
+	</div>
+	<!-- Content Box with button end -->
+	<!-- Content Divider start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Content Divider</h2>
+			{{>starterkit-organisms-content-divider}}
+		</div>
+	</div>
+	<!-- Content Divider end -->
+	<!-- Document Download start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Document Download</h2>
+			{{>starterkit-organisms-document-download}}
+		</div>
+	</div>
+	<!-- Document Download end -->
+	<!-- Document List start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Document List</h2>
+			{{>starterkit-molecules-document-list}}
+		</div>
+	</div>
+	<!-- Document List end -->
+	<!-- Link List start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Link List</h2>
+			{{>starterkit-atoms-link-list}}
+		</div>
+	</div>
+	<!-- Link List end -->
+	<!-- Numbered boxes start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Numbered Boxes</h2>
+			{{>starterkit-organisms-numbered-boxes}}
+		</div>
+	</div>
+	<!-- Numbered boxes end -->
+	<!-- Paragraph start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Paragraph</h2>
+			{{>starterkit-atoms-paragraph}}
+		</div>
+	</div>
+	<!-- Paragraph end -->
+	<!-- Pivot table start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Pivot table</h2>
+			{{>starterkit-organisms-responsive-table}}
+		</div>
+	</div>
+	<!-- Pivot table end -->
+	<!-- Section bar start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Section Bar</h2>
+			{{>starterkit-molecules-section-bar}}
+		</div>
+	</div>
+	<!-- Section bar end -->
+	<!-- Section bar nav start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Section Bar</h2>
+			{{>starterkit-organisms-section-bar-nav}}
+		</div>
+	</div>
+	<!-- Section bar nav end -->
+	<!-- Separator start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Separator</h2>
+			{{>starterkit-organisms-content-divider}}
+		</div>
+	</div>
+	<!-- Separator end -->
+	<!-- Tabbed Content start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Tabbed Content</h2>
+			{{>starterkit-organisms-tab}}
+		</div>
+	</div>
+	<!-- Tabbed Content end -->
+	<!-- Text with leading image start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Text with leading image</h2>
+			{{>starterkit-organisms-text-leading-image}}
+		</div>
+	</div>
+	<!-- Text with leading image end -->
+	<!-- Two Column Content Box With Button start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Two Column Content Box With Button</h2>
+			{{>starterkit-organisms-card-2-column-with-ink}}
+		</div>
+	</div>
+	<!-- Text with leading image end -->
+	<!-- Zip Code Box start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Zip Code Box</h2>
+			{{>starterkit-organisms-zipcode-box}}
+		</div>
+	</div>
+	<!-- Zip Code Box end -->
+	<!-- HrefDialoq start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>External Dialog Demo</h2>
+			{{>starterkit-organisms-external-dialog-demo}}
+		</div>
+	</div>
+	<!-- HrefDialoq end -->
+	<!-- Cards 2 Column start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Cards 2 Column</h2>
+			{{>starterkit-organisms-cards-2-column}}
+		</div>
+	</div>
+	<!-- Cards 2 Column end -->
+	<!-- Cards 3 Column start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Cards 3 Column</h2>
+			{{>starterkit-organisms-cards-3-column}}
+		</div>
+	</div>
+	<!-- Cards 3 Column end -->
+	<!-- Responsive Image start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Responsive Image</h2>
+			{{>starterkit-atoms-images}}
+		</div>
+	</div>
+	<!-- Responsive Image end -->
+	<!-- Image Carousal start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Image Carousal</h2>
+			{{>starterkit-organisms-image-carousel}}
+		</div>
+	</div>
+	<!-- Image Carousal end -->
+	<!-- Image Tile Component start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Image Tile Component</h2>
+			{{>starterkit-organisms-image-tile-only-component}}
+		</div>
+	</div>
+	<!-- Image Tile Component end -->
+	<!-- Image With CTA start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Image With CTA</h2>
+			{{>starterkit-organisms-image-with-cta}}
+		</div>
+	</div>
+	<!-- Image With CTA end -->
+	<!-- Featured Content With Carousel start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Featured Content With Carousel</h2>
+			{{>starterkit-organisms-featured-content-carousel}}
+		</div>
+	</div>
+	<!-- Featured Content With Carousel end -->
+	<!-- Full Width Image With Text Overlay start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Full Width Image With Text Overlay</h2>
+			{{>starterkit-organisms-full-width-image-overlay}}
+		</div>
+	</div>
+	<!-- Full Width Image With Text Overlay end -->
+	<!-- Video Box start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Video Box</h2>
+			{{>starterkit-organisms-video-box}}
+		</div>
+	</div>
+	<!-- Video Box end -->
+	<!-- Video File start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Video File</h2>
+			{{>starterkit-organisms-video-component}}
+		</div>
+	</div>
+	<!-- Video File end -->
+	<!-- Video File start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Video Player With Chapters</h2>
+			{{>starterkit-organisms-video-chapters}}
+		</div>
+	</div>
+	<!-- Video File end -->
+	<!-- full width banner start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Full width banner image</h2>
+			{{>starterkit-molecules-full-width-image-banner}}
+		</div>
+	</div>
+		<!-- full width banner end -->
+	<!-- Tabbed People List start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Tabbed People List Component</h2>
+			{{>starterkit-organisms-tab-with-accordion}}
+		</div>
+	</div>
+	<!-- Tabbed People List end -->
+	<!-- People List start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>People Component</h2>
+			{{>starterkit-organisms-people-list}}
+		</div>
+	</div>
+	<!-- People List end -->
+	<!-- Drug Links start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Drug Links Component</h2>
+			{{>starterkit-molecules-image-links}}
+		</div>
+	</div>
+	<!-- Drug Links end -->
+	<!-- Drug Phase Table start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Drug Phase Table Component</h2>
+			{{>starterkit-organisms-phase-table}}
+		</div>
+	</div>
+	<!-- Drug Phase Table end -->
+	<!-- Latest Press Releases start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Latest Press Releases Component</h2>
+			{{>starterkit-organisms-two-column-list}}
+		</div>
+	</div>
+	<!-- Latest Press Releases end -->
+	<!-- ParallaxVideoDisplay start -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2>ParallaxVideoDisplay Component</h2>
+			{{>starterkit-organisms-video-banner}}
+		</div>
+	</div>
+	<!-- ParallaxVideoDisplay end -->
+	<!-- Cta Section -->
+	<div class="row hz-cta-wrapper">
+		<div class="col-md-12">
+			{{>starterkit-organisms-cta}}
+		</div>
+	</div>
+</div>
+<!-- CTA section end -->
+<!-- Image Text CTA Multicolumn Start -->
+<section>
+	<div class="container">
+		<div class="row">
+			{{>starterkit-organisms-image-text-cta-multicolumn}}
+		</div>
+	</div>
+</section>
+<!-- Image Text CTA Multicolumn end -->
+<!-- Image Text Split Start -->
+<h1 style="text-align: center;">Image Text Split</h1>
+<section>
+	<div class="container">
+		<div class="row">
+			{{>starterkit-organisms-image-text-split}}
+		</div>
+	</div>
+</section>
+<!-- Image Text Split end -->
+<!-- Video box 2 column -->
+<h1 style="text-align: center;">Image Text Split</h1>
+<section>
+	<div class="container">
+		<div class="row">
+			{{>starterkit-organisms-Video-Box2Column}}
+		</div>
+	</div>
+</section>
+<!-- Video box 2 column end -->
+<!-- Text Image Split Start -->
+<h1 style="text-align: center;">Image Text Split</h1>
+<section>
+	<div class="container">
+		<div class="row">
+			{{>starterkit-organisms-text-image-split}}
+		</div>
+	</div>
+</section>
+<!-- Text Image Split End -->
+<!-- Video Content Split Start -->
+<h1 style="text-align: center;">Video Content Split </h1>
+<section>
+	<div class="container">
+		<div class="row">
+			{{>starterkit-organisms-video-content-split}}
+		</div>
+	</div>
+</section>
+<!-- Video Content Split End -->
+<!-- section banner -->
+<h1 style="text-align: center;">Section Banner</h1>
+{{>starterkit-molecules-section-page-banner}}
+<!-- section-banner-end -->
+<h1 style="text-align: center;">Multiline heading </h1>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{>starterkit-molecules-multiline-heading}}
+			</div>
+		</div>
+	</div>
+</section>
+<h1 style="text-align: center;">image text blocks </h1>
+<section>
+	<div class="container">
+		{{>starterkit-organisms-image-text-blocks}}
+	</div>
+</section>
+<h1 style="text-align: center;">Mnemonic component </h1>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{>starterkit-organisms-mnemonic-content}}
+			</div>
+		</div>
+	</div>
+</section>
+<h1 style="text-align: center;">content cta </h1>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{>starterkit-molecules-content-cta}}
+			</div>
+		</div>
+	</div>
+</section>
+<h1 style="text-align: center;">Text Banner with image</h1>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{>starterkit-molecules-text-banner-withimage}}
+			</div>
+		</div>
+	</div>
+</section>
+<h1 style="text-align: center;">button list </h1>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{>starterkit-molecules-button-list}}
+			</div>
+		</div>
+	</div>
+</section>
+<h1 style="text-align: center;">Dosage Calculator </h1>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{>starterkit-organisms-dosage-calc}}
+			</div>
+		</div>
+	</div>
+</section>
+<!-- ISI -->
+<h1 style="text-align: center;">ISI Panel</h1>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{>starterkit-organisms-isi-panel}}
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Footer -->
+{{#commonHeaderFooterData}}
+<section class="hz-footer-wrapper mb0">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{>starterkit-organisms-footer}}
+			</div>
+		</div>
+		<div class="row hidden-desktop visible-mobile">
+			{{>starterkit-organisms-back-to-top}}
+		</div>
+	</div>
+</section>
+{{/commonHeaderFooterData}}

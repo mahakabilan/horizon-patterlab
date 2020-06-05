@@ -1,0 +1,20 @@
+{{#numberedBoxes}}
+  <div class="numbered-boxes-wrapper {{wrapperClass}}">
+    {{#numberedBoxesHeader}}
+      {{>starterkit-atoms-headings}}
+    {{/numberedBoxesHeader}}
+    <div class="row">
+      {{#numberedBox}}
+        <div class="numbered-box {{boxClass}}">
+          <div class="left">
+            {{>starterkit-atoms-headings}}
+            {{>starterkit-atoms-paragraph}}
+          </div><!-- .left -->
+          <div class="right">
+            {{>starterkit-atoms-images}}
+          </div><!-- .right -->
+        </div>
+      {{/numberedBox}}
+    </div>
+  </div>
+{{/numberedBoxes}}

@@ -1,0 +1,18 @@
+{{#cta}}
+	<div class="cta {{cta-parent-div}}">
+		<div class="cta-content">
+		{{>starterkit-atoms-headings}}
+		<p>{{{ctaContent}}}</p>
+		<form action="{{action}}" class="{{formClass}}">
+			<div class="row">
+				{{>starterkit-atoms-text-field}}
+				<div class="cta-btn-parent">
+					{{>starterkit-atoms-links}}
+				</div>
+			</div>
+		</form>
+		{{>starterkit-atoms-images}}
+		<img src="{{ctaBannerCloseImg}}" alt="close" class="close">
+	</div>
+	</div>
+{{/cta}}

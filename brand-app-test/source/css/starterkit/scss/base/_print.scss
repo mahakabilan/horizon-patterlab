@@ -1,0 +1,32 @@
+/*Starterkit Base Print css*/
+@media print {
+	.main-nav{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;	
+	}
+	.hamburger {
+		display: none;
+	}
+	.search-field{
+		display: none;
+	}
+	.social-share-wrap{
+		display: none;
+	}
+	.selector-wrapper{
+		display: none;
+		
+	}
+	.header .menu-item-has-children{
+		a:after{
+			display: none;
+		}
+		.slide{
+			display: none;
+			
+		}
+	}
+}

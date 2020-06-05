@@ -1,0 +1,106 @@
+.image-carousal-wrap {
+  margin: 10px 0 40px 0;
+
+  .image-carousal {
+    margin: 0 50px;
+
+    .carousal-content {
+      margin-top: 20px;
+
+      p {
+        margin-bottom: 0;
+      }
+
+      .image-content {
+        display: flex;
+        flex: 1 1 0;
+
+        img {
+          width: auto;
+          margin-right: 20px;
+          align-self: baseline;
+          max-width: 200px;
+        }
+      }
+    }
+
+    .slick-arrow {
+      position: absolute;
+      top: 30%;
+      transform: translateY(-50%);
+      z-index: 999;
+
+      img {
+        width: 18px;
+      }
+
+      &.prev-arrow {
+        left: -35px;
+      }
+
+      &.next-arrow {
+        right: -35px;
+      }
+
+      &.slick-disabled {
+        display: none !important;
+      }
+    }
+
+    .master-carousal {
+      margin: 10px 50px;
+    }
+
+    .slick-dots li {
+      width: 15px;
+    }
+
+    .slick-dots li button:before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border: 1px solid $base-blue-color;
+      background-color: transparent;
+      border-radius: 50%;
+      opacity: 1;
+    }
+
+    .slick-dots li.slick-active button:before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border: 1px solid transparent;
+      background-color: $base-blue-color;
+      border-radius: 50%;
+      opacity: 1;
+    }
+  }
+
+  .only-image-carousal {
+    .carousal-content {
+      .image-content img {
+        max-width: 100%;
+      }
+    }
+  }
+
+  @media (max-width: $tablet-breakpoint-max) {
+    .image-carousal {
+      margin: 0 25px;
+
+      .slick-arrow {
+        position: absolute;
+        top: 45%;
+
+        &.next-arrow {
+          right: -25px;
+        }
+
+        &.prev-arrow {
+          left: -25px;
+        }
+      }
+    }
+  }
+}
+

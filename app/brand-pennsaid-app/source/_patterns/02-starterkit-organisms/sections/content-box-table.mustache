@@ -1,0 +1,43 @@
+{{#contentBoxTable}} 
+  {{#careTwocolumn}}
+  <div class="content-box-table-wrap">
+    <div class="content-box-table">
+      <div class="content-box-head">
+        {{>starterkit-atoms-headings}}
+      </div>
+      <div class="content-box-body">
+        <hr class="dotted"> 
+        {{>starterkit-atoms-paragraph}}
+        <div class="row">
+          <div class="col-md-12 list-columns">
+            <div class="row">
+              <div class="col-xs-12 col-md-6 list-left">
+                {{#leftList}} 
+                  {{>starterkit-atoms-list}}
+                {{/leftList}}
+              </div>
+              <div class="col-xs-12 col-md-6 list-right">
+                {{#rightList}} 
+                  {{>starterkit-atoms-list}} 
+                {{/rightList}}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-box-divider">
+          <hr class="dotted">
+        </div>
+        <div class="content-box-cta">
+          {{#careClip}} 
+            {{>starterkit-atoms-paragraph}} 
+          {{/careClip}}
+        </div>
+        {{>starterkit-atoms-button}}
+      </div>
+    </div>
+  </div>
+  {{/careTwocolumn}} 
+  {{#careTextdown}} 
+    {{>starterkit-atoms-paragraph}} 
+  {{/careTextdown}} 
+{{/contentBoxTable}}

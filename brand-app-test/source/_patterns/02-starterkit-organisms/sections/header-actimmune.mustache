@@ -1,0 +1,65 @@
+{{#headerAct}}
+<header class="hz-header-wrap {{headerActWrapClass}}">
+  <div class="row top-nav-selectors">
+    <div class="top-nav">
+      {{>starterkit-molecules-top-navigation}}
+    </div><!-- .top-nav -->
+    <div class="section-selector">
+      {{#sectionSelector}}
+      {{>starterkit-molecules-dropdown-selector}}
+      {{/sectionSelector}}
+    </div><!-- .section-selector -->
+    <div class="site-selector">
+      {{#siteSelector}}
+      {{>starterkit-molecules-dropdown-selector}}
+      {{/siteSelector}}
+    </div><!-- .site-selector -->
+  </div><!-- .top-nav-selectors -->
+  <div class="container-wrap">
+    <div class="container-full">
+      <div class="row container-inner">
+        <div class="header-logo">
+          <a href="/" class="header-logo-link">
+            {{>starterkit-atoms-logo}}
+          </a>
+        </div><!-- .header-logo -->
+        <div class="nav-menu">
+          <span class="nav-menu-toggle"></span>
+          {{#primaryNav}}
+          <nav class="menu-primary-navigation-container">
+            {{>starterkit-molecules-main-navigation}}
+          </nav>
+          {{/primaryNav}}
+        </div><!-- .nav-menu -->
+        <div class="col search">
+          <span class="search-toggle"></span>
+          <div class="search-inner">
+            {{>starterkit-molecules-header-search}}
+            <div class="more-info">
+              <div class="more-info-section">
+                <p><strong>{{infoHeading1}}</strong></p>
+                <p>{{infoTxt1}}</p>
+                <p>{{infoTxt2}}</p>
+                <p>{{infoTxt3}}</p>
+              </div><!-- .more-info-section -->
+              <div class="more-info-section">
+                <p><strong>{{infoHeading2}}</strong></p>
+                {{#infoImgTxt}}
+                <div class="more-info-section-img-txt">
+                  {{>starterkit-atoms-images}}
+                  <div class="more-info-section-txt">
+                    <p><strong>{{infoTxt4}}</strong></p>
+                    <p>{{infoTxt5}}</p>
+                    <p><strong>{{infoTxt4}}</strong></p>
+                  </div>
+                </div>
+                {{/infoImgTxt}}
+              </div><!-- .more-info-section -->
+            </div><!-- .more-info -->
+          </div><!-- .search-inner -->
+        </div><!-- .search -->
+      </div><!-- .container-inner -->
+    </div><!-- .container -->
+  </div><!-- .container-wrap -->
+</header>
+{{/headerAct}}

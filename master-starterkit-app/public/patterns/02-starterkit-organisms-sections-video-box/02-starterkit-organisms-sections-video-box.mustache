@@ -1,0 +1,18 @@
+{{#videoBoxWrap}}
+  <div class="video-box-wrap">
+    {{>starterkit-molecules-heading-with-paragraph}}
+    {{#videoBox}}
+      <div class="video-box">
+        {{>starterkit-atoms-video-vimeo}}
+        <div class="video-description">
+          {{>starterkit-atoms-headings}}
+          <p>{{videoBoxContent}}</p>
+          {{>starterkit-atoms-links-icon}}
+          <div class="videobox-hidden-content">
+            <p>{{{videoBoxHiddenContent}}}</p>
+          </div>
+        </div>
+      </div>
+    {{/videoBox}}
+  </div>
+{{/videoBoxWrap}}
