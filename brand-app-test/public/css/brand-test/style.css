@@ -18,7 +18,8 @@
   background: linear-gradient(90deg, #ce197c 0%, #86236a 100%);
   border-radius: 27px;
   padding: 10px 20px;
-  width: 80%; }
+  width: 80%;
+  max-width: 400px; }
   .button-gradient:hover {
     background: #86236a; }
 
